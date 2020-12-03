@@ -1,0 +1,1708 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="will be changed later">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <title>Yami Yami - POS</title>
+    <!-- <meta name="author" content="John Doe"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Css links -->
+  
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/site.css">
+	<link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/counter.css">
+
+    
+
+	
+</head>
+
+<body>
+
+<div class="body">
+   <div class="row">
+       <div class="col-md-12">
+               
+                <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item tabli">
+                  <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab" style="font-weight:bold;text-align: left;"><img src="img/order.png" width="20px;" style="margin-right: 12px"> Orders </a>
+                </li>
+                <li class="nav-item tabli">
+                  <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab"style="font-weight:bold;text-align: left;"><img src="img/calendar.png" width="20px;"style="margin-right: 12px"> History </a>
+                </li> 
+                <li class="nav-item tabli">
+                  <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab"style="font-weight:bold;text-align: left;"><img src="img/gear.png" width="20px;" style="margin-right: 12px">Settings</a>
+                </li>
+              </ul>
+           <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+               <div class="tab-pane fade show active" id="tabs-1" role="tabpanel" aria-labelledby="nav-home-tab">
+
+
+    <section class="details-card">
+                    <div class="container-fluid">
+                      <div class="row">
+                          <div class="col-md-3">
+                            <div class="main-box">
+                            <div class="card-content"> 
+                              <h3 class="card-desc">New Order</h3>
+                                <div class="brd"></div>
+                              </div>
+							  <div id="sailorTableArea">
+                                 <div class="box"data-toggle="modal" data-target="#neworder">
+                                      <div class="row">
+                                         <div class="col-md-3 bg-blue">
+                                            
+                                               <div class="co">
+                                                 <h2>01</h2>
+                                               </div> 
+                                        
+                                                 
+                                               <div class="co2">
+                                                 <img src="img/scooter.png" width="50px;">
+                                               </div> 
+                                              
+                                          </div> 
+                                              <div class="col-md-9 padd-0">
+                                            <p class="txt"><i class="fa fa-user-circle-o"></i> Username and Lastname</p><hr>
+                                               <div class="row">
+                                            <p class="tt"><i class="fa fa-calendar" aria-hidden="true"></i> 25.05.2020 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> 12:30</p>
+
+                                            </div>
+                                            <p>
+                                              <input type="hidden" id="set-time" value="1"/>
+                                              <div id="countdown">           
+                                                <div id='tiles' class="color-full"></div>
+                                                  <div class="countdown-label">Time Remaining</div>
+                                                </div>
+                                            </p>
+                                          </div>
+                                      </div>  
+                                      
+                                    </div>
+									<div class="box" data-toggle="modal" data-target="#neworder">
+                                      <div class="row">
+                                         <div class="col-md-3 bg-blue">
+                                            
+                                               <div class="co">
+                                                 <h2>01</h2>
+                                               </div> 
+                                        
+                                                 
+                                               <div class="co2">
+                                                 <img src="img/scooter.png" width="50px;">
+                                               </div> 
+                                              
+                                          </div> 
+                                              <div class="col-md-9 padd-0">
+                                            <p class="txt"><i class="fa fa-user-circle-o"></i> Username and Lastname</p><hr>
+                                               <div class="row">
+                                            <p class="tt"><i class="fa fa-calendar" aria-hidden="true"></i> 25.05.2020 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> 12:30</p>
+
+                                            </div>
+                                            <p>
+                                              <input type="hidden" id="set-time" value="1"/>
+                                              <div id="countdown">           
+                                                <div id='tiles9' class="color-full"></div>
+                                                  <div class="countdown-label">Time Remaining</div>
+                                                </div>
+                                            </p>
+                                          </div>
+                                      </div>  
+                                      
+                                    </div>
+                           
+									 <div class="box" data-toggle="modal" data-target="#neworder">
+                                      <div class="row">
+                                         <div class="col-md-3 bg-blue">
+                                            
+                                               <div class="co">
+                                                 <h2>02</h2>
+                                               </div> 
+                                        
+                                                 
+                                               <div class="co2">
+                                                 <img src="img/shopping-bag.png" width="50px;">
+                                               </div> 
+                                              
+                                          </div>
+                                              <div class="col-md-9 padd-0">
+                                            <p class="txt"><i class="fa fa-user-circle-o"></i> Username and Lastname</p><hr>
+                                                    <div class="row">
+                                                    <p class="tt"><i class="fa fa-calendar" aria-hidden="true"></i> 25.05.2020 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> 12:30</p>
+                                               <!--  <div class="form-group col-md-12">
+                                                 
+                                                     <input type="date" class="form-control" id='datetimepicker1' />
+                                                </div>
+                                                 <div class="form-group col-md-12">
+                                                 
+                                                       <input type="time" class="form-control" id='datetimepicker2' />
+                                                </div> -->
+                                            </div>
+                                            <p>
+                                              <input type="hidden" id="set-time1" value="1"/>
+                                              <div id="countdown">           
+                                                <div id='tiles1' class="color-full"></div>
+                                                  <div class="countdown-label">Time Remaining</div>
+                                                </div>
+                                            </p>
+                                          </div>
+                                      </div>  
+                                      
+                                    </div>
+
+									 <div class="box" data-toggle="modal" data-target="#neworder">
+                                      <div class="row">
+                                         <div class="col-md-3 bg-blue">
+                                            
+                                               <div class="co">
+                                                 <h2>03</h2>
+                                               </div> 
+ 
+                                               <div class="co2">
+                                                 <img src="img/scooter.png" width="50px;">
+                                               </div> 
+                                              
+                                          </div>
+                                              <div class="col-md-9 padd-0">
+                                            <p class="txt"><i class="fa fa-user-circle-o"></i> Username and Lastname</p><hr>
+                                                    <div class="row">
+                                                <p class="tt"><i class="fa fa-calendar" aria-hidden="true"></i> 25.05.2020 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> 12:30</p>
+                                            </div>
+                                            <p>
+                                              <input type="hidden" id="set-time2" value="1"/>
+                                              <div id="countdown">           
+                                                <div id='tiles2' class="color-full"></div>
+                                                  <div class="countdown-label">Time Remaining</div>
+                                                </div>
+                                            </p>
+                                          </div>
+                                      </div>  
+                                      
+                                    </div>
+								</div>
+
+                                </div>
+                              </div>
+
+                                   
+
+                              <div class="col-md-3">
+							   <div class="main-box">
+                                <div class="card-content">
+									<h3 class="card-desc">In Kitchen</h3>
+                                    <div class="brd"></div>
+								   </div>
+								    <div id="sailorTableArea">
+                                       <div class="box" data-toggle="modal" data-target="#kitchen">
+                                      <div class="row">
+                                         <div class="col-md-3 bg-warning">
+                                            
+                                               <div class="co">
+                                                 <h2>01</h2>
+                                               </div> 
+                                        
+                                                 
+                                               <div class="co2">
+                                                <img src="img/shopping-bag.png" width="50px;">
+                                               </div> 
+                                              
+                                          </div>
+                                              <div class="col-md-9 padd-0">
+                                            <p class="txt"><i class="fa fa-user-circle-o"></i> Username and Lastname</p><hr>
+                                                    <div class="row">
+                                                 <p class="tt"><i class="fa fa-calendar" aria-hidden="true"></i> 25.05.2020 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> 12:30</p>
+                                            </div>
+                                            <p>
+                                              <input type="hidden" id="set-time3" value="1"/>
+                                              <div id="countdown">           
+                                                <div id='tiles3' class="color-full"></div>
+                                                  <div class="countdown-label">Time Remaining</div>
+                                                </div>
+                                            </p>
+                                          </div>
+                                      </div>  
+                                      
+                                    </div>
+
+									 <div class="box"data-toggle="modal" data-target="#kitchen">
+                                      <div class="row">
+                                         <div class="col-md-3 bg-warning">
+                                            
+                                               <div class="co">
+                                                 <h2>02</h2>
+                                               </div> 
+                                        
+                                                 
+                                               <div class="co2">
+                                                 <img src="img/scooter.png" width="50px;">
+                                               </div> 
+                                              
+                                          </div>
+                                              <div class="col-md-9 padd-0">
+                                            <p class="txt"><i class="fa fa-user-circle-o"></i> Username and Lastname</p><hr>
+                                                    <div class="row">
+                                                <p class="tt"><i class="fa fa-calendar" aria-hidden="true"></i> 25.05.2020 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> 12:30</p>
+                                            </div>
+                                            <p>
+                                              <input type="hidden" id="set-time4" value="1"/>
+                                              <div id="countdown">           
+                                                <div id='tiles4' class="color-full"></div>
+                                                  <div class="countdown-label">Time Remaining</div>
+                                                </div>
+                                            </p>
+                                          </div>
+                                      </div>  
+                                      </div>
+                                    </div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-3">
+							  <div class="main-box">
+                                <div class="card-content">
+                                  <h3 class="card-desc">Delivery Ready</h3>
+                                    <div class="brd"></div>
+									<div id="sailorTableArea">
+                                      <div class="box" data-toggle="modal" data-target="#delivery">
+                                      <div class="row">
+                                         <div class="col-md-3 bg-success">
+                                            
+                                               <div class="co">
+                                                 <h2>01</h2>
+                                               </div> 
+                                        
+                                                 
+                                               <div class="co2">
+                                                 <img src="img/scooter.png" width="50px;">
+                                               </div> 
+                                              
+                                          </div>
+                                              <div class="col-md-9 padd-0">
+                                            <p class="txt"><i class="fa fa-user-circle-o"></i> Username and Lastname</p><hr>
+                                                    <div class="row">
+                                                <p class="tt"><i class="fa fa-calendar" aria-hidden="true"></i> 25.05.2020 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> 12:30</p>
+                                            </div>
+                                          <!--   <p>
+                                              <input type="hidden" id="set-time5" value="1"/>
+                                              <div id="countdown">           
+                                                <div id='tiles5' class="color-full"></div>
+                                                  <div class="countdown-label">Time Remaining</div>
+                                                </div>
+                                            </p> -->
+                                          </div>
+                                      </div>  
+                                       </div> 
+                                    </div>
+								</div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-3">
+								 <div class="main-box">
+                                <div class="card-content">
+                                  <h3 class="card-desc">Pickup Ready</h3>
+                                    <div class="brd"></div>
+									 </div>
+									 <div id="sailorTableArea">
+                                      <div class="box">
+                                      <div class="row">
+                                         <div class="col-md-3 bg-success">
+                                            
+                                               <div class="co">
+                                                 <h2>01</h2>
+                                               </div> 
+                                        
+                                                 
+                                               <div class="co2">
+                                                 <img src="img/shopping-bag.png" width="50px;">
+                                               </div> 
+                                              
+                                          </div>
+                                              <div class="col-md-9 padd-0">
+                                            <p class="txt"><i class="fa fa-user-circle-o"></i> Username and Lastname</p><hr>
+                                                    <div class="row">
+                                               <p class="tt"><i class="fa fa-calendar" aria-hidden="true"></i> 25.05.2020 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> 12:30</p>
+                                            </div>
+                                           <!--  <p>
+                                              <input type="hidden" id="set-time6" value="1"/>
+                                              <div id="countdown">           
+                                                <div id='tiles6' class="color-full"></div>
+                                                  <div class="countdown-label">Time Remaining</div>
+                                                </div>
+                                            </p> -->
+                                          </div>
+                                      </div>  
+                                       </div> 
+                                    </div>
+									</div>
+                                </div>
+                              </div>
+                              </div>
+                    </section>
+
+				</div>
+
+	<div class="tab-pane fade" id="tabs-2" role="tabpanel" aria-labelledby="nav-profile-tab">
+      <section class="history-section">
+        <div class="history-gap"></div>
+      <div class="historyheader">
+        <div class="container-fluid ">
+          <div class="row">
+            <div class=" col-lg-5 col-md-5">
+              <div class="history-head">
+                <h2>History</h2>
+              </div>
+            </div>
+            <div class=" col-lg-7 col-md-7 text-right">
+              <div class="selectyear">
+            <select name="year" class="year">
+              <option value="0">Select Year</option>
+               <option value="127">2020</option>
+                <option value="127">2019</option>
+                 <option value="127">2018</option>
+               <option value="127">2017</option>
+              <option value="127">2016</option>
+              <option value="126">2015</option>
+              <option value="82">2014</option>
+              <option value="81">2013</option>
+              <option value="80">2012</option>
+              <option value="79">2011</option>
+              <option value="73">2010</option>
+              <option value="71">2009</option>
+              <option value="72">2008</option>
+              <option value="70">2007</option>
+          
+              ?&gt;
+            </select>
+
+
+               <select name="year" class="month">
+              <option value="0">Select Month</option>
+              <option value="127">January</option>
+              <option value="126">February</option>
+              <option value="82">March</option>
+              <option value="81">April</option>
+              <option value="80">May</option>
+              <option value="79">June</option>
+              <option value="73">July</option>
+              <option value="71">August</option>
+              <option value="72">September</option>
+              <option value="70">October</option>
+              <option value="70">November</option>
+              <option value="70">December</option>
+          
+              ?&gt;
+            </select> 
+             
+				<input type="search" placeholder="Search">
+			
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+
+<div class="order-history">
+  <!-- 1st table -->
+      <div class="history-table">
+        <table class="table ">
+            <thead>
+              <tr>
+                <th>Order ID</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Type</th>
+                <th>Zipcode</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>10.10.2020</td>
+                <td>19.20.20</td>
+                <td>Delivery</td>
+                <td>30159 Bult</td>
+                <td class="success">Done</td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+
+<!-- 2nd table -->
+
+      <div class="history-table">
+        <table class="table ">
+  <thead>
+    <tr>
+      <th>Order ID</th>
+      <th>Date</th>
+      <th>Time</th>
+      <th>Type</th>
+      <th>Zipcode</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>10.10.2020</td>
+      <td>19.20.20</td>
+      <td>Delivery</td>
+      <td>30159 Bult</td>
+      <td class="failed">Failed</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+      <!-- 3rd table -->
+
+      <div class="history-table">
+        <table class="table ">
+  <thead>
+    <tr>
+      <th>Order ID</th>
+      <th>Date</th>
+      <th>Time</th>
+      <th>Type</th>
+      <th>Zipcode</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>10.10.2020</td>
+      <td>19.20.20</td>
+      <td>Delivery</td>
+      <td>30159 Bult</td>
+      <td class="success">Done</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+
+<!-- 4th table -->
+
+      <div class="history-table">
+        <table class="table ">
+  <thead>
+    <tr>
+      <th>Order ID</th>
+      <th>Date</th>
+      <th>Time</th>
+      <th>Type</th>
+      <th>Zipcode</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>10.10.2020</td>
+      <td>19.20.20</td>
+      <td>Delivery</td>
+      <td>30159 Bult</td>
+    <td class="failed">Failed</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+      <!-- 5th table -->
+            <div class="history-table">
+        <table class="table ">
+  <thead>
+    <tr>
+      <th>Order ID</th>
+      <th>Date</th>
+      <th>Time</th>
+      <th>Type</th>
+      <th>Zipcode</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>10.10.2020</td>
+      <td>19.20.20</td>
+      <td>Delivery</td>
+      <td>30159 Bult</td>
+   <td class="failed">Failed</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+                 <div class="history-table">
+        <table class="table ">
+  <thead>
+    <tr>
+      <th>Order ID</th>
+      <th>Date</th>
+      <th>Time</th>
+      <th>Type</th>
+      <th>Zipcode</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>10.10.2020</td>
+      <td>19.20.20</td>
+      <td>Delivery</td>
+      <td>30159 Bult</td>
+    <td class="failed">Failed</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+    </div>
+    </section>
+
+   </div>
+
+	 <div class="tab-pane fade" id="tabs-3" role="tabpanel" aria-labelledby="nav-about-tab">
+       <section class="settings-section">
+      <div class="container-fluid top">
+        <div class="row">
+          <div class="col-md-3 col-lg-3 ">
+
+            <div class="installed-printerbox">
+              <div class="installed-printer-head">
+                <h5>Installed Printers</h5>
+                <div class="bdr"></div>
+              </div>
+              <div class="installed-print-body ">
+                      <div class="settingsboxed">
+                  <input type="radio" id="Samsung" name="skills" value="120">
+                  <label for="Samsung">  <p class="setpara">Samsung</p>
+                                  <br>
+                                  
+                  </label>
+                  </div>
+                   <div class="settingsboxed">
+                  <input type="radio" id="Brother" name="skills" value="120">
+                  <label for="Brother">  <p class="setpara">Brother</p>
+                                  <br>
+                                  
+                  </label>
+                  </div>
+                   <div class="settingsboxed">
+                  <input type="radio" id="LG" name="skills" value="120">
+                  <label for="LG">  <p class="setpara">LG</p>
+                                  <br>
+                                  
+                  </label>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+           <div class="col-md-3 col-lg-3  ">
+            <div class="bill-box">
+              <div class="bill-printer-head">
+                <h5>Bill Settings</h5>
+                <div class="bdr"></div>
+              </div>
+              <div class="bill-print-body">
+                                <div class="settingsboxed">
+                  <input type="radio" id="del58" name="skills" value="120">
+                  <label for="del58">  <p class="setpara">58 mm</p>
+                                  <br>
+                                  
+                  </label>
+                  </div>
+                            <div class="settingsboxed">
+                  <input type="radio" id="a7" name="skills" value="120">
+                  <label for="a7">  <p class="setpara">A7</p>
+                                  <br>
+                                  
+                  </label>
+                  </div>
+                          <div class="settingsboxed">
+                  <input type="radio" id="a6" name="skills" value="120">
+                  <label for="a6">  <p class="setpara">A6</p>
+                                  <br>
+                                  
+                  </label>
+                  </div>
+                        <div class="settingsboxed">
+                  <input type="radio" id="a5" name="skills" value="120">
+                  <label for="a5">  <p class="setpara">A5</p>
+                                  <br>
+                                  
+                  </label>
+                  </div>
+                             <div class="settingsboxed">
+                  <input type="radio" id="a4" name="skills" value="120">
+                  <label for="a4">  <p class="setpara">A4</p>
+                                  <br>
+                                  
+                  </label>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-6 col-md-6  ">
+<div class="full-tab">
+      <div class="time-table2">
+      <div class="installed-printer-head">
+                <h5>Time Settings</h5>
+                <div class="bdr"></div>
+              </div>
+            <!-- 1st table -->
+      <div class="history-table">
+        <table class="table ">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Cooking Time</th>
+                <th>Delivery Time</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+              
+                <td>30 min</td>
+                <td>15 min</td>
+                <td>15 min</td>
+                
+              </tr>
+            </tbody>
+          </table>
+      </div>
+
+<!-- start table -->
+     <div class="history-table">
+        <table class="table ">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Cooking Time</th>
+                <th>Delivery Time</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+              
+                <td>45 min</td>
+                <td>30 min</td>
+                <td>15 min</td>
+                
+              </tr>
+            </tbody>
+          </table>
+      </div>
+      <!-- end of table -->
+
+<!-- start table -->
+     <div class="history-table">
+        <table class="table ">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Cooking Time</th>
+                <th>Delivery Time</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+              
+                <td>60 min</td>
+                <td>45 min</td>
+                <td>15 min</td>
+                
+              </tr>
+            </tbody>
+          </table>
+      </div>
+      <!-- end of table -->
+
+<!-- start table -->
+     <div class="history-table">
+        <table class="table ">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Cooking Time</th>
+                <th>Delivery Time</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+              
+                <td>75 min</td>
+                <td>60 min</td>
+                <td>15 min</td>
+                
+              </tr>
+            </tbody>
+          </table>
+      </div>
+      <!-- end of table -->
+
+<!-- start table -->
+     <div class="history-table">
+        <table class="table ">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Cooking Time</th>
+                <th>Delivery Time</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+              
+                <td>90 min</td>
+                <td>75 min</td>
+                <td>15 min</td>
+                
+              </tr>
+            </tbody>
+          </table>
+      </div>
+      <!-- end of table -->
+
+<!-- start table -->
+     <div class="history-table">
+        <table class="table ">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Cooking Time</th>
+                <th>Delivery Time</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+              
+                <td>105 min</td>
+                <td>90 min</td>
+                <td>15 min</td>
+                
+              </tr>
+            </tbody>
+          </table>
+      </div>
+      <!-- end of table -->
+
+<!-- start table -->
+<!--      <div class="history-table">
+        <table class="table ">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Cooking Time</th>
+                <th>Delivery Time</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+              
+                <td>90 min</td>
+                <td>75 min</td>
+                <td>115 min</td>
+                
+              </tr>
+            </tbody>
+          </table>
+      </div> -->
+      <!-- end of table -->
+
+
+
+
+			</div>
+          </div>
+
+			</div>
+		</div>
+        </div>
+      </div>
+        
+          </div>
+
+		</div>
+	  </div>  
+   </div>
+   <!-- modal -->
+<div class="modal fade" id="neworder" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="order-head">
+                <h5>Select Delivery Time</h5>
+              </div>
+            </div>
+             <div class="col-md-6">
+              <div class="order-head">
+                <h5>Order-details</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="mdl-pp">
+      <div class="row">
+                <div class="col-md-4">              
+              
+                <div class="boxed">
+                  <input type="radio" id="30" name="skills" value="90">
+                  <label for="30">  <p class="para">30</p>
+                                  <br>
+                                  <p class="para1">Min</p>
+                  </label>
+                  
+                 </div>
+                </div>
+                <div class="col-md-4">
+          
+                <div class="boxed">
+                  <input type="radio" id="45" name="skills" value="90">
+                  <label for="45">  <p class="para">45</p>
+                                  <br>
+                                  <p class="para1">Min</p>
+                  </label>
+                  </div>
+                
+                </div>
+                <div class="col-md-4">
+            
+              <div class="boxed">
+                  <input type="radio" id="60" name="skills" value="60">
+                  <label for="60">  <p class="para">60</p>
+                                  <br>
+                                  <p class="para1">Min</p>
+                  </label>
+                  </div>
+                 
+                </div>
+              </div>
+  <div class="row">
+                <div class="col-md-4">              
+                <div>
+                                  <div class="boxed">
+                  <input type="radio" id="75" name="skills" value="75">
+                  <label for="75">  <p class="para">75</p>
+                                  <br>
+                                  <p class="para1">Min</p>
+                  </label>
+                  </div>
+                 </div>
+                </div>
+                <div class="col-md-4">
+                <div>
+                                  <div class="boxed">
+                  <input type="radio" id="90" name="skills" value="90">
+                  <label for="90">  <p class="para">90</p>
+                                  <br>
+                                  <p class="para1">Min</p>
+                  </label>
+                  </div>
+                 </div>
+                </div>
+                <div class="col-md-4">
+                 <div>
+                                  <div class="boxed">
+                  <input type="radio" id="105" name="skills" value="105">
+                  <label for="105">  <p class="para">105</p>
+                                  <br>
+                                  <p class="para1">Min</p>
+                  </label>
+                  </div>
+                 </div>
+                </div>
+
+              </div>
+  <div class="row">
+                <div class="col-md-4">              
+                <div>
+                                  <div class="boxed">
+                  <input type="radio" id="120" name="skills" value="120">
+                  <label for="120">  <p class="para">120</p>
+                                  <br>
+                                  <p class="para1">Min</p>
+                  </label>
+                  </div>
+                 </div>
+                </div>
+                <div class="col-md-4">
+                <div>
+                                  <div class="boxed">
+                  <input type="radio" id="135" name="skills" value="135">
+                  <label for="135">  <p class="para">135</p>
+                                  <br>
+                                  <p class="para1">Min</p>
+                  </label>
+                  </div>
+                 </div>
+                </div>
+                <div class="col-md-4">
+                 <div>
+                                  <div class="boxed">
+                  <input type="radio" id="150" name="skills" value="150">
+                  <label for="150">  <p class="para">150</p>
+                                  <br>
+                                  <p class="para1">Min</p>
+                  </label>
+                  </div>
+                 </div>
+                </div>
+              </div>
+
+<div class="bd"></div>
+              <h5>Cooking Time</h5>
+                <div class="row">
+                  <div class="col-md-4">
+                <div>
+                                   <div class="boxed">
+                  <input type="radio" id="15" name="skills" value="15">
+                  <label for="15">  <p class="para">15</p>
+                                  <br>
+                                  <p class="para1">Min</p>
+                  </label>
+                  </div>
+                 </div>
+                </div>
+                <div class="col-md-8 parag">
+                  <p>
+                                    <input type="hidden" id="set-time11" value="1"/>
+                                     <div id="countdown2">            
+                                     <div id='tiles11' class="color-full"></div>
+                                     <div class="countdown-label">Time Remaining</div>
+                                      </div>
+                                    </p>  
+                </div>
+              </div>
+
+
+                  <h5>Delivery Time</h5>
+              <div class="row">
+                  <div class="col-md-4">
+                <div>
+                                  <div class="boxed">
+                  <input type="radio" id="25" name="skills" value="25">
+                  <label for="25">  <p class="para">25</p>
+                                  <br>
+                                  <p class="para1">Min</p>
+                  </label>
+                  </div>
+                 </div>
+                </div>
+                <div class="col-md-8 arag">
+                  <p>
+                                    <input type="hidden" id="set-time10" value="1"/>
+                                     <div id="countdown1">           
+                                     <div id='tiles10' class="color-full"></div>
+                                     <div class="countdown-label">Time Remaining</div>
+                                      </div>
+                                    </p>  
+                </div>
+              </div>
+
+
+
+
+
+ </div>
+            </div>
+
+
+
+
+            <!-- second column -->
+
+          <div class="col-md-6 padd-01">
+             <div id="modalpopupright1">   
+              <div class="pizza">
+                <h3><span>123.</span>  Pizza Salami</h3>
+                <div class="order-box">
+                <div class="row">
+                  
+                  <div class="col-md-3">
+                    <p class="p1">M28cm</p> 
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p2">Onion</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Tomato</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Cheese</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+                 <div class="pizza">
+                <h3><span>123.</span>  Pizza Salami</h3>
+                <div class="order-box">
+                <div class="row">
+                  
+                  <div class="col-md-3">
+                    <p class="p1">M28cm</p> 
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p2">Onion</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Tomato</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Cheese</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+                 <div class="pizza">
+                <h3><span>123.</span>  Pizza Salami</h3>
+                <div class="order-box">
+                <div class="row">
+                  
+                  <div class="col-md-3">
+                    <p class="p1">M28cm</p> 
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p2">Onion</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Tomato</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Cheese</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+              <div class="pizza">
+                <h3><span>123.</span>  Pizza Salami</h3>
+                   <div class="order-box">
+                <div class="row">
+                
+                  <div class="col-md-3">
+                    <p class="p1">M28cm</p> 
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p2">Onion</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Tomato</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Cheese</p>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <div class="pizza">
+                <h3><span>123.</span>  Pizza Salami</h3>
+                  <div class="order-box">
+                <div class="row">
+                 
+                  <div class="col-md-3">
+                    <p class="p1">M28cm</p> 
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p2">Onion</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Tomato</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Cheese</p>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <div class="pizza">
+                <h3><span>123.</span>  Pizza Salami</h3>
+                  <div class="order-box">
+                <div class="row">
+                 
+                  <div class="col-md-3">
+                    <p class="p1">M28cm</p> 
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p2">Onion</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Tomato</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Cheese</p>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+               <div class="pizza">
+                <h3><span>123.</span>Pizza Salami</h3>
+                 <div class="order-box">
+                <div class="row">
+                  
+                  <div class="col-md-3">
+                    <p class="p1">M28cm</p> 
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p2">Onion</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Tomato</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Cheese</p>
+                  </div>
+                </div>
+                </div>
+                <div class="order-box">
+              <div class="row">
+                 
+                  <div class="col-md-3">
+                    <p class="p1">M28cm</p> 
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p2">Onion</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Tomato</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Cheese</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+            </div>
+
+              <div class="print-btn">
+                <div class="print-img-btn">
+             <a class="imag">
+              <img src="img/print.png" width="50px;">
+             </a>
+           </div>
+           </div>
+        </div>
+
+
+
+
+
+
+          </div>
+      </div>
+    </div>
+     <!--  <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+          
+
+
+<!-- second modal -->
+
+
+
+<div class="modal fade" id="kitchen" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog  widthcntrl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+       <div class="order-head">
+                <h5>Order View</h5>
+              </div>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <div class="container-fluid padd-01">
+            <div class="row">
+              <div class="col-md-12">
+                            <div id="modalpopupright1">   
+              <div class="pizza">
+                <h3><span>123.</span>  Pizza Salami</h3>
+                <div class="order-box">
+                <div class="row">
+                  
+                  <div class="col-md-3">
+                    <p class="p1">M28cm</p> 
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p2">Onion</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Tomato</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Cheese</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+                 <div class="pizza">
+                <h3><span>123.</span>  Pizza Salami</h3>
+                <div class="order-box">
+                <div class="row">
+                  
+                  <div class="col-md-3">
+                    <p class="p1">M28cm</p> 
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p2">Onion</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Tomato</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Cheese</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+                 <div class="pizza">
+                <h3><span>123.</span>  Pizza Salami</h3>
+                <div class="order-box">
+                <div class="row">
+                  
+                  <div class="col-md-3">
+                    <p class="p1">M28cm</p> 
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p2">Onion</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Tomato</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Cheese</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+              <div class="pizza">
+                <h3><span>123.</span>  Pizza Salami</h3>
+                   <div class="order-box">
+                <div class="row">
+                
+                  <div class="col-md-3">
+                    <p class="p1">M28cm</p> 
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p2">Onion</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Tomato</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Cheese</p>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <div class="pizza">
+                <h3><span>123.</span>  Pizza Salami</h3>
+                  <div class="order-box">
+                <div class="row">
+                 
+                  <div class="col-md-3">
+                    <p class="p1">M28cm</p> 
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p2">Onion</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Tomato</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Cheese</p>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <div class="pizza">
+                <h3><span>123.</span>  Pizza Salami</h3>
+                  <div class="order-box">
+                <div class="row">
+                 
+                  <div class="col-md-3">
+                    <p class="p1">M28cm</p> 
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p2">Onion</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Tomato</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Cheese</p>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+               <div class="pizza">
+                <h3><span>123.</span>Pizza Salami</h3>
+                 <div class="order-box">
+                <div class="row">
+                  
+                  <div class="col-md-3">
+                    <p class="p1">M28cm</p> 
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p2">Onion</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Tomato</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Cheese</p>
+                  </div>
+                </div>
+                </div>
+                <div class="order-box">
+              <div class="row">
+                 
+                  <div class="col-md-3">
+                    <p class="p1">M28cm</p> 
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p2">Onion</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Tomato</p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="p3">Cheese</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+            </div>
+              </div>
+            </div>
+             <div class="print-btn">
+                <div class="print-img-btn">
+             <a class="imag">
+              <img src="img/print.png" width="50px;">
+             </a>
+           </div>
+           </div>
+          </div>
+      </div>
+     <!--  <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+
+<!-- delivery modal -->
+
+
+<div class="modal fade" id="delivery" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog  widthcntrl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+       <div class="order-head">
+                <h5>Time Option</h5>
+              </div>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <div class="container-fluid padd-01">
+            <div class="row">
+              <div class="col-md-12">
+                        <div class="mdl-pp">
+      <div class="row">
+                <div class="col-md-4">              
+              
+                <div class="boxed">
+                  <input type="radio" id="del30" name="skills" value="90">
+                  <label for="del30">  <p class="para">30</p>
+                                  <br>
+                                  <p class="para1">Min</p>
+                  </label>
+                  
+                 </div>
+                </div>
+                <div class="col-md-4">
+          
+                <div class="boxed">
+                  <input type="radio" id="del45" name="skills" value="90">
+                  <label for="del45">  <p class="para">45</p>
+                                  <br>
+                                  <p class="para1">Min</p>
+                  </label>
+                  </div>
+                
+                </div>
+                <div class="col-md-4">
+            
+              <div class="boxed">
+                  <input type="radio" id="del60" name="skills" value="60">
+                  <label for="del60">  <p class="para">60</p>
+                                  <br>
+                                  <p class="para1">Min</p>
+                  </label>
+                  </div>
+                 
+                </div>
+              </div>
+  <div class="row">
+                <div class="col-md-4">              
+                <div>
+                                  <div class="boxed">
+                  <input type="radio" id="del75" name="skills" value="75">
+                  <label for="del75">  <p class="para">75</p>
+                                  <br>
+                                  <p class="para1">Min</p>
+                  </label>
+                  </div>
+                 </div>
+                </div>
+                <div class="col-md-4">
+                <div>
+                                  <div class="boxed">
+                  <input type="radio" id="del90" name="skills" value="90">
+                  <label for="del90">  <p class="para">90</p>
+                                  <br>
+                                  <p class="para1">Min</p>
+                  </label>
+                  </div>
+                 </div>
+                </div>
+                <div class="col-md-4">
+                 <div>
+                                  <div class="boxed">
+                  <input type="radio" id="del105" name="skills" value="105">
+                  <label for="del105">  <p class="para">105</p>
+                                  <br>
+                                  <p class="para1">Min</p>
+                  </label>
+                  </div>
+                 </div>
+                </div>
+
+              </div>
+  <div class="row">
+                <div class="col-md-4">              
+                <div>
+                                  <div class="boxed">
+                  <input type="radio" id="del120" name="skills" value="120">
+                  <label for="del120">  <p class="para">120</p>
+                                  <br>
+                                  <p class="para1">Min</p>
+                  </label>
+                  </div>
+                 </div>
+                </div>
+                <div class="col-md-4">
+                <div>
+                                  <div class="boxed">
+                  <input type="radio" id="del135" name="skills" value="135">
+                  <label for="del135">  <p class="para">135</p>
+                                  <br>
+                                  <p class="para1">Min</p>
+                  </label>
+                  </div>
+                 </div>
+                </div>
+                <div class="col-md-4">
+                 <div>
+                                  <div class="boxed">
+                  <input type="radio" id="del150" name="skills" value="150">
+                  <label for="del150">  <p class="para">150</p>
+                                  <br>
+                                  <p class="para1">Min</p>
+                  </label>
+                  </div>
+                 </div>
+                </div>
+              </div>
+
+<div class="bd"></div>
+              <h5>Cooking Time</h5>
+                <div class="row">
+                  <div class="col-md-4">
+                <div>
+                                   <div class="boxed">
+                  <input type="radio" id="del15" name="skills" value="15">
+                  <label for="del15">  <p class="para">15</p>
+                                  <br>
+                                  <p class="para1">Min</p>
+                  </label>
+                  </div>
+                 </div>
+                </div>
+                <div class="col-md-8 parag">
+                  <p>
+                                    <input type="hidden" id="set-time12" value="1"/>
+                                     <div id="countdown1">            
+                                     <div id='tiles12' class="color-full"></div>
+                                     <div class="countdown-label">Time Remaining</div>
+                                      </div>
+                                    </p>  
+                </div>
+              </div>
+
+
+                  <h5>Delivery Time</h5>
+              <div class="row">
+                  <div class="col-md-4">
+                <div>
+                                  <div class="boxed">
+                  <input type="radio" id="del25" name="skills" value="25">
+                  <label for="del25">  <p class="para">25</p>
+                                  <br>
+                                  <p class="para1">Min</p>
+                  </label>
+                  </div>
+                 </div>
+                </div>
+                <div class="col-md-8 arag">
+                  <p>
+                                    <input type="hidden" id="set-time13" value="1"/>
+                                     <div id="countdown1">           
+                                     <div id='tiles13' class="color-full"></div>
+                                     <div class="countdown-label">Time Remaining</div>
+                                      </div>
+                                    </p>  
+                </div>
+              </div>
+
+
+
+
+
+ </div>
+              </div>
+            </div>
+           
+          </div>
+      </div>
+     <!--  <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+    <!-- Importing scripts -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+
+	<script type="text/javascript" src="./js/custom.js"></script>
+  
+<script src="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.js"></script>
+  <script type="text/javascript">
+
+    var minutes = $( '#set-time' ).val();
+
+var target_date = new Date().getTime() + ((minutes * 60 ) * 1000); // set the countdown date
+var time_limit = ((minutes * 60 ) * 1000);
+//set actual timer
+setTimeout(
+  function() 
+  {
+    
+  }, time_limit );
+
+var days, hours, minutes, seconds; // variables for time units
+
+var countdown = document.getElementById("tiles"); // get tag element
+
+getCountdown();
+
+setInterval(function () { getCountdown(); }, 1000);
+
+function getCountdown(){
+
+  // find the amount of "seconds" between now and target
+  var current_date = new Date().getTime();
+  var seconds_left = (target_date - current_date) / 1000;
+  
+if ( seconds_left >= 0 ) {
+  console.log(time_limit);
+   if ( (seconds_left * 1000 ) < ( time_limit / 2 ) )  {
+     $( '#tiles' ).removeClass('color-full');
+     $( '#tiles' ).addClass('color-half');
+
+    } 
+    if ( (seconds_left * 1000 ) < ( time_limit / 4 ) )  {
+      $( '#tiles' ).removeClass('color-half');
+      $( '#tiles' ).addClass('color-empty');
+    }
+  
+  days = pad( parseInt(seconds_left / 86400) );
+  seconds_left = seconds_left % 86400;
+     
+  hours = pad( parseInt(seconds_left / 3600) );
+  seconds_left = seconds_left % 3600;
+      
+  minutes = pad( parseInt(seconds_left / 60) );
+  seconds = pad( parseInt( seconds_left % 60 ) );
+
+  // format countdown string + set tag value
+  countdown.innerHTML = "<span>" + hours + ":</span><span>" + minutes + ":</span><span>" + seconds + "</span>"; 
+  
+
+  
+}
+   
+  
+  
+}
+
+function pad(n) {
+  return (n < 10 ? '0' : '') + n;
+}
+
+
+
+  </script>
+ 
+  
+</body>
+
+</html>

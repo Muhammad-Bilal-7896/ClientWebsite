@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="will be changed later">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <title>Yami Yami - POS</title>
+    <!-- <meta name="author" content="John Doe"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Css links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/site.css">
+
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+
+</head>
+
+<body>
+    <div id="termsModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Terms & Condition</h2>
+            </div>
+            <div class="modal-body">
+                <textarea class="textarea-scrollbar scrollbar-outer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.
+
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.
+                        
+                    
+                    </textarea>
+            </div>
+            <div class="modal-footer">
+                <div class="modal__button_pre">
+                    <button class="button reject">Reject</button>
+                </div>
+                <div class="modal__button_next">
+                    <button class="button accept">Accept</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="wrapper">
+        <div id="wizard" class="wizard">
+            <div class="wizard__content">
+
+                <header class="wizard__header">
+                    <div class="wizard__header-overlay"></div>
+
+                    <div class="wizard__header-content">
+                        <!-- <h1 class="wizard__title">Get start with Javascript!</h1>
+                        <p class="wizard__subheading">Start with <span>3</span> simple steps.</p> -->
+                        <img class="logo" src="./images/logo.png">
+                    </div>
+
+                    <div class="wizard__steps">
+                        <nav class="steps">
+                            <!-- Step 1 -->
+
+                            <div class="step">
+                                <div class="step__content">
+                                    <p class="step__number">
+                                        <svg class="icon">
+                                            <use xlink:href="#translate" />
+                                       </svg>
+                                    </p>
+                                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                         <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                                         <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                                     </svg>
+
+                                    <div class="lines">
+                                        <div class="line -start">
+                                        </div>
+                                        <div class="line -background">
+                                        </div>
+
+                                        <div class="line -progress">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Step 2 -->
+                            <div class="step">
+                                <div class="step__content">
+                                    <p class="step__number">
+                                        <svg class="icon">
+                                            <use xlink:href="#personal-data" />
+                                       </svg>
+                                    </p>
+                                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                      <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                                       <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                                     </svg>
+
+                                    <div class="lines">
+                                        <div class="line -background">
+                                        </div>
+
+                                        <div class="line -progress">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Step 3 -->
+                            <div class="step">
+                                <div class="step__content">
+                                    <p class="step__number">
+                                        <svg class="icon">
+                                            <use xlink:href="#keyword" />
+                                       </svg>
+                                    </p>
+                                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                      <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                                       <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                                     </svg>
+
+                                    <div class="lines">
+                                        <div class="line -background">
+                                        </div>
+
+                                        <div class="line -progress">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Step 4 -->
+                            <div class="step">
+                                <div class="step__content">
+                                    <p class="step__number">
+                                        <svg class="icon">
+                                            <use xlink:href="#secure" />
+                                       </svg>
+                                    </p>
+                                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                      <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                                       <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                                     </svg>
+
+                                    <div class="lines">
+                                        <div class="line -background">
+                                        </div>
+
+                                        <div class="line -progress">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Step 5 -->
+                            <div class="step">
+                                <div class="step__content">
+                                    <p class="step__number">
+                                        <svg class="icon">
+                                            <use xlink:href="#printer" />
+                                       </svg>
+                                    </p>
+                                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                      <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                                       <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                                     </svg>
+
+                                    <div class="lines">
+                                        <div class="line -background">
+                                        </div>
+
+                                        <div class="line -progress">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Step 6 -->
+                            <div class="step">
+                                <div class="step__content">
+                                    <p class="step__number">
+                                        <svg class="icon">
+                                            <use xlink:href="#smartphone" />
+                                       </svg>
+                                    </p>
+                                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                      <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                                       <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                                     </svg>
+
+                                    <div class="lines">
+                                        <div class="line -background">
+                                        </div>
+
+                                        <div class="line -progress">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Step 7 -->
+                            <div class="step">
+                                <div class="step__content">
+                                    <p class="step__number">
+                                        <svg class="icon">
+                                            <use xlink:href="#download" />
+                                       </svg>
+                                    </p>
+                                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                      <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                                       <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                                     </svg>
+
+                                    <div class="lines">
+                                        <div class="line -background">
+                                        </div>
+
+                                        <div class="line -progress">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Step 8 -->
+                            <div class="step">
+                                <div class="step__content">
+                                    <p class="step__number">
+                                        <svg class="icon">
+                                            <use xlink:href="#clipboard" />
+                                        </svg>
+                                    </p>
+                                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                        <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                                        <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                                    </svg>
+
+                                    <div class="lines">
+                                        <div class="line -background">
+                                        </div>
+
+                                        <div class="line -progress">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </nav>
+                    </div>
+                </header>
+
+
+                <div class="panels" style="height: 340px;">
+                    <!-- Panel 1 -->
+
+                    <div class="panel">
+                        <header class="panel__header">
+                            <h2 class="panel__title">Select Language</h2>
+                            <p class="panel__subheading">Select the language , you are most comfortable with. </p>
+                        </header>
+
+                        <div class="slider-main">
+
+                            <div class="slider slider-nav">
+                                <div class="item">
+                                    <img class="flag" src="./flags/Germany.png">
+                                    <div class="flag_icon"><i class="fa fa-check" aria-hidden="true"></i></div>
+                                </div>
+                                <div class="item">
+                                    <img class="flag" src="./flags/Denmark.png">
+                                    <div class="flag_icon"><i class="fa fa-check" aria-hidden="true"></i></div>
+
+                                </div>
+                                <div class="item">
+
+                                    <img class="flag" src="./flags/Spain.png">
+                                    <div class="flag_icon"><i class="fa fa-check" aria-hidden="true"></i></div>
+
+                                </div>
+                                <div class="item">
+
+                                    <img class="flag" src="./flags/United Kingdom.png">
+                                    <div class="flag_icon"><i class="fa fa-check" aria-hidden="true"></i></div>
+
+                                </div>
+                                <div class="item">
+
+                                    <img class="flag" src="./flags/United States of America.png">
+                                    <div class="flag_icon"><i class="fa fa-check" aria-hidden="true"></i></div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Panel 2 -->
+                    <div class="panel">
+                        <header class="panel__header">
+                            <h2 class="panel__title">Accept Policy & Terms.</h2>
+                            <p class="panel__subheading">Please Read and Accept Policy and terms</p>
+                        </header>
+                        <p class="panel__content"></p>
+
+
+                    </div>
+                    <!-- Panel 3 -->
+                    <div class="panel">
+                        <header class="panel__header">
+                            <h2 class="panel__title">Add Serial Number.</h2>
+                            <p class="panel__subheading">Please add your serial number</p>
+                        </header>
+
+                        <div class="panel__content">
+
+                            <div class="input-field">
+                                <input type="text" class="serial_number" id="name" required />
+                                <label for="name">Your Serial Number:</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Panel 4-->
+
+
+                    <div class="panel">
+                        <header class="panel__header">
+                            <h2 class="panel__title">Connect USB Stick.</h2>
+                            <p class="panel__subheading">Please Connect Your Usb Stick</p>
+                        </header>
+
+                        <p class="panel__content">
+
+                            <div id="reading-key">
+                                <div id="key"><span></span><span></span></div>
+                                <div id="reading-animation"><span></span></div>
+                            </div>
+                        </p>
+                    </div>
+
+
+                    <!-- Panel 5-->
+                    <div class="panel">
+                        <header class="panel__header">
+                            <h2 class="panel__title">Setup Printer.</h2>
+                            <p class="panel__subheading">Printer Installing</p>
+                        </header>
+                        <div class="search__button">
+                            <button class="button search_btn_printer">Search Printer </button>
+                        </div>
+                        <div class="loader_color color_loader_printer"></div>
+                        <div class="shelf shelf_printer">
+                            <div class="app_icon">
+                                <div class="loader loader_printer">
+                                    <div class="ring"></div>
+                                    <div class="pie lt50"></div>
+                                    <div class="mask">
+                                        <div class="pie fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="app_icon">
+                                <div class="loader loader_printer">
+                                    <div class="ring"></div>
+                                    <div class="pie lt50"></div>
+                                    <div class="mask">
+                                        <div class="pie fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="app_icon">
+                                <div class="loader loader_printer">
+                                    <div class="ring"></div>
+                                    <div class="pie lt50"></div>
+                                    <div class="mask">
+                                        <div class="pie fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Panel 6-->
+                    <div class="panel">
+                        <header class="panel__header">
+                            <h2 class="panel__title">Setup PDA.</h2>
+                            <p class="panel__subheading">PDA Installing...</p>
+                        </header>
+
+                        <div class="search__button">
+                            <button class="button search_btn search_btn_pda">Search PDA </button>
+                        </div>
+                        <div class="loader_color color_loader_pda"></div>
+                        <div class="shelf shelf_pda">
+                            <div class="app_icon app2">
+                                <div class="loader loader_pda">
+                                    <div class="ring"></div>
+                                    <div class="pie lt50"></div>
+                                    <div class="mask">
+                                        <div class="pie fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="app_icon app2">
+                                <div class="loader loader_pda">
+                                    <div class="ring"></div>
+                                    <div class="pie lt50"></div>
+                                    <div class="mask">
+                                        <div class="pie fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="app_icon app2">
+                                <div class="loader loader_pda ">
+                                    <div class="ring"></div>
+                                    <div class="pie lt50"></div>
+                                    <div class="mask">
+                                        <div class="pie fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Panel 7-->
+                    <div class="panel">
+                        <header class="panel__header">
+                            <h2 class="panel__title">Download Data.</h2>
+                            <p class="panel__subheading">Download Menucard, Drinks, Offers
+                            </p>
+                        </header>
+                        <div id="loading-bar">
+                            <div id="progress"></div>
+                        </div>
+
+                    </div>
+                    <!-- Panel 8-->
+                    <div class="panel">
+                        <header class="panel__header">
+                            <h2 class="panel__title">Done</h2>
+                            <p class="panel__subheading">Congratulations you have completed all steps</p>
+                        </header>
+                        <p class="panel__content"></p>
+                        <div class="success_wrapper">
+                            <div class="row">
+                                <div class="modalbox success col-sm-8 col-md-6 col-lg-5 center animate">
+                                    <!-- <svg class="icon">
+                                        <use xlink:href="#clipboard" />
+                                </svg> -->
+                                    <div class="icon">
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </div>
+                                    <!--/.icon-->
+                                    <h1>Success!</h1>
+                                    <!-- <p>We've sent a confirmation to your e-mail
+                                        <br>for verification.</p>
+                                    <button type="button" class="redo btn">Ok</button> -->
+                                </div>
+                                <!--/.success-->
+                            </div>
+                            <!--/.row-->
+                            <div class="row">
+                                <div class="modalbox error col-sm-8 col-md-6 col-lg-5 center animate" style="display: none;">
+                                    <div class="icon">
+                                        <!-- <span class="glyphicon glyphicon-thumbs-down"></span> -->
+                                        <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                                    </div>
+                                    <!--/.icon-->
+                                    <h1>Oh no!</h1>
+                                    <!-- <p>Oops! Something went wrong,
+                                        <br> you should try again.</p>
+                                    <button type="button" class="redo btn">Try again</button> -->
+
+                                </div>
+                                <!--/.success-->
+                            </div>
+                            <!--/.row-->
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="wizard__footer">
+                    <div class="wizard__button_pre">
+                        <button class="button previous">Previous</button>
+                    </div>
+                    <div class="wizard__button_next">
+                        <button class="button next">Next</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wizard__congrats-message">
+
+                <div class="container">
+                    <div class="row">
+                        <section class="card-holder">
+                            <!-- Begin iOS -->
+                            <div class="col-md-4 col-sm-6 single-card">
+                                <div class="card-container manual-flip">
+                                    <div class="card">
+                                        <div class="front">
+                                            <div class="cover">
+                                                <img src="./images/background.png" />
+                                            </div>
+                                            <div class="branded image-box1">
+                                                <!-- <span class="fa fa-apple"></span> -->
+                                                <img src="./images/delivery.png">
+                                            </div>
+                                            <div class="content">
+                                                <div class="main">
+                                                    <button type="button" class="btn button btn-block btn-download">Delivery</button>
+                                                </div>
+
+                                            </div>
+                                            <div class="footer">
+
+                                                <div class="signin">
+                                                    Sign In
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End iOS -->
+                            <!-- Begin Android -->
+                            <div class="col-md-4 col-sm-6 single-card">
+                                <div class="card-container manual-flip">
+                                    <div class="card">
+                                        <div class="front">
+                                            <div class="cover">
+                                                <img src="./images/background.png" />
+                                            </div>
+                                            <div class="branded image-box2">
+                                                <!-- <span class="fa fa-apple"></span> -->
+                                                <img src="./images/reservation.png">
+                                            </div>
+                                            <div class="content">
+                                                <div class="main">
+                                                    <button type="button" class="btn button btn-block btn-download">Reservation</button>
+                                                </div>
+
+                                            </div>
+                                            <div class="footer">
+                                                <div class="signin">
+                                                    Sign In
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- end back panel -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Android -->
+                            <!-- Begin Web -->
+                            <div class="col-md-4 col-sm-6 single-card">
+                                <div class="card-container manual-flip">
+                                    <div class="card">
+                                        <div class="front">
+                                            <div class="cover">
+                                                <img src="./images/background.png" />
+                                            </div>
+                                            <div class="branded image-box3">
+                                                <!-- <span class="fa fa-apple"></span> -->
+                                                <img src="./images/dinner.png">
+                                            </div>
+                                            <div class="content">
+                                                <div class="main">
+                                                    <button type="button" class="btn button btn-block btn-download">Dinner</button>
+                                                </div>
+
+                                            </div>
+                                            <div class="footer">
+                                                <div class="signin">
+                                                    Sign In
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- end back panel -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Web -->
+                        </section>
+                    </div>
+
+                    <div class="signinsec">
+                        <div class="loginsec">
+                            <div class="loginsec-left">
+                                <div class="logosec">
+                                    <div class="logo">
+                                        <img src="images/logo.png">
+                                    </div>
+                                </div>
+                                <div class="form">
+                                    <div class="first">
+                                        <input type="text" name="" placeholder="Email">
+                                    </div>
+                                    <div class="first">
+                                        <input type="Password" placeholder="Password" style="width: 90%;" class="passshow" id="myInput"><i class="fa fa-eye" onclick="showPassword()"></i>
+                                    </div>
+                                    <div class="remmesec">
+                                        <div class="check">
+                                            <input type="checkbox" name=""><span style="vertical-align: top;">Remember me</span>
+                                        </div>
+                                        <div class="fprgetright">Forgot Password?</div>
+                                    </div>
+                                    <div class="loginbutton">Login</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="forgetpasspopup">
+                        <div class="sendmsgsec">
+                            <div class="send">
+                                <div class="loginsec-left">
+                                    <div class="logosec">
+                                        <div class="logo">
+                                            <img src="images/logo.png">
+                                        </div>
+                                    </div>
+                                    <div class="form">
+                                        <div class="first">
+                                            <input type="text" name="" placeholder="Username or Email">
+                                        </div>
+                                        <div class="first">
+                                            <input type="text" name="" placeholder="Phone Number">
+                                        </div>
+                                        <!-- <div class="remmesec">
+                                              <div class="check">
+                                                      <input type="checkbox" name=""><span style="vertical-align: top;">Remember me</span>
+                                              </div>
+                                              <div class="fprgetright">Forgot Password?</div>
+                                      </div> -->
+                                        <div class="loginbutton sendmessage">Send</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div id="flat_icon" style="display: none;"></div>
+
+    <!-- Importing scripts -->
+    <script type="text/javascript" src="./js/wizard.js"></script>
+    <script type="text/javascript" src="./js/flat-icons.js"></script>
+    <script type="text/javascript" src="./js/site.js"></script>
+    <script type="text/javascript" src="./js/scrollbar.js"></script>
+</body>
+
+</html>

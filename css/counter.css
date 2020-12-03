@@ -1,0 +1,1000 @@
+
+
+.countdown-label {
+font-size: 10px;
+  color: #65584c;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 0px;
+}
+#countdown{
+ box-shadow: 0 1px 2px 0 rgba(1, 1, 1, 0.4);
+    width: 100%;
+    /* height: 50px; */
+    text-align: center;
+    background: #f1f1f1;
+    border-radius: 2px;
+    margin-top: -20px
+    /* margin-left: 10px; */
+
+}
+
+#countdown #tiles{
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  text-shadow: 1px 1px 0px #ccc;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
+  font-size: 20px;
+  font-weight: thin;
+  display: block;
+    
+}
+
+.color-full {
+  background: #53bb74;
+}
+.color-half {
+  background: #ebc85d;
+}
+.color-empty {
+  background: #e5554e;
+}
+
+#countdown #tiles > span{
+  width: 70px;
+  max-width: 70px;
+
+  padding: 18px 0;
+  position: relative;
+}
+
+#countdown .labels{
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  position: absolute;
+  bottom: 8px;
+}
+
+#countdown .labels li{
+  width: 102px;
+  font: bold 15px 'Droid Sans', Arial, sans-serif;
+  color: #f47321;
+  text-shadow: 1px 1px 0px #000;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+/*counter*/
+.countdown-label {
+font-size: 10px;
+  color: #65584c;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 0px;
+}
+
+
+#countdown{
+ box-shadow: 0 1px 2px 0 rgba(1, 1, 1, 0.4);
+    width: 100%;
+    /* height: 50px; */
+    text-align: center;
+    background: #f1f1f1;
+    border-radius: 2px;
+    margin-top: -20px
+    /* margin-left: 10px; */
+
+}
+
+#countdown #tiles1{
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  text-shadow: 1px 1px 0px #ccc;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
+  font-size: 20px;
+  font-weight: thin;
+  display: block;
+    
+}
+
+.color-full {
+  background: #53bb74;
+}
+.color-half {
+  background: #ebc85d;
+}
+.color-empty {
+  background: #e5554e;
+}
+
+#countdown #tiles1 > span{
+  width: 70px;
+  max-width: 70px;
+
+  padding: 18px 0;
+  position: relative;
+}
+
+#countdown .labels{
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  position: absolute;
+  bottom: 8px;
+}
+
+#countdown .labels li{
+  width: 102px;
+  font: bold 15px 'Droid Sans', Arial, sans-serif;
+  color: #f47321;
+  text-shadow: 1px 1px 0px #000;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+
+/*2nd*/
+.countdown-label {
+font-size: 10px;
+  color: #65584c;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 0px;
+}
+#countdown{
+ box-shadow: 0 1px 2px 0 rgba(1, 1, 1, 0.4);
+    width: 100%;
+    /* height: 50px; */
+    text-align: center;
+    background: #f1f1f1;
+    border-radius: 2px;
+    margin-top: -20px
+    /* margin-left: 10px; */
+
+}
+
+#countdown #tiles{
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  text-shadow: 1px 1px 0px #ccc;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
+  font-size: 20px;
+  font-weight: thin;
+  display: block;
+    
+}
+
+.color-full {
+  background: #53bb74;
+}
+.color-half {
+  background: #ebc85d;
+}
+.color-empty {
+  background: #e5554e;
+}
+
+#countdown #tiles > span{
+  width: 70px;
+  max-width: 70px;
+
+  padding: 18px 0;
+  position: relative;
+}
+
+#countdown .labels{
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  position: absolute;
+  bottom: 8px;
+}
+
+#countdown .labels li{
+  width: 102px;
+  font: bold 15px 'Droid Sans', Arial, sans-serif;
+  color: #f47321;
+  text-shadow: 1px 1px 0px #000;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+/*counter*/
+.countdown-label {
+font-size: 10px;
+  color: #65584c;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 0px;
+}
+
+
+#countdown{
+ box-shadow: 0 1px 2px 0 rgba(1, 1, 1, 0.4);
+    width: 100%;
+    /* height: 50px; */
+    text-align: center;
+    background: #f1f1f1;
+    border-radius: 2px;
+    margin-top: -20px
+    /* margin-left: 10px; */
+
+}
+
+#countdown #tiles9{
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  text-shadow: 1px 1px 0px #ccc;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
+  font-size: 20px;
+  font-weight: thin;
+  display: block;
+    
+}
+
+.color-full {
+  background: #53bb74;
+}
+.color-half {
+  background: #ebc85d;
+}
+.color-empty {
+  background: #e5554e;
+}
+
+#countdown #tiles9 > span{
+  width: 70px;
+  max-width: 70px;
+
+  padding: 18px 0;
+  position: relative;
+}
+
+#countdown .labels{
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  position: absolute;
+  bottom: 8px;
+}
+
+#countdown .labels li{
+  width: 102px;
+  font: bold 15px 'Droid Sans', Arial, sans-serif;
+  color: #f47321;
+  text-shadow: 1px 1px 0px #000;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+
+
+/*counter*/
+
+.countdown-label {
+font-size: 10px;
+  color: #65584c;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 0px;
+}
+#countdown{
+ box-shadow: 0 1px 2px 0 rgba(1, 1, 1, 0.4);
+    width: 100%;
+    /* height: 50px; */
+    text-align: center;
+    background: #f1f1f1;
+    border-radius: 2px;
+    margin-top: -20px
+    /* margin-left: 10px; */
+
+}
+
+
+
+#countdown #tiles2{
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  text-shadow: 1px 1px 0px #ccc;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
+  font-size: 20px;
+  font-weight: thin;
+  display: block;
+    
+}
+
+.color-full {
+  background: #53bb74;
+}
+.color-half {
+  background: #ebc85d;
+}
+.color-empty {
+  background: #e5554e;
+}
+
+#countdown #tiles2 > span{
+  width: 70px;
+  max-width: 70px;
+
+  padding: 18px 0;
+  position: relative;
+}
+
+#countdown .labels{
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  position: absolute;
+  bottom: 8px;
+}
+
+#countdown .labels li{
+  width: 102px;
+  font: bold 15px 'Droid Sans', Arial, sans-serif;
+  color: #f47321;
+  text-shadow: 1px 1px 0px #000;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+
+/*3nd*/
+
+
+
+
+.countdown-label {
+font-size: 10px;
+  color: #65584c;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 0px;
+}
+#countdown{
+ box-shadow: 0 1px 2px 0 rgba(1, 1, 1, 0.4);
+    width: 100%;
+    /* height: 50px; */
+    text-align: center;
+    background: #f1f1f1;
+    border-radius: 2px;
+    margin-top: -20px
+    /* margin-left: 10px; */
+
+}
+
+#countdown #tiles3{
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  text-shadow: 1px 1px 0px #ccc;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
+  font-size: 20px;
+  font-weight: thin;
+  display: block;
+    
+}
+
+.color-full {
+  background: #53bb74;
+}
+.color-half {
+  background: #ebc85d;
+}
+.color-empty {
+  background: #e5554e;
+}
+
+#countdown #tiles3 > span{
+  width: 70px;
+  max-width: 70px;
+
+  padding: 18px 0;
+  position: relative;
+}
+
+#countdown .labels{
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  position: absolute;
+  bottom: 8px;
+}
+
+#countdown .labels li{
+  width: 102px;
+  font: bold 15px 'Droid Sans', Arial, sans-serif;
+  color: #f47321;
+  text-shadow: 1px 1px 0px #000;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+
+/*4th*/
+
+
+
+
+.countdown-label {
+font-size: 10px;
+  color: #65584c;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 0px;
+}
+#countdown{
+ box-shadow: 0 1px 2px 0 rgba(1, 1, 1, 0.4);
+    width: 100%;
+    /* height: 50px; */
+    text-align: center;
+    background: #f1f1f1;
+    border-radius: 2px;
+    margin-top: -20px
+    /* margin-left: 10px; */
+
+}
+
+#countdown #tiles4{
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  text-shadow: 1px 1px 0px #ccc;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
+  font-size: 20px;
+  font-weight: thin;
+  display: block;
+    
+}
+
+.color-full {
+  background: #53bb74;
+}
+.color-half {
+  background: #ebc85d;
+}
+.color-empty {
+  background: #e5554e;
+}
+
+#countdown #tiles4 > span{
+  width: 70px;
+  max-width: 70px;
+
+  padding: 18px 0;
+  position: relative;
+}
+
+#countdown .labels{
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  position: absolute;
+  bottom: 8px;
+}
+
+#countdown .labels li{
+  width: 102px;
+  font: bold 15px 'Droid Sans', Arial, sans-serif;
+  color: #f47321;
+  text-shadow: 1px 1px 0px #000;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+/*5th*/
+
+
+
+
+.countdown-label {
+font-size: 10px;
+  color: #65584c;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 0px;
+}
+#countdown{
+ box-shadow: 0 1px 2px 0 rgba(1, 1, 1, 0.4);
+    width: 100%;
+    /* height: 50px; */
+    text-align: center;
+    background: #f1f1f1;
+    border-radius: 2px;
+    margin-top: -20px
+    /* margin-left: 10px; */
+
+}
+
+#countdown #tiles5{
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  text-shadow: 1px 1px 0px #ccc;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
+  font-size: 20px;
+  font-weight: thin;
+  display: block;
+    
+}
+
+.color-full {
+  background: #53bb74;
+}
+.color-half {
+  background: #ebc85d;
+}
+.color-empty {
+  background: #e5554e;
+}
+
+#countdown #tiles5 > span{
+  width: 70px;
+  max-width: 70px;
+
+  padding: 18px 0;
+  position: relative;
+}
+
+#countdown .labels{
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  position: absolute;
+  bottom: 8px;
+}
+
+#countdown .labels li{
+  width: 102px;
+  font: bold 15px 'Droid Sans', Arial, sans-serif;
+  color: #f47321;
+  text-shadow: 1px 1px 0px #000;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+
+/*5th*/
+
+
+
+.countdown-label {
+font-size: 10px;
+  color: #65584c;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 0px;
+}
+#countdown{
+ box-shadow: 0 1px 2px 0 rgba(1, 1, 1, 0.4);
+    width: 100%;
+    /* height: 50px; */
+    text-align: center;
+    background: #f1f1f1;
+    border-radius: 2px;
+    margin-top: -20px
+    /* margin-left: 10px; */
+
+}
+
+#countdown #tiles6{
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  text-shadow: 1px 1px 0px #ccc;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
+  font-size: 20px;
+  font-weight: thin;
+  display: block;
+    
+}
+
+.color-full {
+  background: #53bb74;
+}
+.color-half {
+  background: #ebc85d;
+}
+.color-empty {
+  background: #e5554e;
+}
+
+#countdown #tiles6 > span{
+  width: 70px;
+  max-width: 70px;
+
+  padding: 18px 0;
+  position: relative;
+}
+
+#countdown .labels{
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  position: absolute;
+  bottom: 8px;
+}
+
+#countdown .labels li{
+  width: 102px;
+  font: bold 15px 'Droid Sans', Arial, sans-serif;
+  color: #f47321;
+  text-shadow: 1px 1px 0px #000;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+
+
+/9th/
+
+
+
+.countdown-label {
+font-size: 10px;
+  color: #65584c;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 0px;
+}
+#countdown2{
+ box-shadow: 0 1px 2px 0 rgba(1, 1, 1, 0.4);
+    width: 100%;
+    /* height: 50px; */
+    text-align: center;
+    background: #f1f1f1;
+    border-radius: 0px;
+   
+    /* margin-left: 10px; */
+
+}
+
+#countdown2 #tiles11{
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  text-shadow: 1px 1px 0px #ccc;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+  padding: 5px;
+  border-radius: 0px;
+  font-size: 20px;
+  font-weight: thin;
+  display: block;
+    
+}
+
+.color-full {
+  background: #53bb74;
+}
+.color-half {
+  background: #ebc85d;
+}
+.color-empty {
+  background: #e5554e;
+}
+
+#countdown2 #tiles11 > span{
+  width: 70px;
+  max-width: 70px;
+
+  padding: 18px 0;
+  position: relative;
+}
+
+#countdown2 .labels{
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  position: absolute;
+  bottom: 8px;
+}
+
+#countdown2 .labels li{
+  width: 102px;
+  font: bold 15px 'Droid Sans', Arial, sans-serif;
+  color: #f47321;
+  text-shadow: 1px 1px 0px #000;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+/9th/
+
+
+
+.countdown-label {
+font-size: 10px;
+  color: #65584c;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 0px;
+}
+#countdown1{
+ box-shadow: 0 1px 2px 0 rgba(1, 1, 1, 0.4);
+    width: 100%;
+    /* height: 50px; */
+    text-align: center;
+    background: #f1f1f1;
+    border-radius: 0px;
+    
+    /* margin-left: 10px; */
+
+}
+
+#countdown1 #tiles10{
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  text-shadow: 1px 1px 0px #ccc;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+  padding: 5px;
+  border-radius: 0px;
+  font-size: 20px;
+  font-weight: thin;
+  display: block;
+    
+}
+
+.color-full {
+  background: #53bb74;
+}
+.color-half {
+  background: #ebc85d;
+}
+.color-empty {
+  background: #e5554e;
+}
+
+#countdown1 #tiles10 > span{
+  width: 70px;
+  max-width: 70px;
+
+  padding: 18px 0;
+  position: relative;
+}
+
+#countdown1 .labels{
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  position: absolute;
+  bottom: 8px;
+}
+
+#countdown1 .labels li{
+  width: 102px;
+  font: bold 15px 'Droid Sans', Arial, sans-serif;
+  color: #f47321;
+  text-shadow: 1px 1px 0px #000;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+/12th/
+
+.countdown-label {
+font-size: 10px;
+  color: #65584c;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 0px;
+}
+#countdown1{
+ box-shadow: 0 1px 2px 0 rgba(1, 1, 1, 0.4);
+    width: 100%;
+    /* height: 50px; */
+    text-align: center;
+    background: #f1f1f1;
+    border-radius: 0px;
+   
+    /* margin-left: 10px; */
+
+}
+
+#countdown1 #tiles12{
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  text-shadow: 1px 1px 0px #ccc;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+  padding: 5px;
+  border-radius: 0px;
+  font-size: 20px;
+  font-weight: thin;
+  display: block;
+    
+}
+
+.color-full {
+  background: #53bb74;
+}
+.color-half {
+  background: #ebc85d;
+}
+.color-empty {
+  background: #e5554e;
+}
+
+#countdown1 #tiles12 > span{
+  width: 70px;
+  max-width: 70px;
+
+  padding: 18px 0;
+  position: relative;
+}
+
+#countdown1 .labels{
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  position: absolute;
+  bottom: 8px;
+}
+
+#countdown1 .labels li{
+  width: 102px;
+  font: bold 15px 'Droid Sans', Arial, sans-serif;
+  color: #f47321;
+  text-shadow: 1px 1px 0px #000;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+/13th/
+
+.countdown-label {
+font-size: 10px;
+  color: #65584c;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 0px;
+}
+#countdown1{
+ box-shadow: 0 1px 2px 0 rgba(1, 1, 1, 0.4);
+    width: 100%;
+    /* height: 50px; */
+    text-align: center;
+    background: #f1f1f1;
+    border-radius: 0px;
+   
+    /* margin-left: 10px; */
+
+}
+
+#countdown1 #tiles13{
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  text-shadow: 1px 1px 0px #ccc;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+  padding: 5px;
+  border-radius: 0px;
+  font-size: 20px;
+  font-weight: thin;
+  display: block;
+    
+}
+
+.color-full {
+  background: #53bb74;
+}
+.color-half {
+  background: #ebc85d;
+}
+.color-empty {
+  background: #e5554e;
+}
+
+#countdown1 #tiles13 > span{
+  width: 70px;
+  max-width: 70px;
+
+  padding: 18px 0;
+  position: relative;
+}
+
+#countdown1 .labels{
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  position: absolute;
+  bottom: 8px;
+}
+
+#countdown1 .labels li{
+  width: 102px;
+  font: bold 15px 'Droid Sans', Arial, sans-serif;
+  color: #f47321;
+  text-shadow: 1px 1px 0px #000;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+}

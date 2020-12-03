@@ -1,0 +1,134 @@
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    visibility: hidden;
+    opacity: 0;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+#popup1{
+        display: none;
+}
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 90%;
+    position: relative;
+}
+
+.popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 500ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: #06D85F;
+}
+
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+@media screen and (max-width: 700px) {
+    .popup {
+        width: 70%;
+    }
+}
+
+
+.popup input {
+    display: block;
+    height: 50px;
+    width: 90%;
+    margin: 0 auto;
+    border: none;
+}
+
+.popup input::placeholder {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.popup input:focus,
+.popup input:active:focus {
+    color: #ff5722;
+    outline: none;
+    border-bottom: 1px solid #ff5722;
+}
+
+
+.popup input:focus::placeholder,
+.popup input:active:focus::placeholder {
+    color: #ff5722;
+    position: relative;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+}
+
+.popup .email,
+.popup .pwd {
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #858585;
+    font-weight: lighter;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+
+.secbox{height: 600px;background-color: #fff;}
+
+.cards h3{
+	color: #000;
+    text-align: left;
+    font-size: 1em;
+    line-height: 1.3em;
+    margin-top: 0;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+	font-weight:bold;
+}
+
+.boxx{border: 2px solid #ccc;border-radius: 5px;width: 80px;height: 80px;}
+
+.para{}
