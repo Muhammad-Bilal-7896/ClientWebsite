@@ -19,6 +19,10 @@
     <script type="text/javascript" src="./js/jquery.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
  
+    <!-- this is the styling for music -->
+
+
+
     <style>
 
         .lines{
@@ -64,6 +68,244 @@
             height: 50px;
         }
     </style>
+
+<!-- 
+<style>
+    html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: #f5e0e5;
+  background-image: linear-gradient(45deg, #ff9b9c 0%, #ffd4a7 100%);
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+*::selection {
+  background-color: unset;
+}
+
+.player {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 330px;
+  height: 530px;
+  border-radius: 15px;
+  background-color: #fff6e7;
+  box-shadow: 0 15px 20px 0 #c58371;
+}
+  input[type="range"] {
+    -webkit-appearance: none !important;
+    margin: 0px;
+    padding: 0px;
+    background: #f2eae4;
+    height: 5px;
+    width: 150px;
+    outline: none;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+
+  input[type="range"]::-ms-fill-lower {
+    background: #f2eae4;
+  }
+
+  input[type="range"]::-ms-fill-upper {
+    background: #f2eae4;
+  }
+
+  input[type="range"]::-moz-range-track {
+    border: none;
+    background: #f2eae4;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background: #ff3677;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    box-shadow: -100vw 0 0 100vw #f7d9b9;
+  }
+
+  input[type="range"]::-moz-range-thumb {
+    background: #ff3677;
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+  }
+
+  input[type="range"]::-ms-thumb {
+    -webkit-appearance: none !important;
+    background: #ff3677;
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+  }
+
+  .cover {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+    box-shadow: 0 5px 20px 0 #d56c006d;
+  }
+   .cover img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    
+  }
+
+  .info {
+    position: absolute;
+    left: 50%;
+    top: 240px;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+    .info .title {
+      font-size: 20px;
+      font-weight: 700;
+      color: #444;
+      margin-bottom: 2px;
+    }
+
+    .singer {
+      font-size: 12px;
+      color: #72646f;
+    }
+  
+
+  .btn-box {
+    position: absolute;
+    top: 330px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+   .btn-box i {
+      font-size: 24px;
+      color: #72646f;
+      margin: 0 30px;
+      cursor: pointer;
+    }
+    .btn-box i i.active {
+      color: #ff3677;
+    }
+  
+
+  .volume-box {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 295px;
+    transform: translateX(-50%);
+    z-index: 1;
+    padding: 0 20px;
+  }
+    .volume-down {
+      position: absolute;
+      left: -15px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      color: #72646f;
+    }
+
+    .volume-up {
+      position: absolute;
+      right: -15px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      color: #72646f;
+    }
+
+    .volume-up::selection {
+      background-color: unset;
+    }
+
+    input[type="range"] {
+      height: 5px;
+      width: 150px;
+      margin: 0 0 15px 0;
+    }
+  
+  .volume-box.active {
+    display: block;
+  }
+  .music-box {
+    position: absolute;
+    left: 50%;
+    top: 385px;
+    transform: translateX(-50%);
+  }
+
+    input[type="range"] {
+      height: 5px;
+      width: 230px;
+      margin: 0 0 10px 0;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+      height: 5px;
+      width: 7px;
+    }
+    .current-time {
+      position: absolute;
+      left: -35px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 12px;
+      color: #72646f;
+    }
+    .duration {
+      position: absolute;
+      right: -35px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 12px;
+      color: #72646f;
+    }
+    .play,
+    .pause {
+      position: absolute;
+      left: 50%;
+      top: 55px;
+      transform: translateX(-50%);
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      background-color: #fff6e7;
+      cursor: pointer;
+      transition: all 0.4s;
+    }
+      i {
+        font-size: 36px;
+        color: #72646f;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-48%, -50%);
+      }
+    
+     
+        .pause i {
+        font-size: 32px;
+        transform: translate(-50%, -50%);
+      }
+
+
+    </style> -->
+
 </head>
 
 <body>
@@ -277,7 +519,7 @@
                                 </div>
                             </div> -->
                             <!-- Step 8 -->
-                            <div class="step">
+                            <!-- <div class="step">
                                 <div class="step__content">
                                     <p class="step__number">
                                         <svg class="icon">
@@ -297,7 +539,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
 
 
@@ -396,11 +638,44 @@
                     <!-- Panel 5-->
                     <div class="panel">
                         <header class="panel__header">
-                            <h2 class="panel__title">Setup Printer.</h2>
-                            <p class="panel__subheading">Printer Installing</p>
+                            <h2 class="panel__title">Select Rington</h2>
+                            <p class="panel__subheading">Click to Test</p>
                         </header>
                         <div class="search__button">
-                            <button class="button search_btn_printer">Search Printer </button>
+                            
+
+                            <div class="player">
+                                <div class="cover">
+                                   
+                                </div>
+                                <div class="info">
+                                    <div class="title">Autumn</div>
+                                    <div class="singer">Instrumental Music</div>
+                                </div>
+                                <div class="volume-box">
+                                    <span class="volume-down"><i class="material-icons">remove</i></span>
+                                    <input type="range" class="volume-range" step="1" value="80" min="0" max="100"
+                                        oninput="music.volume = this.value/100">
+                                    <span class="volume-up"><i class="material-icons">add</i></span>
+                                </div>
+                                <div class="btn-box">
+                                    <i class="material-icons repeat" onclick="handleRepeat()">repeat</i>
+                                    <i class="material-icons favorite active" onclick="handleFavorite()">favorite</i>
+                                    <i class="material-icons volume" onclick="handleVolume()">volume_up</i>
+                                </div>
+                                <div class="music-box">
+                                    <input type="range" step="1" class="seekbar" value="0" min="0" max="100" oninput="handleSeekBar()">
+                        
+                                    <audio class="music-element">
+                                        <source src="https://hosseinghanbari.ir/other/music-player/autumn.mp3" type="audio/mp3">
+                                    </audio>
+                                    <span class="current-time">0:0</span><span class="duration">0:0</span>
+                                    <span class="play" onclick="handlePlay()">
+                                        <i class="material-icons">play_arrow</i>
+                                    </span>
+                                </div>
+                            </div>
+
                         </div>
                         <div class="loader_color color_loader_printer"></div>
                         <div class="shelf shelf_printer">
@@ -667,6 +942,90 @@
     <script type="text/javascript" src="./js/flat-icons.js"></script>
     <script type="text/javascript" src="./js/site.js"></script>
     <script type="text/javascript" src="./js/scrollbar.js"></script>
-</body>
 
+</body>
+<script>
+    // player
+var music = document.querySelector('.music-element')
+var playBtn = document.querySelector('.play')
+var seekbar = document.querySelector('.seekbar')
+var currentTime = document.querySelector('.current-time')
+var duration = document.querySelector('.duration')
+
+function handlePlay() {
+if (music.paused) {
+    music.play();
+    playBtn.className = 'pause'
+    playBtn.innerHTML = '<i class="material-icons">pause</i>'
+} else {
+    music.pause();
+    playBtn.className = 'play'
+    playBtn.innerHTML = '<i class="material-icons">play_arrow</i>'
+}
+music.addEventListener('ended', function () {
+    playBtn.className = 'play'
+    playBtn.innerHTML = '<i class="material-icons">play_arrow</i>'
+    music.currentTime = 0
+});
+}
+
+music.onloadeddata = function () {
+seekbar.max = music.duration
+var ds = parseInt(music.duration % 60)
+var dm = parseInt((music.duration / 60) % 60)
+duration.innerHTML = dm + ':' + ds
+}
+music.ontimeupdate = function () { seekbar.value = music.currentTime }
+handleSeekBar = function () { music.currentTime = seekbar.value }
+music.addEventListener('timeupdate', function () {
+var cs = parseInt(music.currentTime % 60)
+var cm = parseInt((music.currentTime / 60) % 60)
+currentTime.innerHTML = cm + ':' + cs
+}, false)
+
+
+// like
+var favIcon = document.querySelector('.favorite')
+function handleFavorite() {
+favIcon.classList.toggle('active');
+}
+
+
+// repeat
+var repIcon = document.querySelector('.repeat')
+function handleRepeat() {
+if (music.loop == true) {
+    music.loop = false
+    repIcon.classList.toggle('active')
+}
+else {
+    music.loop = true
+    repIcon.classList.toggle('active')
+}
+}
+
+// volume
+var volIcon = document.querySelector('.volume')
+var volBox = document.querySelector('.volume-box')
+var volumeRange = document.querySelector('.volume-range')
+var volumeDown = document.querySelector('.volume-down')
+var volumeUp = document.querySelector('.volume-up')
+
+function handleVolume() {
+volIcon.classList.toggle('active')
+volBox.classList.toggle('active')
+}
+
+volumeDown.addEventListener('click', handleVolumeDown);
+volumeUp.addEventListener('click', handleVolumeUp);
+
+function handleVolumeDown() {
+volumeRange.value = Number(volumeRange.value) - 20
+music.volume = volumeRange.value / 100
+}
+function handleVolumeUp() {
+volumeRange.value = Number(volumeRange.value) + 20
+music.volume = volumeRange.value / 100
+}
+</script>
 </html>
