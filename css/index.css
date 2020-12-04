@@ -28,13 +28,14 @@
 }
 .player {
     position: relative;
-    margin-top: -30px;
+    margin-top: 0px;
     margin-left: 10px;
     width: 250px;
     height: 250px;
     border-radius: 15px;
     background: linear-gradient(rgb(255, 253, 253), rgb(240, 230, 230));
     box-shadow: 0 2px 2px 0 grey;
+    border-top: 1px solid rgb(151, 151, 151);
     
 }
 .player input[type="range"] {
@@ -83,7 +84,6 @@
 .player .cover {
     width: 70px;
     height: 70px;
-    border-radius: 50%;
     overflow: hidden;
     position: absolute;
     left: 50%;
@@ -229,8 +229,10 @@
     width: 500px;
     display: block;
     margin: 0 auto;
-    max-height: 260px;
+    height: 360px;
     overflow: hidden;
     padding-left: 50px;
     padding-right: 50px;
+    /* border: 1px solid black; */
+    margin-top: -60px;
 }
