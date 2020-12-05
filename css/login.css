@@ -403,3 +403,11 @@ Credits
   text-decoration: none;
   color: rgba(255,255,255,0.2);
 }
+#logo{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    trans
+}
