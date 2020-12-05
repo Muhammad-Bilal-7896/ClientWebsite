@@ -13,7 +13,7 @@ body, html {
   margin: 0!important
 }
 
-}
+
 .tab-content > .active {
     display: block;
     border: 1px solid #cccc;
@@ -41,7 +41,7 @@ body, html {
     color: #000;
 }
 li.nav-item.tabli{
-    width: 33.33%;
+    width: 25%;
     background: #ecf0f1;
 }
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {

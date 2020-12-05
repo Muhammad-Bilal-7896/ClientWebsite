@@ -28,14 +28,14 @@
 }
 .player {
     position: relative;
-    margin-top: 0px;
+    margin-top: 30px;
     margin-left: 10px;
     width: 250px;
-    height: 250px;
+    height: 230px;
     border-radius: 15px;
     background: linear-gradient(rgb(255, 253, 253), rgb(240, 230, 230));
     box-shadow: 0 2px 2px 0 grey;
-    border-top: 1px solid rgb(151, 151, 151);
+    border: 1px solid rgb(151, 151, 151);
     
 }
 .player input[type="range"] {
@@ -82,8 +82,8 @@
     border-radius: 100%;
 }
 .player .cover {
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     overflow: hidden;
     position: absolute;
     left: 50%;
@@ -99,15 +99,16 @@
 .player .info {
     position: absolute;
     left: 50%;
-    top: 100px;
+    top: 80px;
     transform: translateX(-50%);
     text-align: center;
+    
 }
 .player .info .title {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: lighter;
     color: #444;
-    margin-bottom: 2px;
+    
 }
 .player .info .singer {
     font-size: 12px;
@@ -115,7 +116,7 @@
 }
 .player .btn-box {
     position: absolute;
-    top: 150px;
+    top: 110px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -133,7 +134,7 @@
     display: none;
     position: absolute;
     left: 50%;
-    top: 130px;
+    top: 100px;
     transform: translateX(-50%);
     z-index: 1;
     padding: 0 20px;
@@ -141,7 +142,7 @@
 .player .volume-box .volume-down {
     position: absolute;
     left: -15px;
-    top: 50%;
+    top: 30%;
     transform: translateY(-50%);
     cursor: pointer;
     color: #72646f;
@@ -168,7 +169,7 @@
 .player .music-box {
     position: absolute;
     left: 50%;
-    top: 180px;
+    top: 140px;
     transform: translateX(-50%);
 }
 .player .music-box input[type="range"] {
@@ -221,6 +222,7 @@
     transform: translate(-50%, -50%);
 }
 #lineAudio{
+    
     width: 50px;
 }
 .audio-slider
@@ -236,3 +238,6 @@
     /* border: 1px solid black; */
     margin-top: -60px;
 }
+/* This is the login pop  */
+
+/* This is the login pop */
