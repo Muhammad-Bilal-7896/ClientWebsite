@@ -404,10 +404,11 @@ Credits
   color: rgba(255,255,255,0.2);
 }
 #logo{
+    opacity: 2;
     width: 90px;
     height: 90px;
     position: absolute;
-    left: 50%;
-    top: 10%;
+    left: 2%;
+    top: 2%;
     trans
 }
