@@ -29,29 +29,30 @@
 <body>
 
 
-  <div id="sidemenu-bg" class="sidemenu-bg hide"></div>
+  <div style="position: relative; z-index: 1;" id="sidemenu-bg" class="sidemenu-bg hide"></div>
   <div id="wrap">
     <div id="content"></div>
     <ul id="sidemenu" class="sidemenu">
-      <li><a data-toggle="tab" role="tab"  href="#tabs-1"><img style="margin-top: 20px;" width="70px"
-            src="https://muhammad-bilal-7896.github.io/ClientWebsite/images/logo.png" alt=""></a></li>
-         <br><br><br>   
-      <li class="has-submenu"><img src="https://www.flaticon.com/svg/static/icons/svg/3050/3050137.svg"
-          style="margin-left: 23px;margin-top: 15px; margin-bottom: 20px;" width="30" height="30" alt="">
-        <ul class="sidemenu-sub">
-          <li class="text">
-            <h4>User</h4>
-            <p>You do not have the karma to vote. <a href="#karmadrocherstvo">How to raise karma?</a></p>
-          </li>
-          <li><a href="#my-feed">My feed</a></li>
-          <li><a href="#my-profile">My profile</a></li>
-          <li><a href="#my-posts">My posts</a></li>
-          <li><a href="#my-comments">My comments</a></li>
-          <li><a href="#my-dialogues">My dialogues</a></li>
-          <li><a href="#my-favourites">My favourites</a></li>
-        </ul>
+      <li><a data-toggle="tab" role="tab"  href="#tabs-1"><img style="margin-top: 0px;" width="70px"
+            src="https://muhammad-bilal-7896.github.io/ClientWebsite/images/logo.png" alt=""></a>
       </li>
-      <hr>
+      
+      <li class="tracker has-submenu"><a href="#tabs-2">
+        <img style="margin-top: 30%;" src="https://www.flaticon.com/svg/static/icons/svg/3050/3050137.svg"
+          width="30px" height="30px" alt=""></a>
+      <ul class="sidemenu-sub">
+        <li class="text">
+          <h4>Tracker</h4>
+        </li>
+        <li><a href="#track-posts">
+            <div class="marker pull-right">79</div>Posts
+          </a></li>
+        <li><a href="#subscribers">Subscribers</a></li>
+        <li><a href="#mentions">Mentions</a></li>
+        <li><a href="#applications">Applications</a></li>
+      </ul>
+    </li>
+      
       <li class="tracker has-submenu"><a href="#tabs-2">
           <img style="margin-top: 30%;" src="https://muhammad-bilal-7896.github.io/ClientWebsite/img/calendar.png"
             width="30px" height="30px" alt=""></a>
@@ -84,7 +85,7 @@
           <li><a href="#sandbox">Sandbox</a></li>
         </ul>
       </li>
-      <hr>
+    
       <li><a href="#tabs-4"><img style="margin-top: 20%;"
             src="https://www.flaticon.com/svg/static/icons/svg/3800/3800720.svg" width="30px" height="30px"
             alt=""></a></li>
@@ -112,7 +113,7 @@
     <div class="row">
       <div class="col-md-12">
 
-        <ul style="position: relative; width: 100%; height: 75px; border-radius: 2px 2px 2px 2px;" class="nav nav-tabs" role="tablist">
+        <ul style="position: relative; z-index: 1000; width: 100%; height: 75px; border-radius: 2px 2px 2px 2px;" class="nav nav-tabs" role="tablist">
           <!-- <li class="nav-item tabli">
             <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab"
               style="font-weight:bold;text-align: left;"><img src="img/order.png" width="20px;"

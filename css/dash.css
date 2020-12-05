@@ -22,11 +22,7 @@
 
 
 
-*
-*: before;
-*:after {
-  box-sizing: border-box;
-}
+
 html {
   font: 300 12px Arial, "PT Sans", sans-serif;
   color: #333;
@@ -92,6 +88,7 @@ h4 {
 }
 .sidemenu > li {
   display: table-row;
+  margin-bottom: 1px solid black;
 }
 .sidemenu > li:hover,
 .sidemenu > li.active {
@@ -124,9 +121,12 @@ h4 {
   color: #ccc;
   text-align: center;
   text-decoration: none;
+  border-bottom: 0.1px solid rgb(168, 161, 161);
+  border-left: 5px solid green;
 }
 .sidemenu > li > a:hover {
   color: #727272;
+  background-color: burlywood;
 }
 .sidemenu > li > a > .fa {
   font-size: 28px;
@@ -180,6 +180,7 @@ h4 {
 .sidemenu > li .sidemenu-sub > li.text,
 .sidemenu > li .sidemenu-sub > li > a {
   padding: 10.65px 17.75px;
+  border: 1px solid black;
 }
 .sidemenu > li .sidemenu-sub > li.text > h4 {
   margin-top: 8px;
@@ -195,18 +196,24 @@ h4 {
   padding-top: 0;
   padding-bottom: 0;
   line-height: 71px;
+  border: 1px solid black;
 }
 .sidemenu > li .sidemenu-sub > li > a {
   display: block;
   font-size: 14.399999999999999px;
   font-weight: 700;
   color: #7f7f7f;
+  border: 1px solid black;
 }
 .sidemenu > li .sidemenu-sub > li > a:hover {
   color: #424242;
   text-decoration: none;
   background-color: #dbdbdb;
+  border: 1px solid black;
 }
 .sidemenu > li .sidemenu-sub > li > a > .fa {
   margin-top: 2px;
+}
+#sidemenu li ul{
+    
 }
