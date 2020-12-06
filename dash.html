@@ -10,6 +10,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Css links -->
+  <link rel="stylesheet" href="./css/site.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+
+
+  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+
+  <link rel="stylesheet" href="./css/font-awesome.min.css">
+
 
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
@@ -18,6 +36,12 @@
   <link rel="stylesheet" href="css/counter.css">
 
   <link rel="stylesheet" href="css/dash.css">
+
+
+  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+
+  <script type="text/javascript" src="./js/jquery.js"></script>
 
 
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css" />
@@ -30,7 +54,8 @@
 
 
   <div id="top-nav">
-   <img src="https://muhammad-bilal-7896.github.io/ClientWebsite/images/logo.png" width="60px" height="60px" alt="">
+    <img id="logo-nav" src="https://muhammad-bilal-7896.github.io/ClientWebsite/images/logo.png" width="75px"
+      height="75px" alt="">
   </div>
 
 
@@ -38,70 +63,35 @@
   <div id="wrap">
     <div id="content"></div>
     <ul id="sidemenu" class="sidemenu">
-       
-      <li class="tracker has-submenu"><a href="#tabs-2">
-        <img style="margin-top: 30%;" src="https://www.flaticon.com/svg/static/icons/svg/3050/3050137.svg"
-          width="30px" height="30px" alt=""></a>
-      <ul class="sidemenu-sub">
-        <li class="text">
-          <h4>Tracker</h4>
-        </li>
-        <li><a href="#track-posts">
-            <div class="marker pull-right">79</div>Posts
-          </a></li>
-        <li><a href="#subscribers">Subscribers</a></li>
-        <li><a href="#mentions">Mentions</a></li>
-        <li><a href="#applications">Applications</a></li>
-      </ul>
-    </li>
-      
-      <li class="tracker has-submenu"><a href="#tabs-2">
+
+      <li style="height: 30px;" id="nav-item1"><a data-toggle="tab" href="#tabs-1" role="tab">
+          <img style="margin-top: 30%;" src="https://www.flaticon.com/svg/static/icons/svg/3050/3050137.svg"
+            width="30px" height="30px" alt=""></a>
+
+      </li>
+
+      <li id="nav-item2"><a data-toggle="tab" href="#tabs-2" role="tab">
           <img style="margin-top: 30%;" src="https://muhammad-bilal-7896.github.io/ClientWebsite/img/calendar.png"
             width="30px" height="30px" alt=""></a>
-        <ul class="sidemenu-sub">
-          <li class="text">
-            <h4>Tracker</h4>
-          </li>
-          <li><a href="#track-posts">
-              <div class="marker pull-right">79</div>Posts
-            </a></li>
-          <li><a href="#subscribers">Subscribers</a></li>
-          <li><a href="#mentions">Mentions</a></li>
-          <li><a href="#applications">Applications</a></li>
-        </ul>
+
       </li>
-      
-      <li class="has-submenu"><a href="#tabs-3"><img style="margin-top: 30%;"
+
+      <li id="nav-item3"><a data-toggle="tab" href="#tabs-3" role="tab"><img style="margin-top: 30%;"
             src="https://muhammad-bilal-7896.github.io/ClientWebsite/img/gear.png" width="30px" height="30px"
             alt=""></a>
-        <ul class="sidemenu-sub">
-          <li class="text">
-            <h4>Sections</h4>
-          </li>
-          <li><a href="#search">Search</a></li>
-          <li><a href="#posts">Posts</a></li>
-          <li><a href="#hubs">Habs</a></li>
-          <li><a href="#companies">Companies</a></li>
-          <li><a href="#users">Users</a></li>
-          <li><a href="#q_a"><i class="fa fa-rocket pull-right"></i>Q&A</a></li>
-          <li><a href="#sandbox">Sandbox</a></li>
-        </ul>
+
       </li>
-    
-      <li><a href="#tabs-4"><img style="margin-top: 20%;"
-            src="https://www.flaticon.com/svg/static/icons/svg/3800/3800720.svg" width="30px" height="30px"
-            alt=""></a></li>
-      <li class="full-height"><a id="move-up" href="#move-up" class="hide"><i class="fa fa-arrow-circle-up"></i></a><a
-          id="move-down" href="#move-down" class="hide"><i class="fa fa-arrow-circle-down"></i></a></li>
+
+      <li id="nav-item4"><a data-toggle="tab" href="#tabs-4" role="tab"><img style="margin-top: 20%;"
+            src="https://www.flaticon.com/svg/static/icons/svg/3800/3800720.svg" width="30px" height="30px" alt=""></a>
+      </li>
+      <br><br>
+      <br><br><br><br><br><br><br><br>
+      <!-- <li class="full-height"><a id="move-up" href="#move-up" class="hide"><i class="fa fa-arrow-circle-up"></i></a><a
+          id="move-down" href="#move-down" class="hide"><i class="fa fa-arrow-circle-down"></i></a></li> -->
       <li class="has-submenu"><a href="#settings"><img style="margin-top: 30%;"
             src="https://www.flaticon.com/svg/static/icons/svg/1246/1246273.svg" width="30px" height="30px" alt=""></a>
-        <ul class="sidemenu-sub">
-          <li class="text">
-            <h4>Settings</h4>
-          </li>
-          <li><a href="#account">Account</a></li>
-          <li class="pull-down"><a href="#exit">Exit</a></li>
-        </ul>
+
       </li>
     </ul>
   </div>
@@ -110,13 +100,13 @@
 
 
 
-  <div style="position: relative; margin-top: 3%; width: 100%; left: 4%" class="body">
+  <div style="position: relative; margin-top: 3%; width: 96%; left: 4%" class="body">
 
     <div class="row">
       <div class="col-md-12">
 
         <!-- <ul class="position:fixed;" style=" z-index: 1000; width: 100%; height: 75px; border-radius: 2px 2px 2px 2px;" class="nav nav-tabs" role="tablist"> -->
-          <!-- <li class="nav-item tabli">
+        <!-- <li class="nav-item tabli">
             <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab"
               style="font-weight:bold;text-align: left;"><img src="img/order.png" width="20px;"
                 style="margin-right: 12px"> Orders </a>
@@ -529,166 +519,103 @@
               </div>
 
               <div class="order-history">
-                <!-- 1st table -->
-                <div class="history-table">
-                  <table class="table ">
-                    <thead>
-                      <tr>
-                        <th>Order ID</th>
-                        <th>Date</th>
-                        <th>Time</th>
-                        <th>Type</th>
-                        <th>Zipcode</th>
-                        <th>Status</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>10.10.2020</td>
-                        <td>19.20.20</td>
-                        <td>Delivery</td>
-                        <td>30159 Bult</td>
-                        <td class="success">Done</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
 
-                <!-- 2nd table -->
 
-                <div class="history-table">
-                  <table class="table ">
-                    <thead>
-                      <tr>
-                        <th>Order ID</th>
-                        <th>Date</th>
-                        <th>Time</th>
-                        <th>Type</th>
-                        <th>Zipcode</th>
-                        <th>Status</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>10.10.2020</td>
-                        <td>19.20.20</td>
-                        <td>Delivery</td>
-                        <td>30159 Bult</td>
-                        <td class="failed">Failed</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <!-- 3rd table -->
+                <table class="styled-table">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Date Time</th>
+                      <th>Order ID</th>
+                      <th>Type</th>
+                      <th>Username</th>
+                      <th>Amount</th>
+                      <th>Status</th>
+                      <th>Options</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>01</td>
+                      <td>10-10-2020</td>
+                      <td>ID132343</td>
+                      <td>Delivery</td>
+                      <td>Build HTML Website</td>
+                      <td>250,00 $</td>
+                      <td>Done</td>
+                      <td>View</td>
+                    </tr>
+                    <tr class="active-row">
+                      <td>01</td>
+                      <td>10-10-2020</td>
+                      <td>ID132343</td>
+                      <td>Delivery</td>
+                      <td>Build HTML Website</td>
+                      <td>250,00 $</td>
+                      <td>Done</td>
+                      <td>View</td>
+                    </tr>
+                    <tr>
+                      <td>01</td>
+                      <td>10-10-2020</td>
+                      <td>ID132343</td>
+                      <td>Delivery</td>
+                      <td>Build HTML Website</td>
+                      <td>250,00 $</td>
+                      <td>Done</td>
+                      <td>View</td>
+                    </tr>
+                    <tr>
+                      <td>01</td>
+                      <td>10-10-2020</td>
+                      <td>ID132343</td>
+                      <td>Delivery</td>
+                      <td>Build HTML Website</td>
+                      <td>250,00 $</td>
+                      <td>Done</td>
+                      <td>View</td>
+                    </tr>
+                    <tr>
+                      <td>01</td>
+                      <td>10-10-2020</td>
+                      <td>ID132343</td>
+                      <td>Delivery</td>
+                      <td>Build HTML Website</td>
+                      <td>250,00 $</td>
+                      <td>Done</td>
+                      <td>View</td>
+                    </tr>
+                    <tr>
+                      <td>01</td>
+                      <td>10-10-2020</td>
+                      <td>ID132343</td>
+                      <td>Delivery</td>
+                      <td>Build HTML Website</td>
+                      <td>250,00 $</td>
+                      <td>Done</td>
+                      <td>View</td>
+                    </tr>
+                    <tr>
+                      <td>01</td>
+                      <td>10-10-2020</td>
+                      <td>ID132343</td>
+                      <td>Delivery</td>
+                      <td>Build HTML Website</td>
+                      <td>250,00 $</td>
+                      <td>Done</td>
+                      <td>View</td>
+                    </tr>
+                    <!-- and so on... -->
+                  </tbody>
+                </table>
 
-                <div class="history-table">
-                  <table class="table ">
-                    <thead>
-                      <tr>
-                        <th>Order ID</th>
-                        <th>Date</th>
-                        <th>Time</th>
-                        <th>Type</th>
-                        <th>Zipcode</th>
-                        <th>Status</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>10.10.2020</td>
-                        <td>19.20.20</td>
-                        <td>Delivery</td>
-                        <td>30159 Bult</td>
-                        <td class="success">Done</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-
-                <!-- 4th table -->
-
-                <div class="history-table">
-                  <table class="table ">
-                    <thead>
-                      <tr>
-                        <th>Order ID</th>
-                        <th>Date</th>
-                        <th>Time</th>
-                        <th>Type</th>
-                        <th>Zipcode</th>
-                        <th>Status</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>10.10.2020</td>
-                        <td>19.20.20</td>
-                        <td>Delivery</td>
-                        <td>30159 Bult</td>
-                        <td class="failed">Failed</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <!-- 5th table -->
-                <div class="history-table">
-                  <table class="table ">
-                    <thead>
-                      <tr>
-                        <th>Order ID</th>
-                        <th>Date</th>
-                        <th>Time</th>
-                        <th>Type</th>
-                        <th>Zipcode</th>
-                        <th>Status</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>10.10.2020</td>
-                        <td>19.20.20</td>
-                        <td>Delivery</td>
-                        <td>30159 Bult</td>
-                        <td class="failed">Failed</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <div class="history-table">
-                  <table class="table ">
-                    <thead>
-                      <tr>
-                        <th>Order ID</th>
-                        <th>Date</th>
-                        <th>Time</th>
-                        <th>Type</th>
-                        <th>Zipcode</th>
-                        <th>Status</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>10.10.2020</td>
-                        <td>19.20.20</td>
-                        <td>Delivery</td>
-                        <td>30159 Bult</td>
-                        <td class="failed">Failed</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
               </div>
             </section>
 
           </div>
 
           <div class="tab-pane fade" id="tabs-3" role="tabpanel" aria-labelledby="nav-about-tab">
+
 
             <div id="settings" style="display: flex; flex-direction: row;">
 
@@ -697,48 +624,409 @@
                 <li>
                   <hr>
                 </li>
-                <li>Select ring tone</li>
-                <li>Printer Setting</li>
-                <li>Bon Setting</li>
-                <li>Timer Setting</li>
-                <li>Information</li>
+
+                <li><a href="#Table1">Select ring tone</a></li>
+                <li><a href="#Table2">Printer Setting</a></li>
+                <li><a href="#Table3">Bon Setting</a></li>
+                <li><a href="#Table4">Timer Setting</a></li>
+                <li><a href="#Table5">Information</a></li>
               </ul>
 
-              <ul style="text-align: center;">
-                <li><b>Generally</b></li>
-                <li>
-                  <hr>
-                </li>
-                <li>Select ring tone</li>
-                <li>Printer Setting</li>
-                <li>Bon Setting</li>
-                <li>Timer Setting</li>
-                <li>Information</li>
-              </ul>
 
-              <ul style="text-align: center;">
-                <li><b>Support</b></li>
-                <li>
-                  <hr>
-                </li>
-                <li>Select ring tone</li>
-                <li>Printer Setting</li>
-                <li>Bon Setting</li>
-                <li>Timer Setting</li>
-                <li>Information</li>
-              </ul>
+              <i id="Table1"></i>
+              <div>
+                <div class="audio-slider">
 
-              <ul style="text-align: center;">
-                <li><b>Customer</b></li>
-                <li>
-                  <hr>
-                </li>
-                <li>Select ring tone</li>
-                <li>Printer Setting</li>
-                <li>Bon Setting</li>
-                <li>Timer Setting</li>
-                <li>Information</li>`
-              </ul>
+                  <div style="display: flex; width: 1200px; margin-top: 90px; overflow: auto;"
+                    class="slider slider-nav">
+
+                    <div class="player">
+                      <div>
+                        <div class="cover">
+                          <img src="./images/logo.png" alt="">
+
+                        </div>
+                        <div class="info">
+                          <div class="title">عربي</div>
+                          <!-- <div class="singer">Instrumental Music</div> -->
+
+                        </div>
+                        <div class="volume-box">
+                          <span class="volume-down"><i class="material-icons">remove</i></span>
+                          <input type="range" class="volume-range" step="1" value="80" min="0" max="100"
+                            oninput="music.volume = this.value/100">
+                          <span class="volume-up"><i class="material-icons">add</i></span>
+                        </div>
+                        <div class="btn-box">
+                          <!--             <i class="material-icons repeat" onclick="handleRepeat()">repeat</i> -->
+                          <!-- <i class="material-icons favorite active"
+                                                onclick="handleFavorite()">favorite</i> -->
+                          <!-- <i class="material-icons volume" onclick="handleVolume()">volume_up</i> -->
+                        </div>
+                        <div class="music-box">
+                          <input type="range" step="1" id="lineAudio" class="seekbar" value="0" min="0" max="100"
+                            oninput="handleSeekBar()">
+
+                          <audio id="item1" class="music-element">
+                            <source src="./tunes/Arabic_New Order.mp3" type="audio/mp3">
+                          </audio>
+                          <span class="current-time">0:0</span><span class="duration">0:0</span>
+                          <span class="play" onclick="handlePlay(music1,play1)">
+                            <i class="material-icons">play_arrow</i>
+                          </span>
+                        </div>
+                        <div class="flag_icon"><i onclick="handleFavorite()" class="fa fa-check" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+                    <div class="player">
+                      <div>
+                        <div class="cover">
+                          <img src="./images/logo.png" alt="">
+                        </div>
+                        <div class="info">
+                          <div class="title">
+                            Deutsche</div>
+                          <!-- <div class="singer">Instrumental Music</div> -->
+                        </div>
+                        <div class="volume-box">
+                          <span class="volume-down"><i class="material-icons">remove</i></span>
+                          <input type="range" id="lineAudio" class="volume-range" step="1" value="80" min="0" max="100"
+                            oninput="music.volume = this.value/100">
+                          <span class="volume-up"><i class="material-icons">add</i></span>
+                        </div>
+                        <div class="btn-box">
+                          <!--             <i class="material-icons repeat" onclick="handleRepeat()">repeat</i> -->
+                          <!-- <i class="material-icons favorite active"
+                                                onclick="handleFavorite()">favorite</i> -->
+                          <!-- <i class="material-icons volume" onclick="handleVolume()">volume_up</i> -->
+                        </div>
+                        <div class="music-box">
+                          <input type="range" id="lineAudio" step="1" class="seekbar" value="0" min="0" max="100"
+                            oninput="handleSeekBar()">
+
+                          <audio id="item2" class="music-element">
+                            <source src="./tunes/German_New Order.mp3" type="audio/mp3">
+                          </audio>
+                          <span class="current-time">0:0</span><span class="duration">0:0</span>
+                          <span class="play" onclick="handlePlay(music2,play2)">
+                            <i class="material-icons">play_arrow</i>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="flag_icon"><i onclick="handleFavorite()" class="fa fa-check" aria-hidden="true"></i>
+                      </div>
+                    </div>
+
+
+                    <div class="player">
+                      <div>
+                        <div class="cover">
+                          <img src="./images/logo.png" alt="">
+                        </div>
+                        <div class="info">
+                          <div class="title">
+                            Türkiye</div>
+                          <!-- <div class="singer">Instrumental Music</div> -->
+                        </div>
+                        <div class="volume-box">
+                          <span class="volume-down"><i class="material-icons">remove</i></span>
+                          <input type="range" id="lineAudio" class="volume-range" step="1" value="80" min="0" max="100"
+                            oninput="music.volume = this.value/100">
+                          <span class="volume-up"><i class="material-icons">add</i></span>
+                        </div>
+                        <div class="btn-box">
+                          <!--             <i class="material-icons repeat" onclick="handleRepeat()">repeat</i> -->
+                          <!-- <i class="material-icons favorite active"
+                                                onclick="handleFavorite()">favorite</i> -->
+                          <!-- <i class="material-icons volume" onclick="handleVolume()">volume_up</i> -->
+                        </div>
+                        <div class="music-box">
+                          <input type="range" id="lineAudio" step="1" class="seekbar" value="0" min="0" max="100"
+                            oninput="handleSeekBar()">
+
+                          <audio id="item3" class="music-element">
+                            <source src="./tunes/Turkey_New Order.mp3" type="audio/mp3">
+                          </audio>
+                          <span class="current-time">0:0</span><span class="duration">0:0</span>
+                          <span class="play" onclick="handlePlay(music3,play3)">
+                            <i class="material-icons">play_arrow</i>
+                          </span>
+                        </div>
+                        <div class="flag_icon"><i onclick="handleFavorite()" class="fa fa-check" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="player">
+                      <div>
+                        <div class="cover">
+                          <img src="./images/logo.png" alt="">
+                        </div>
+                        <div class="info">
+                          <div class="title">YamiBird 1</div>
+                          <!-- <div class="singer">Instrumental Music</div> -->
+                        </div>
+                        <div class="volume-box">
+                          <span class="volume-down"><i class="material-icons">remove</i></span>
+                          <input type="range" id="lineAudio" class="volume-range" step="1" value="80" min="0" max="100"
+                            oninput="music.volume = this.value/100">
+                          <span class="volume-up"><i class="material-icons">add</i></span>
+                        </div>
+                        <div class="btn-box">
+                          <!--             <i class="material-icons repeat" onclick="handleRepeat()">repeat</i> -->
+                          <!-- <i class="material-icons favorite active"
+                                                onclick="handleFavorite()">favorite</i> -->
+                          <!-- <i class="material-icons volume" onclick="handleVolume()">volume_up</i> -->
+                        </div>
+                        <div class="music-box">
+                          <input type="range" id="lineAudio" step="1" class="seekbar" value="0" min="0" max="100"
+                            oninput="handleSeekBar()">
+
+                          <audio id="item4" class="music-element">
+                            <source src="./tunes/YamiBird_01.mp3" type="audio/mp3">
+                          </audio>
+                          <span class="current-time">0:0</span><span class="duration">0:0</span>
+                          <span class="play" onclick="handlePlay(music4,play4)">
+                            <i class="material-icons">play_arrow</i>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="flag_icon"><i onclick="handleFavorite()" class="fa fa-check" aria-hidden="true"></i>
+                      </div>
+                    </div>
+                    <div class="player">
+                      <div>
+                        <div class="cover">
+                          <img src="./images/logo.png" alt="">
+                        </div>
+                        <div class="info">
+                          <div class="title">YamiBird 2</div>
+                          <!-- <div class="singer">Instrumental Music</div> -->
+                        </div>
+                        <div class="volume-box">
+                          <span class="volume-down"><i class="material-icons">remove</i></span>
+                          <input type="range" id="lineAudio" class="volume-range" step="1" value="80" min="0" max="100"
+                            oninput="music.volume = this.value/100">
+                          <span class="volume-up"><i class="material-icons">add</i></span>
+                        </div>
+                        <div class="btn-box">
+                          <!--             <i class="material-icons repeat" onclick="handleRepeat()">repeat</i> -->
+                          <!-- <i class="material-icons favorite active"
+                                                onclick="handleFavorite()">favorite</i> -->
+                          <!-- <i class="material-icons volume" onclick="handleVolume()">volume_up</i> -->
+                        </div>
+                        <div class="music-box">
+                          <input type="range" id="lineAudio" step="1" class="seekbar" value="0" min="0" max="100"
+                            oninput="handleSeekBar()">
+
+                          <audio id="item5" class="music-element">
+                            <source src="./tunes/YamiBird_02.mp3" type="audio/mp3">
+                          </audio>
+                          <span class="current-time">0:0</span><span class="duration">0:0</span>
+                          <span class="play" onclick="handlePlay(music5,play5)">
+                            <i class="material-icons">play_arrow</i>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="flag_icon"><i onclick="handleFavorite()" class="fa fa-check" aria-hidden="true"></i>
+                      </div>
+                    </div>
+
+                    <div class="player">
+                      <div>
+                        <div class="cover">
+                          <img src="./images/logo.png" alt="">
+                        </div>
+                        <div class="info">
+                          <div class="title">YamiBird 3</div>
+                          <!-- <div class="singer">Instrumental Music</div> -->
+                        </div>
+                        <div class="volume-box">
+                          <span class="volume-down"><i class="material-icons">remove</i></span>
+                          <input type="range" id="lineAudio" class="volume-range" step="1" value="80" min="0" max="100"
+                            oninput="music.volume = this.value/100">
+                          <span class="volume-up"><i class="material-icons">add</i></span>
+                        </div>
+                        <div class="btn-box">
+                          <!--             <i class="material-icons repeat" onclick="handleRepeat()">repeat</i> -->
+                          <!-- <i class="material-icons favorite active"
+                                                onclick="handleFavorite()">favorite</i> -->
+                          <!-- <i class="material-icons volume" onclick="handleVolume()">volume_up</i> -->
+                        </div>
+                        <div class="music-box">
+                          <input type="range" id="lineAudio" step="1" class="seekbar" value="0" min="0" max="100"
+                            oninput="handleSeekBar()">
+
+                          <audio id="item6" class="music-element">
+                            <source src="./tunes/YamiBird_03.mp3" type="audio/mp3">
+                          </audio>
+                          <span class="current-time">0:0</span><span class="duration">0:0</span>
+                          <span class="play" onclick="handlePlay(music6,play6)">
+                            <i class="material-icons">play_arrow</i>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="flag_icon"><i onclick="handleFavorite()" class="fa fa-check" aria-hidden="true"></i>
+                      </div>
+                    </div>
+
+                    <div class="player">
+                      <div>
+                        <div class="cover">
+                          <img src="./images/logo.png" alt="">
+                        </div>
+                        <div class="info">
+                          <div class="title">YamiBird 4</div>
+                          <!-- <div class="singer">Instrumental Music</div> -->
+                        </div>
+                        <div class="volume-box">
+                          <span class="volume-down"><i class="material-icons">remove</i></span>
+                          <input type="range" id="lineAudio" class="volume-range" step="1" value="80" min="0" max="100"
+                            oninput="music.volume = this.value/100">
+                          <span class="volume-up"><i class="material-icons">add</i></span>
+                        </div>
+                        <div class="btn-box">
+                          <!--             <i class="material-icons repeat" onclick="handleRepeat()">repeat</i> -->
+                          <!-- <i class="material-icons favorite active"
+                                                onclick="handleFavorite()">favorite</i> -->
+                          <!-- <i class="material-icons volume" onclick="handleVolume()">volume_up</i> -->
+                        </div>
+                        <div class="music-box">
+                          <input type="range" id="lineAudio" step="1" class="seekbar" value="0" min="0" max="100"
+                            oninput="handleSeekBar()">
+
+                          <audio id="item7" class="music-element">
+                            <source src="./tunes/YamiBird_04.mp3" type="audio/mp3">
+                          </audio>
+                          <span class="current-time">0:0</span><span class="duration">0:0</span>
+                          <span class="play" onclick="handlePlay(music7,play7)">
+                            <i class="material-icons">play_arrow</i>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="flag_icon"><i onclick="handleFavorite()" class="fa fa-check" aria-hidden="true"></i>
+                      </div>
+                    </div>
+
+                    <div class="player">
+                      <div>
+                        <div class="cover">
+                          <img src="./images/logo.png" alt="">
+                        </div>
+                        <div class="info">
+                          <div class="title">YamiBird 5</div>
+                          <!-- <div class="singer">Instrumental Music</div> -->
+                        </div>
+                        <div class="volume-box">
+                          <span class="volume-down"><i class="material-icons">remove</i></span>
+                          <input type="range" id="lineAudio" class="volume-range" step="1" value="80" min="0" max="100"
+                            oninput="music.volume = this.value/100">
+                          <span class="volume-up"><i class="material-icons">add</i></span>
+                        </div>
+                        <div class="btn-box">
+                          <!--             <i class="material-icons repeat" onclick="handleRepeat()">repeat</i> -->
+                          <!-- <i class="material-icons favorite active"
+                                                onclick="handleFavorite()">favorite</i> -->
+                          <!-- <i class="material-icons volume" onclick="handleVolume()">volume_up</i> -->
+                        </div>
+                        <div class="music-box">
+                          <input type="range" id="lineAudio" step="1" class="seekbar" value="0" min="0" max="100"
+                            oninput="handleSeekBar()">
+
+                          <audio id="item8" class="music-element">
+                            <source src="./tunes/YamiBird_05.mp3" type="audio/mp3">
+                          </audio>
+                          <span class="current-time">0:0</span><span class="duration">0:0</span>
+                          <span class="play" onclick="handlePlay(music8,play8)">
+                            <i class="material-icons">play_arrow</i>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="flag_icon"><i class="fa fa-check" onclick="handleFavorite()" aria-hidden="true"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <i id="Table2"></i>
+              <div style="display: flex; margin-top: 22px;">
+                <!-- Here printer will come -->
+
+                <div id="printer">
+                  <div>
+                    <br>
+                    <img style="margin-left: 70px;" width="70px" src="./img/print.png" alt="">
+
+                  </div>
+                  <br>
+                  <p style="text-align: center;font-size: 18px;">Add new printer</p>
+                  <p style="text-align: center;">Click on the printer</p>
+                </div>
+
+
+                <div id="selectPrinter">
+                  <select style="background-color: rgb(235, 231, 231);">
+                    <option value="volvo" selected>Select Printer</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                  <br>
+                  <br>
+                  <select style="background-color:rgb(235, 231, 231);">
+                    <option value="volvo" selected>Printer Title</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                  <br>
+                  <br>
+
+                  <h4>&nbsp;Select the bone size</h4>
+
+
+                  <div style="display: flex; height: fit-content;">
+                    <div id="daba1">
+                      58mm
+                    </div>
+
+                    <div id="daba2">
+                      A5
+                    </div id="daba3">
+
+                    <div id="daba4">
+                      A4
+                    </div>
+                  </div>
+
+
+                </div>
+
+
+                <div>
+
+                </div>
+
+              </div>
+
+
+              <i id="Table3"></i>
+              <div>
+
+                <h1>33333333333333333333333333333333333333333333333</h1>
+              </div>
+
+
+              <i id="Table4"></i>
+              <div>
+
+                <h1>4444444444444444444444444444444444444444444444444</h1>
+              </div>
 
 
             </div>
@@ -1548,12 +1836,12 @@
     </div>
 
 
-    
+
     <!-- Importing scripts -->
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
 
-    <!-- <script type="text/javascript" src="./js/custom.js"></script> -->
+    <script type="text/javascript" src="./js/custom.js"></script>
 
     <script
       src="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.js"></script>
@@ -3573,7 +3861,108 @@
       populate(); // init document
 
     </script>
+    <script>
+      // player
+      var music1 = document.querySelector('#item1')
+      var music2 = document.querySelector('#item2')
+      var music3 = document.querySelector('#item3')
+      var music4 = document.querySelector('#item4')
+      var music5 = document.querySelector('#item5')
+      var music6 = document.querySelector('#item6')
+      var music7 = document.querySelector('#item7')
+      var music8 = document.querySelector('#item8')
 
+      var play1 = document.querySelector('#play1')
+      var play2 = document.querySelector('#play2')
+      var play3 = document.querySelector('#play3')
+      var play4 = document.querySelector('#play4')
+      var play5 = document.querySelector('#play5')
+      var play6 = document.querySelector('#play6')
+      var play7 = document.querySelector('#play7')
+      var play8 = document.querySelector('#play8')
+
+
+
+      var seekbar = document.querySelector('.seekbar')
+      var currentTime = document.querySelector('.current-time')
+      var duration = document.querySelector('.duration')
+
+      function handlePlay(thing, p) {
+        if (thing.paused) {
+          thing.play();
+          p.className = 'pause'
+          p.innerHTML = '<i class="material-icons">pause</i>'
+        } else {
+          thing.pause();
+          p.className = 'play'
+          p = '<i class="material-icons">play_arrow</i>'
+        }
+        thing.addEventListener('ended', function () {
+          p.className = 'play'
+          p.innerHTML = '<i class="material-icons">play_arrow</i>'
+          thing.currentTime = 0
+        });
+      }
+
+      thing.onloadeddata = function () {
+        seekbar.max = thing.duration
+        var ds = parseInt(thing.duration % 60)
+        var dm = parseInt((thing.duration / 60) % 60)
+        duration.innerHTML = dm + ':' + ds
+      }
+      thing.ontimeupdate = function () { seekbar.value = thing.currentTime }
+      handleSeekBar = function () { thing.currentTime = seekbar.value }
+      thing.addEventListener('timeupdate', function () {
+        var cs = parseInt(thing.currentTime % 60)
+        var cm = parseInt((thing.currentTime / 60) % 60)
+        currentTime.innerHTML = cm + ':' + cs
+      }, false)
+
+
+      // like
+      var favIcon = document.querySelector('.favorite')
+      function handleFavorite() {
+        favIcon.classList.toggle('active');
+      }
+
+
+      // repeat
+      var repIcon = document.querySelector('.repeat')
+      function handleRepeat() {
+        if (music.loop == true) {
+          music.loop = false
+          repIcon.classList.toggle('active')
+        }
+        else {
+          music.loop = true
+          repIcon.classList.toggle('active')
+        }
+      }
+
+      // volume
+      var volIcon = document.querySelector('.volume')
+      var volBox = document.querySelector('.volume-box')
+      var volumeRange = document.querySelector('.volume-range')
+      var volumeDown = document.querySelector('.volume-down')
+      var volumeUp = document.querySelector('.volume-up')
+
+      function handleVolume() {
+        volIcon.classList.toggle('active')
+        volBox.classList.toggle('active')
+      }
+
+      volumeDown.addEventListener('click', handleVolumeDown);
+      volumeUp.addEventListener('click', handleVolumeUp);
+
+      function handleVolumeDown() {
+        volumeRange.value = Number(volumeRange.value) - 20
+        music.volume = volumeRange.value / 100
+      }
+      function handleVolumeUp() {
+        volumeRange.value = Number(volumeRange.value) + 20
+        music.volume = volumeRange.value / 100
+      }
+    </script>
 </body>
 
 </html>
