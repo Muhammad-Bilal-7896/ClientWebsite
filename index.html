@@ -2,3578 +2,1117 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="description" content="will be changed later">
-  <meta name="keywords" content="HTML, CSS, JavaScript">
-  <title>Yami Yami - POS</title>
-  <!-- <meta name="author" content="John Doe"> -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="will be changed later">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <title>Yami Yami - POS</title>
+    <!-- <meta name="author" content="John Doe"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Css links -->
+    <!-- Css links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
 
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/site.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/counter.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/site.css">
 
-  <link rel="stylesheet" href="css/dash.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
 
 
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css" />
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 
+
+
+
+    <style>
+      
+
+        .step__content {
+            margin-top: 20px;
+
+        }
+
+        .icon {
+            width: 35px;
+            height: 35px;
+            margin-top: 8px;
+        }
+
+        .icon:hover {
+            /* margin-left: 10px;
+            margin-top: -5px; */
+            transition: 0.3s ease-in;
+            width: 50px;
+            height: 50px;
+
+        }
+
+        .step__number {
+            width: 50px;
+            height: 50px;
+
+        }
+
+        
+
+        .checkmark {
+            width: 50px;
+            height: 50px;
+        }
+
+        .checkmark__circle {
+            width: 50px;
+            height: 50px;
+        }
+
+        .checkmark__check {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+
+    <style>
+
+    </style>
+
+ 
 
 </head>
 
 <body>
+    <div id="termsModal" class="modal">
 
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Terms & Condition</h2>
+            </div>
+            <div class="modal-body">
+                <textarea class="textarea-scrollbar scrollbar-outer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.
 
-  <div id="top-nav">
-   <img src="http://127.0.0.1:5500/images/logo.png" width="80px" height="80px" alt="">
-  </div>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.
+                        
+                    
+                    </textarea>
+            </div>
+            <div class="modal-footer">
+                <div class="modal__button_pre">
+                    <button class="button reject">Reject</button>
+                </div>
+                <div class="modal__button_next">
+                    <button class="button accept">Accept</button>
+                </div>
+            </div>
+        </div>
 
+    </div>
+    <div class="wrapper">
+        <div id="wizard" class="wizard">
+            <div class="wizard__content">
 
-  <div style="position: relative; z-index: 1;" id="sidemenu-bg" class="sidemenu-bg hide"></div>
-  <div id="wrap">
-    <div id="content"></div>
-    <ul id="sidemenu" class="sidemenu">
-       
-      <li class="tracker has-submenu"><a href="#tabs-2">
-        <img style="margin-top: 30%;" src="https://www.flaticon.com/svg/static/icons/svg/3050/3050137.svg"
-          width="30px" height="30px" alt=""></a>
-      <ul class="sidemenu-sub">
-        <li class="text">
-          <h4>Tracker</h4>
-        </li>
-        <li><a href="#track-posts">
-            <div class="marker pull-right">79</div>Posts
-          </a></li>
-        <li><a href="#subscribers">Subscribers</a></li>
-        <li><a href="#mentions">Mentions</a></li>
-        <li><a href="#applications">Applications</a></li>
-      </ul>
-    </li>
-      
-      <li class="tracker has-submenu"><a href="#tabs-2">
-          <img style="margin-top: 30%;" src="https://muhammad-bilal-7896.github.io/ClientWebsite/img/calendar.png"
-            width="30px" height="30px" alt=""></a>
-        <ul class="sidemenu-sub">
-          <li class="text">
-            <h4>Tracker</h4>
-          </li>
-          <li><a href="#track-posts">
-              <div class="marker pull-right">79</div>Posts
-            </a></li>
-          <li><a href="#subscribers">Subscribers</a></li>
-          <li><a href="#mentions">Mentions</a></li>
-          <li><a href="#applications">Applications</a></li>
-        </ul>
-      </li>
-      
-      <li class="has-submenu"><a href="#tabs-3"><img style="margin-top: 30%;"
-            src="https://muhammad-bilal-7896.github.io/ClientWebsite/img/gear.png" width="30px" height="30px"
-            alt=""></a>
-        <ul class="sidemenu-sub">
-          <li class="text">
-            <h4>Sections</h4>
-          </li>
-          <li><a href="#search">Search</a></li>
-          <li><a href="#posts">Posts</a></li>
-          <li><a href="#hubs">Habs</a></li>
-          <li><a href="#companies">Companies</a></li>
-          <li><a href="#users">Users</a></li>
-          <li><a href="#q_a"><i class="fa fa-rocket pull-right"></i>Q&A</a></li>
-          <li><a href="#sandbox">Sandbox</a></li>
-        </ul>
-      </li>
-    
-      <li><a href="#tabs-4"><img style="margin-top: 20%;"
-            src="https://www.flaticon.com/svg/static/icons/svg/3800/3800720.svg" width="30px" height="30px"
-            alt=""></a></li>
-      <li class="full-height"><a id="move-up" href="#move-up" class="hide"><i class="fa fa-arrow-circle-up"></i></a><a
-          id="move-down" href="#move-down" class="hide"><i class="fa fa-arrow-circle-down"></i></a></li>
-      <li class="has-submenu"><a href="#settings"><img style="margin-top: 30%;"
-            src="https://www.flaticon.com/svg/static/icons/svg/1246/1246273.svg" width="30px" height="30px" alt=""></a>
-        <ul class="sidemenu-sub">
-          <li class="text">
-            <h4>Settings</h4>
-          </li>
-          <li><a href="#account">Account</a></li>
-          <li class="pull-down"><a href="#exit">Exit</a></li>
-        </ul>
-      </li>
-    </ul>
-  </div>
+                <header class="wizard__header">
+                    <div class="wizard__header-overlay"></div>
 
+                    <div class="wizard__header-content">
+                        <!-- <h1 class="wizard__title">Get start with Javascript!</h1>
+                        <p class="wizard__subheading">Start with <span>3</span> simple steps.</p> -->
+                        <img class="logo" src="./images/logo.png">
+                    </div>
 
+                    <div class="wizard__steps">
+                        <nav class="steps">
+                            <!-- Step 1 -->
 
+                            <div class="step">
+                                <div class="step__content">
+                                    <p class="step__number">
+                                        <svg class="icon">
+                                            <use xlink:href="#translate" />
+                                        </svg>
+                                    </p>
+                                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                        <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+                                        <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                                    </svg>
 
+                                    <div class="lines">
+                                        <div class="line -start">
+                                        </div>
+                                        <div class="line -background">
+                                        </div>
 
-  <div style="position: relative; margin-top: 3%; width: 100%; left: 4%" class="body">
-
-    <div class="row">
-      <div class="col-md-12">
-
-        <!-- <ul class="position:fixed;" style=" z-index: 1000; width: 100%; height: 75px; border-radius: 2px 2px 2px 2px;" class="nav nav-tabs" role="tablist"> -->
-          <!-- <li class="nav-item tabli">
-            <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab"
-              style="font-weight:bold;text-align: left;"><img src="img/order.png" width="20px;"
-                style="margin-right: 12px"> Orders </a>
-          </li>
-          <li class="nav-item tabli">
-            <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab"
-              style="font-weight:bold;text-align: left;"><img src="img/calendar.png" width="20px;"
-                style="margin-right: 12px"> History </a>
-          </li>
-          <li class="nav-item tabli">
-            <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab"
-              style="font-weight:bold;text-align: left;"><img src="img/gear.png" width="20px;"
-                style="margin-right: 12px">Settings</a>
-          </li>
-          <li class="nav-item tabli">
-            <a class="nav-link" data-toggle="tab" href="#tabs-4" role="tab"
-              style="font-weight:bold;text-align: left;"><img src="https://www.flaticon.com/svg/static/icons/svg/3800/3800720.svg" width="20px;"
-                style="margin-right: 12px">Statistics</a>
-          </li>
-
-          <li class="nav-item tabli">
-            <a class="nav-link" data-toggle="tab" href="#tabs-5" role="tab"
-              style="font-weight:bold;text-align: left;"><img src="https://www.flaticon.com/svg/static/icons/svg/1246/1246273.svg" width="20px;"
-                style="margin-right: 12px">Logout</a>
-          </li> -->
-
-        <!-- </ul> -->
-        <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
-          <div class="tab-pane fade show active" id="tabs-1" role="tabpanel" aria-labelledby="nav-home-tab">
-
-
-            <section class="details-card">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-md-3">
-                    <div class="main-box">
-                      <div class="card-content">
-                        <h3 class="card-desc">New Order</h3>
-                        <div class="brd"></div>
-                      </div>
-                      <div id="sailorTableArea">
-                        <div class="box" data-toggle="modal" data-target="#neworder">
-                          <div class="row">
-                            <div class="col-md-3 bg-blue">
-
-                              <div class="co">
-                                <h2>01</h2>
-                              </div>
-
-
-                              <div class="co2">
-                                <img src="img/scooter.png" width="50px;">
-                              </div>
-
+                                        <div class="line -progress">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-9 padd-0">
-                              <p class="txt"><i class="fa fa-user-circle-o"></i> Username and Lastname</p>
-                              <hr>
-                              <div class="row">
-                                <p class="tt"><i class="fa fa-calendar" aria-hidden="true"></i> 25.05.2020
-                                  &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> 12:30</p>
+                            <!-- Step 2 -->
+                            <div class="step">
+                                <div class="step__content">
+                                    <p class="step__number">
+                                        <svg class="icon">
+                                            <use xlink:href="#personal-data" />
+                                        </svg>
+                                    </p>
+                                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                        <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+                                        <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                                    </svg>
 
-                              </div>
-                              <p>
-                                <input type="hidden" id="set-time" value="1" />
-                              <div id="countdown">
-                                <div id='tiles' class="color-full"></div>
-                                <div class="countdown-label">Time Remaining</div>
-                              </div>
-                              </p>
+                                    <div class="lines">
+                                        <div class="line -background">
+                                        </div>
+
+                                        <div class="line -progress">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
+                            <!-- Step 3 -->
+                            <!--      <div class="step">
+                                <div class="step__content">
+                                    <p class="step__number">
+                                        <svg class="icon">
+                                            <use xlink:href="#keyword" />
+                                       </svg>
+                                    </p>
+                                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                      <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                                       <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                                     </svg>
+
+                                    <div class="lines">
+                                        <div class="line -background">
+                                        </div>
+
+                                        <div class="line -progress">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- Step 4 -->
+                            <!--    <div class="step">
+                                <div class="step__content">
+                                    <p class="step__number">
+                                        <svg class="icon">
+                                            <use xlink:href="#secure" />
+                                       </svg>
+                                    </p>
+                                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                      <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                                       <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                                     </svg>
+
+                                    <div class="lines">
+                                        <div class="line -background">
+                                        </div>
+
+                                        <div class="line -progress">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                            <!-- Step 5 -->
+                            <div class="step">
+                                <div class="step__content">
+                                    <p class="step__number">
+                                        <img src="./img/music.png" class="icon" />
+                                    </p>
+                                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                        <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+                                        <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                                    </svg>
+
+                                    <div class="lines">
+                                        <div class="line -background">
+                                        </div>
+
+                                        <div class="line -progress">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Step 6 -->
+                            <!--     <div class="step">
+                                <div class="step__content">
+                                    <p class="step__number">
+                                        <svg class="icon">
+                                            <use xlink:href="#smartphone" />
+                                       </svg>
+                                    </p>
+                                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                      <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                                       <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                                     </svg>
+
+                                    <div class="lines">
+                                        <div class="line -background">
+                                        </div>
+
+                                        <div class="line -progress">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                            <!-- Step 7 -->
+                            <!--    <div class="step">
+                                <div class="step__content">
+                                    <p class="step__number">
+                                        <svg class="icon">
+                                            <use xlink:href="#download" />
+                                       </svg>
+                                    </p>
+                                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                      <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                                       <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                                     </svg>
+
+                                    <div class="lines">
+                                        <div class="line -background">
+                                        </div>
+
+                                        <div class="line -progress">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- Step 8 -->
+                            <!-- <div class="step">
+                                <div class="step__content">
+                                    <p class="step__number">
+                                        <svg class="icon">
+                                            <use xlink:href="#clipboard" />
+                                        </svg>
+                                    </p>
+                                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                        <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                                        <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                                    </svg>
+
+                                    <div class="lines">
+                                        <div class="line -background">
+                                        </div>
+
+                                        <div class="line -progress">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+
+
+
+                        </nav>
+                    </div>
+                </header>
+
+
+                <div class="panels" style="height: 340px;">
+                    <!-- Panel 1 -->
+
+                    <div class="panel">
+                        <header class="panel__header">
+                            <h2 class="panel__title">Select Language</h2>
+                            <p class="panel__subheading">Select the language , you are most comfortable with. </p>
+                        </header>
+
+                        <div class="slider-main">
+
+                            <div  class="slider slider-nav">
+                                <div class="item">
+                                    <img class="flag" src="./flags/Germany.png">
+                                    <div class="flag_icon"><i class="fa fa-check" aria-hidden="true"></i></div>
+                                </div>
+                                <div class="item">
+                                    <img class="flag" src="./flags/Denmark.png">
+                                    <div class="flag_icon"><i class="fa fa-check" aria-hidden="true"></i></div>
+
+                                </div>
+                                <div class="item">
+
+                                    <img class="flag" src="./flags/Spain.png">
+                                    <div class="flag_icon"><i class="fa fa-check" aria-hidden="true"></i></div>
+
+                                </div>
+                                <div class="item">
+
+                                    <img class="flag" src="./flags/United Kingdom.png">
+                                    <div class="flag_icon"><i class="fa fa-check" aria-hidden="true"></i></div>
+
+                                </div>
+                                <div class="item">
+
+                                    <img class="flag" src="./flags/United States of America.png">
+                                    <div class="flag_icon"><i class="fa fa-check" aria-hidden="true"></i></div>
+
+                                </div>
+                            </div>
 
                         </div>
-                        <div class="box" data-toggle="modal" data-target="#neworder">
-                          <div class="row">
-                            <div class="col-md-3 bg-blue">
+                    </div>
+                    <!-- Panel 2 -->
+                    <div class="panel">
+                        <header class="panel__header">
+                            <h2 class="panel__title">Accept Policy & Terms.</h2>
+                            <p class="panel__subheading">Please Read and Accept Policy and terms</p>
+                        </header>
+                        <p class="panel__content"></p>
 
-                              <div class="co">
-                                <h2>01</h2>
-                              </div>
-
-
-                              <div class="co2">
-                                <img src="img/scooter.png" width="50px;">
-                              </div>
-
-                            </div>
-                            <div class="col-md-9 padd-0">
-                              <p class="txt"><i class="fa fa-user-circle-o"></i> Username and Lastname</p>
-                              <hr>
-                              <div class="row">
-                                <p class="tt"><i class="fa fa-calendar" aria-hidden="true"></i> 25.05.2020
-                                  &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> 12:30</p>
-
-                              </div>
-                              <p>
-                                <input type="hidden" id="set-time" value="1" />
-                              <div id="countdown">
-                                <div id='tiles9' class="color-full"></div>
-                                <div class="countdown-label">Time Remaining</div>
-                              </div>
-                              </p>
-                            </div>
-                          </div>
-
-                        </div>
-
-                        <div class="box" data-toggle="modal" data-target="#neworder">
-                          <div class="row">
-                            <div class="col-md-3 bg-blue">
-
-                              <div class="co">
-                                <h2>02</h2>
-                              </div>
-
-
-                              <div class="co2">
-                                <img src="img/shopping-bag.png" width="50px;">
-                              </div>
-
-                            </div>
-                            <div class="col-md-9 padd-0">
-                              <p class="txt"><i class="fa fa-user-circle-o"></i> Username and Lastname</p>
-                              <hr>
-                              <div class="row">
-                                <p class="tt"><i class="fa fa-calendar" aria-hidden="true"></i> 25.05.2020
-                                  &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> 12:30</p>
-                                <!--  <div class="form-group col-md-12">
-                                                 
-                                                     <input type="date" class="form-control" id='datetimepicker1' />
-                                                </div>
-                                                 <div class="form-group col-md-12">
-                                                 
-                                                       <input type="time" class="form-control" id='datetimepicker2' />
-                                                </div> -->
-                              </div>
-                              <p>
-                                <input type="hidden" id="set-time1" value="1" />
-                              <div id="countdown">
-                                <div id='tiles1' class="color-full"></div>
-                                <div class="countdown-label">Time Remaining</div>
-                              </div>
-                              </p>
-                            </div>
-                          </div>
-
-                        </div>
-
-                        <div class="box" data-toggle="modal" data-target="#neworder">
-                          <div class="row">
-                            <div class="col-md-3 bg-blue">
-
-                              <div class="co">
-                                <h2>03</h2>
-                              </div>
-
-                              <div class="co2">
-                                <img src="img/scooter.png" width="50px;">
-                              </div>
-
-                            </div>
-                            <div class="col-md-9 padd-0">
-                              <p class="txt"><i class="fa fa-user-circle-o"></i> Username and Lastname</p>
-                              <hr>
-                              <div class="row">
-                                <p class="tt"><i class="fa fa-calendar" aria-hidden="true"></i> 25.05.2020
-                                  &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> 12:30</p>
-                              </div>
-                              <p>
-                                <input type="hidden" id="set-time2" value="1" />
-                              <div id="countdown">
-                                <div id='tiles2' class="color-full"></div>
-                                <div class="countdown-label">Time Remaining</div>
-                              </div>
-                              </p>
-                            </div>
-                          </div>
-
-                        </div>
-                      </div>
 
                     </div>
-                  </div>
+                    <!-- Panel 3 -->
+                    <!--  <div class="panel">
+                        <header class="panel__header">
+                            <h2 class="panel__title">Add Serial Number.</h2>
+                            <p class="panel__subheading">Please add your serial number</p>
+                        </header>
 
+                        <div class="panel__content">
 
-
-                  <div class="col-md-3">
-                    <div class="main-box">
-                      <div class="card-content">
-                        <h3 class="card-desc">In Kitchen</h3>
-                        <div class="brd"></div>
-                      </div>
-                      <div id="sailorTableArea">
-                        <div class="box" data-toggle="modal" data-target="#kitchen">
-                          <div class="row">
-                            <div class="col-md-3 bg-warning">
-
-                              <div class="co">
-                                <h2>01</h2>
-                              </div>
-
-
-                              <div class="co2">
-                                <img src="img/shopping-bag.png" width="50px;">
-                              </div>
-
+                            <div class="input-field">
+                                <input type="text" class="serial_number" id="name" required />
+                                <label for="name">Your Serial Number:</label>
                             </div>
-                            <div class="col-md-9 padd-0">
-                              <p class="txt"><i class="fa fa-user-circle-o"></i> Username and Lastname</p>
-                              <hr>
-                              <div class="row">
-                                <p class="tt"><i class="fa fa-calendar" aria-hidden="true"></i> 25.05.2020
-                                  &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> 12:30</p>
-                              </div>
-                              <p>
-                                <input type="hidden" id="set-time3" value="1" />
-                              <div id="countdown">
-                                <div id='tiles3' class="color-full"></div>
-                                <div class="countdown-label">Time Remaining</div>
-                              </div>
-                              </p>
+                        </div>
+                    </div> -->
+                    <!-- Panel 4-->
+
+
+                    <!--     <div class="panel">
+                        <header class="panel__header">
+                            <h2 class="panel__title">Connect USB Stick.</h2>
+                            <p class="panel__subheading">Please Connect Your Usb Stick</p>
+                        </header>
+
+                        <p class="panel__content">
+
+                            <div id="reading-key">
+                                <div id="key"><span></span><span></span></div>
+                                <div id="reading-animation"><span></span></div>
                             </div>
-                          </div>
+                        </p>
+                    </div> -->
+
+
+                    <!-- Panel 5-->
+                    <div class="panel">
+                        <header class="panel__header">
+                            <h2 class="panel__title">Select Rington</h2>
+                            <!-- <p style="margin-top: 10px; margin-left: 20px;" class="panel__subheading">Click to Test</p> -->
+                        </header>
+                        <div class="search__button">
+
+
+
+                            <div class="audio-slider">
+
+                                <div class="slider slider-nav">
+
+                                    <div class="player">
+                                        <div>
+                                        <div class="cover">
+                                            <img src="./images/logo.png" alt="">
+                                            
+                                        </div>
+                                        <div class="info">
+                                            <div class="title">عربي</div>
+                                            <!-- <div class="singer">Instrumental Music</div> -->
+
+                                        </div>
+                                        <div class="volume-box">
+                                            <span class="volume-down"><i class="material-icons">remove</i></span>
+                                            <input type="range" class="volume-range" step="1" value="80" min="0"
+                                                max="100" oninput="music.volume = this.value/100">
+                                            <span class="volume-up"><i class="material-icons">add</i></span>
+                                        </div>
+                                        <div class="btn-box">
+                                            <!--             <i class="material-icons repeat" onclick="handleRepeat()">repeat</i> -->
+                                            <!-- <i class="material-icons favorite active"
+                                                onclick="handleFavorite()">favorite</i> -->
+                                            <!-- <i class="material-icons volume" onclick="handleVolume()">volume_up</i> -->
+                                        </div>
+                                        <div class="music-box">
+                                            <input type="range" step="1" id="lineAudio" class="seekbar" value="0"
+                                                min="0" max="100" oninput="handleSeekBar()">
+
+                                            <audio id="item1" class="music-element">
+                                                <source src="./tunes/Arabic_New Order.mp3"
+                                                    type="audio/mp3">
+                                            </audio>
+                                            <span class="current-time">0:0</span><span class="duration">0:0</span>
+                                            <span class="play" onclick="handlePlay(music1,play1)">
+                                                <i class="material-icons">play_arrow</i>
+                                            </span>
+                                        </div>
+                                        <div class="flag_icon"><i onclick="handleFavorite()" class="fa fa-check" aria-hidden="true"></i></div>
+                                     </div>
+                                    </div>
+
+
+
+                                    <div class="player">
+                                        <div>
+                                        <div class="cover">
+                                            <img src="./images/logo.png" alt="">
+                                        </div>
+                                        <div class="info">
+                                            <div class="title">
+                                                Deutsche</div>
+                                            <!-- <div class="singer">Instrumental Music</div> -->
+                                        </div>
+                                        <div class="volume-box">
+                                            <span class="volume-down"><i class="material-icons">remove</i></span>
+                                            <input type="range" id="lineAudio" class="volume-range" step="1" value="80"
+                                                min="0" max="100" oninput="music.volume = this.value/100">
+                                            <span class="volume-up"><i class="material-icons">add</i></span>
+                                        </div>
+                                        <div class="btn-box">
+                                            <!--             <i class="material-icons repeat" onclick="handleRepeat()">repeat</i> -->
+                                            <!-- <i class="material-icons favorite active"
+                                                onclick="handleFavorite()">favorite</i> -->
+                                            <!-- <i class="material-icons volume" onclick="handleVolume()">volume_up</i> -->
+                                        </div>
+                                        <div class="music-box">
+                                            <input type="range" id="lineAudio" step="1" class="seekbar" value="0"
+                                                min="0" max="100" oninput="handleSeekBar()">
+
+                                            <audio id="item2" class="music-element">
+                                                <source src="./tunes/German_New Order.mp3"
+                                                    type="audio/mp3">
+                                            </audio>
+                                            <span class="current-time">0:0</span><span class="duration">0:0</span>
+                                            <span class="play" onclick="handlePlay(music2,play2)">
+                                                <i class="material-icons">play_arrow</i>
+                                            </span>
+                                        </div>
+                                        </div>
+                                        <div class="flag_icon"><i onclick="handleFavorite()" class="fa fa-check" aria-hidden="true"></i></div>
+                                    </div>
+
+
+                                    <div class="player">
+                                        <div>
+                                        <div class="cover">
+                                            <img src="./images/logo.png" alt="">
+                                        </div>
+                                        <div class="info">
+                                            <div class="title">
+                                                Türkiye</div>
+                                            <!-- <div class="singer">Instrumental Music</div> -->
+                                        </div>
+                                        <div class="volume-box">
+                                            <span class="volume-down"><i class="material-icons">remove</i></span>
+                                            <input type="range" id="lineAudio" class="volume-range" step="1" value="80"
+                                                min="0" max="100" oninput="music.volume = this.value/100">
+                                            <span class="volume-up"><i class="material-icons">add</i></span>
+                                        </div>
+                                        <div class="btn-box">
+                                            <!--             <i class="material-icons repeat" onclick="handleRepeat()">repeat</i> -->
+                                            <!-- <i class="material-icons favorite active"
+                                                onclick="handleFavorite()">favorite</i> -->
+                                            <!-- <i class="material-icons volume" onclick="handleVolume()">volume_up</i> -->
+                                        </div>
+                                        <div class="music-box">
+                                            <input type="range" id="lineAudio" step="1" class="seekbar" value="0"
+                                                min="0" max="100" oninput="handleSeekBar()">
+
+                                            <audio id="item3" class="music-element">
+                                                <source src="./tunes/Turkey_New Order.mp3"
+                                                    type="audio/mp3">
+                                            </audio>
+                                            <span class="current-time">0:0</span><span class="duration">0:0</span>
+                                            <span class="play" onclick="handlePlay(music3,play3)">
+                                                <i class="material-icons">play_arrow</i>
+                                            </span>
+                                        </div>
+                                        <div class="flag_icon"><i onclick="handleFavorite()" class="fa fa-check" aria-hidden="true"></i></div>
+                                        </div>
+                                    </div>
+                                    <div class="player">
+                                        <div>
+                                        <div class="cover">
+                                            <img src="./images/logo.png" alt="">
+                                        </div>
+                                        <div class="info">
+                                            <div class="title">YamiBird 1</div>
+                                            <!-- <div class="singer">Instrumental Music</div> -->
+                                        </div>
+                                        <div class="volume-box">
+                                            <span class="volume-down"><i class="material-icons">remove</i></span>
+                                            <input type="range" id="lineAudio" class="volume-range" step="1" value="80"
+                                                min="0" max="100" oninput="music.volume = this.value/100">
+                                            <span class="volume-up"><i class="material-icons">add</i></span>
+                                        </div>
+                                        <div class="btn-box">
+                                            <!--             <i class="material-icons repeat" onclick="handleRepeat()">repeat</i> -->
+                                            <!-- <i class="material-icons favorite active"
+                                                onclick="handleFavorite()">favorite</i> -->
+                                            <!-- <i class="material-icons volume" onclick="handleVolume()">volume_up</i> -->
+                                        </div>
+                                        <div class="music-box">
+                                            <input type="range" id="lineAudio" step="1" class="seekbar" value="0"
+                                                min="0" max="100" oninput="handleSeekBar()">
+
+                                            <audio id="item4" class="music-element">
+                                                <source src="./tunes/YamiBird_01.mp3"
+                                                    type="audio/mp3">
+                                            </audio>
+                                            <span class="current-time">0:0</span><span class="duration">0:0</span>
+                                            <span class="play" onclick="handlePlay(music4,play4)">
+                                                <i class="material-icons">play_arrow</i>
+                                            </span>
+                                        </div>
+                                        </div>
+                                        <div class="flag_icon"><i onclick="handleFavorite()" class="fa fa-check" aria-hidden="true"></i></div>
+                                    </div>
+                                    <div class="player">
+                                        <div>
+                                        <div class="cover">
+                                            <img src="./images/logo.png" alt="">
+                                        </div>
+                                        <div class="info">
+                                            <div class="title">YamiBird 2</div>
+                                            <!-- <div class="singer">Instrumental Music</div> -->
+                                        </div>
+                                        <div class="volume-box">
+                                            <span class="volume-down"><i class="material-icons">remove</i></span>
+                                            <input type="range" id="lineAudio" class="volume-range" step="1" value="80"
+                                                min="0" max="100" oninput="music.volume = this.value/100">
+                                            <span class="volume-up"><i class="material-icons">add</i></span>
+                                        </div>
+                                        <div class="btn-box">
+                                            <!--             <i class="material-icons repeat" onclick="handleRepeat()">repeat</i> -->
+                                            <!-- <i class="material-icons favorite active"
+                                                onclick="handleFavorite()">favorite</i> -->
+                                            <!-- <i class="material-icons volume" onclick="handleVolume()">volume_up</i> -->
+                                        </div>
+                                        <div class="music-box">
+                                            <input type="range" id="lineAudio" step="1" class="seekbar" value="0"
+                                                min="0" max="100" oninput="handleSeekBar()">
+
+                                            <audio id="item5" class="music-element">
+                                                <source src="./tunes/YamiBird_02.mp3"
+                                                    type="audio/mp3">
+                                            </audio>
+                                            <span class="current-time">0:0</span><span class="duration">0:0</span>
+                                            <span class="play" onclick="handlePlay(music5,play5)">
+                                                <i class="material-icons">play_arrow</i>
+                                            </span>
+                                        </div>
+                                        </div>
+                                        <div class="flag_icon"><i onclick="handleFavorite()" class="fa fa-check" aria-hidden="true"></i></div>
+                                    </div>
+
+                                    <div class="player">
+                                        <div>
+                                        <div class="cover">
+                                            <img src="./images/logo.png" alt="">
+                                        </div>
+                                        <div class="info">
+                                            <div class="title">YamiBird 3</div>
+                                            <!-- <div class="singer">Instrumental Music</div> -->
+                                        </div>
+                                        <div class="volume-box">
+                                            <span class="volume-down"><i class="material-icons">remove</i></span>
+                                            <input type="range" id="lineAudio" class="volume-range" step="1" value="80"
+                                                min="0" max="100" oninput="music.volume = this.value/100">
+                                            <span class="volume-up"><i class="material-icons">add</i></span>
+                                        </div>
+                                        <div class="btn-box">
+                                            <!--             <i class="material-icons repeat" onclick="handleRepeat()">repeat</i> -->
+                                            <!-- <i class="material-icons favorite active"
+                                                onclick="handleFavorite()">favorite</i> -->
+                                            <!-- <i class="material-icons volume" onclick="handleVolume()">volume_up</i> -->
+                                        </div>
+                                        <div class="music-box">
+                                            <input type="range" id="lineAudio" step="1" class="seekbar" value="0"
+                                                min="0" max="100" oninput="handleSeekBar()">
+
+                                            <audio id="item6" class="music-element">
+                                                <source src="./tunes/YamiBird_03.mp3"
+                                                    type="audio/mp3">
+                                            </audio>
+                                            <span class="current-time">0:0</span><span class="duration">0:0</span>
+                                            <span class="play" onclick="handlePlay(music6,play6)">
+                                                <i class="material-icons">play_arrow</i>
+                                            </span>
+                                        </div>
+                                        </div>
+                                        <div class="flag_icon"><i onclick="handleFavorite()" class="fa fa-check" aria-hidden="true"></i></div>
+                                    </div>
+
+                                    <div class="player">
+                                        <div>
+                                        <div class="cover">
+                                            <img src="./images/logo.png" alt="">
+                                        </div>
+                                        <div class="info">
+                                            <div class="title">YamiBird 4</div>
+                                            <!-- <div class="singer">Instrumental Music</div> -->
+                                        </div>
+                                        <div class="volume-box">
+                                            <span class="volume-down"><i class="material-icons">remove</i></span>
+                                            <input type="range" id="lineAudio" class="volume-range" step="1" value="80"
+                                                min="0" max="100" oninput="music.volume = this.value/100">
+                                            <span class="volume-up"><i class="material-icons">add</i></span>
+                                        </div>
+                                        <div class="btn-box">
+                                            <!--             <i class="material-icons repeat" onclick="handleRepeat()">repeat</i> -->
+                                            <!-- <i class="material-icons favorite active"
+                                                onclick="handleFavorite()">favorite</i> -->
+                                            <!-- <i class="material-icons volume" onclick="handleVolume()">volume_up</i> -->
+                                        </div>
+                                        <div class="music-box">
+                                            <input type="range" id="lineAudio" step="1" class="seekbar" value="0"
+                                                min="0" max="100" oninput="handleSeekBar()">
+
+                                            <audio id="item7" class="music-element">
+                                                <source src="./tunes/YamiBird_04.mp3"
+                                                    type="audio/mp3">
+                                            </audio>
+                                            <span class="current-time">0:0</span><span class="duration">0:0</span>
+                                            <span class="play" onclick="handlePlay(music7,play7)">
+                                                <i class="material-icons">play_arrow</i>
+                                            </span>
+                                        </div>
+                                        </div>
+                                        <div class="flag_icon"><i onclick="handleFavorite()" class="fa fa-check" aria-hidden="true"></i></div>
+                                    </div>
+
+                                    <div class="player">
+                                        <div>
+                                        <div class="cover">
+                                            <img src="./images/logo.png" alt="">
+                                        </div>
+                                        <div class="info">
+                                            <div class="title">YamiBird 5</div>
+                                            <!-- <div class="singer">Instrumental Music</div> -->
+                                        </div>
+                                        <div class="volume-box">
+                                            <span class="volume-down"><i class="material-icons">remove</i></span>
+                                            <input type="range" id="lineAudio" class="volume-range" step="1" value="80"
+                                                min="0" max="100" oninput="music.volume = this.value/100">
+                                            <span class="volume-up"><i class="material-icons">add</i></span>
+                                        </div>
+                                        <div class="btn-box">
+                                            <!--             <i class="material-icons repeat" onclick="handleRepeat()">repeat</i> -->
+                                            <!-- <i class="material-icons favorite active"
+                                                onclick="handleFavorite()">favorite</i> -->
+                                            <!-- <i class="material-icons volume" onclick="handleVolume()">volume_up</i> -->
+                                        </div>
+                                        <div class="music-box">
+                                            <input type="range" id="lineAudio" step="1" class="seekbar" value="0"
+                                                min="0" max="100" oninput="handleSeekBar()">
+
+                                            <audio id="item8" class="music-element">
+                                                <source src="./tunes/YamiBird_05.mp3"
+                                                    type="audio/mp3">
+                                            </audio>
+                                            <span class="current-time">0:0</span><span class="duration">0:0</span>
+                                            <span class="play" onclick="handlePlay(music8,play8)">
+                                                <i class="material-icons">play_arrow</i>
+                                            </span>
+                                        </div>
+                                        </div>
+                                        <div class="flag_icon"><i class="fa fa-check" onclick="handleFavorite()" aria-hidden="true"></i></div>
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
 
-                        <div class="box" data-toggle="modal" data-target="#kitchen">
-                          <div class="row">
-                            <div class="col-md-3 bg-warning">
-
-                              <div class="co">
-                                <h2>02</h2>
-                              </div>
-
-
-                              <div class="co2">
-                                <img src="img/scooter.png" width="50px;">
-                              </div>
-
+                        <div class="loader_color color_loader_printer"></div>
+                        <div class="shelf shelf_printer">
+                            <div class="app_icon">
+                                <div class="loader loader_printer">
+                                    <div class="ring"></div>
+                                    <div class="pie lt50"></div>
+                                    <div class="mask">
+                                        <div class="pie fill"></div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-9 padd-0">
-                              <p class="txt"><i class="fa fa-user-circle-o"></i> Username and Lastname</p>
-                              <hr>
-                              <div class="row">
-                                <p class="tt"><i class="fa fa-calendar" aria-hidden="true"></i> 25.05.2020
-                                  &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> 12:30</p>
-                              </div>
-                              <p>
-                                <input type="hidden" id="set-time4" value="1" />
-                              <div id="countdown">
-                                <div id='tiles4' class="color-full"></div>
-                                <div class="countdown-label">Time Remaining</div>
-                              </div>
-                              </p>
+
+                            <div class="app_icon">
+                                <div class="loader loader_printer">
+                                    <div class="ring"></div>
+                                    <div class="pie lt50"></div>
+                                    <div class="mask">
+                                        <div class="pie fill"></div>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
+
+                            <div class="app_icon">
+                                <div class="loader loader_printer">
+                                    <div class="ring"></div>
+                                    <div class="pie lt50"></div>
+                                    <div class="mask">
+                                        <div class="pie fill"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
+
                     </div>
-                  </div>
 
-                  <div class="col-md-3">
-                    <div class="main-box">
-                      <div class="card-content">
-                        <h3 class="card-desc">Delivery Ready</h3>
-                        <div class="brd"></div>
-                        <div id="sailorTableArea">
-                          <div class="box" data-toggle="modal" data-target="#delivery">
+                    <!-- Panel 6-->
+                    <!--  <div class="panel">
+                        <header class="panel__header">
+                            <h2 class="panel__title">Setup PDA.</h2>
+                            <p class="panel__subheading">PDA Installing...</p>
+                        </header>
+
+                        <div class="search__button">
+                            <button class="button search_btn search_btn_pda">Search PDA </button>
+                        </div>
+                        <div class="loader_color color_loader_pda"></div>
+                        <div class="shelf shelf_pda">
+                            <div class="app_icon app2">
+                                <div class="loader loader_pda">
+                                    <div class="ring"></div>
+                                    <div class="pie lt50"></div>
+                                    <div class="mask">
+                                        <div class="pie fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="app_icon app2">
+                                <div class="loader loader_pda">
+                                    <div class="ring"></div>
+                                    <div class="pie lt50"></div>
+                                    <div class="mask">
+                                        <div class="pie fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="app_icon app2">
+                                <div class="loader loader_pda ">
+                                    <div class="ring"></div>
+                                    <div class="pie lt50"></div>
+                                    <div class="mask">
+                                        <div class="pie fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div> -->
+
+                    <!-- Panel 7-->
+                    <!-- <div class="panel">
+                        <header class="panel__header">
+                            <h2 class="panel__title">Download Data.</h2>
+                            <p class="panel__subheading">Download Menucard, Drinks, Offers
+                            </p>
+                        </header>
+                        <div id="loading-bar">
+                            <div id="progress"></div>
+                        </div>
+
+                    </div> -->
+                    <!-- Panel 8-->
+                    <div class="panel">
+                        <header class="panel__header">
+                            <h2 class="panel__title">Done</h2>
+                            <p class="panel__subheading">Congratulations you have completed all steps</p>
+                        </header>
+                        <p class="panel__content"></p>
+                        <div class="success_wrapper">
                             <div class="row">
-                              <div class="col-md-3 bg-success">
-
-                                <div class="co">
-                                  <h2>01</h2>
+                                <div class="modalbox success col-sm-8 col-md-6 col-lg-5 center animate">
+                                    <!-- <svg class="icon">
+                                        <use xlink:href="#clipboard" />
+                                </svg> -->
+                                    <div class="icon">
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </div>
+                                    <!--/.icon-->
+                                    <h1>Success!</h1>
+                                    <!-- <p>We've sent a confirmation to your e-mail
+                                        <br>for verification.</p>
+                                    <button type="button" class="redo btn">Ok</button> -->
                                 </div>
+                                <!--/.success-->
+                            </div>
+                            <!--/.row-->
+                            <div class="row">
+                                <div class="modalbox error col-sm-8 col-md-6 col-lg-5 center animate"
+                                    style="display: none;">
+                                    <div class="icon">
+                                        <!-- <span class="glyphicon glyphicon-thumbs-down"></span> -->
+                                        <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                                    </div>
+                                    <!--/.icon-->
+                                    <h1>Oh no!</h1>
+                                    <!-- <p>Oops! Something went wrong,
+                                        <br> you should try again.</p>
+                                    <button type="button" class="redo btn">Try again</button> -->
 
-
-                                <div class="co2">
-                                  <img src="img/scooter.png" width="50px;">
                                 </div>
+                                <!--/.success-->
+                            </div>
+                            <!--/.row-->
+                        </div>
 
-                              </div>
-                              <div class="col-md-9 padd-0">
-                                <p class="txt"><i class="fa fa-user-circle-o"></i> Username and Lastname</p>
-                                <hr>
-                                <div class="row">
-                                  <p class="tt"><i class="fa fa-calendar" aria-hidden="true"></i> 25.05.2020
-                                    &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> 12:30</p>
-                                </div>
-                                <!--   <p>
-                                              <input type="hidden" id="set-time5" value="1"/>
-                                              <div id="countdown">           
-                                                <div id='tiles5' class="color-full"></div>
-                                                  <div class="countdown-label">Time Remaining</div>
+                    </div>
+
+
+                </div>
+
+                <div class="wizard__footer">
+                    <div class="wizard__button_pre">
+                        <button class="button previous">Previous</button>
+                    </div>
+                    <div class="wizard__button_next">
+                        <button class="button next">Next</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wizard__congrats-message">
+
+                <div class="container">
+                    <div class="row">
+                        <section class="card-holder">
+                            <!-- Begin iOS -->
+                            <div class="col-md-12 col-sm-12 single-card">
+                                <div class="card-container manual-flip">
+                                    <div class="card">
+                                        <div class="front">
+                                            <div class="cover">
+                                                <img src="./images/background.png" />
+                                            </div>
+                                            <div class="branded image-box1">
+                                                <!-- <span class="fa fa-apple"></span> -->
+                                                <img src="./images/delivery.png">
+                                            </div>
+                                            <div class="content">
+                                                <div class="main">
+                                                    <button type="button"
+                                                        class="btn button btn-block btn-download">Delivery</button>
                                                 </div>
-                                            </p> -->
-                              </div>
+
+                                            </div>
+                                            <div class="footer">
+
+                                                <a href="login.html" class="signin">
+                                                    Sign In
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </div>
-                          </div>
+                            <!-- End iOS -->
+                            <!-- Begin Android -->
+
+                            <!-- End Android -->
+                            <!-- Begin Web -->
+
+                            <!-- End Web -->
+                        </section>
+                    </div>
+
+                    <div class="signinsec">
+                        <div class="loginsec">
+                            <div class="loginsec-left">
+                                <div class="logosec">
+                                    <div class="logo">
+                                        <img src="images/logo.png">
+                                    </div>
+                                </div>
+                                <div class="form">
+                                    <div class="first">
+                                        <input type="text" name="" placeholder="Email">
+                                    </div>
+                                    <div class="first">
+                                        <input type="Password" placeholder="Password" style="width: 90%;"
+                                            class="passshow" id="myInput"><i class="fa fa-eye"
+                                            onclick="showPassword()"></i>
+                                    </div>
+                                    <div class="remmesec">
+                                        <div class="check">
+                                            <input type="checkbox" name=""><span style="vertical-align: top;">Remember
+                                                me</span>
+                                        </div>
+                                        <div class="fprgetright">Forgot Password?</div>
+                                    </div>
+                                    <a class="loginbutton" href="dash.html">Login</a>
+                                </div>
+                            </div>
+
                         </div>
-                      </div>
                     </div>
-                  </div>
 
-                  <div class="col-md-3">
-                    <div class="main-box">
-                      <div class="card-content">
-                        <h3 class="card-desc">Pickup Ready</h3>
-                        <div class="brd"></div>
-                      </div>
-                      <div id="sailorTableArea">
-                        <div class="box">
-                          <div class="row">
-                            <div class="col-md-3 bg-success">
-
-                              <div class="co">
-                                <h2>01</h2>
-                              </div>
-
-
-                              <div class="co2">
-                                <img src="img/shopping-bag.png" width="50px;">
-                              </div>
-
+                    <div class="forgetpasspopup">
+                        <div class="sendmsgsec">
+                            <div class="send">
+                                <div class="loginsec-left">
+                                    <div class="logosec">
+                                        <div class="logo">
+                                            <img src="images/logo.png">
+                                        </div>
+                                    </div>
+                                    <div class="form">
+                                        <div class="first">
+                                            <input type="text" name="" placeholder="Username or Email">
+                                        </div>
+                                        <div class="first">
+                                            <input type="text" name="" placeholder="Phone Number">
+                                        </div>
+                                        <!-- <div class="remmesec">
+                                              <div class="check">
+                                                      <input type="checkbox" name=""><span style="vertical-align: top;">Remember me</span>
+                                              </div>
+                                              <div class="fprgetright">Forgot Password?</div>
+                                      </div> -->
+                                        <div class="loginbutton sendmessage">Send</div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-9 padd-0">
-                              <p class="txt"><i class="fa fa-user-circle-o"></i> Username and Lastname</p>
-                              <hr>
-                              <div class="row">
-                                <p class="tt"><i class="fa fa-calendar" aria-hidden="true"></i> 25.05.2020
-                                  &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i> 12:30</p>
-                              </div>
-                              <!--  <p>
-                                              <input type="hidden" id="set-time6" value="1"/>
-                                              <div id="countdown">           
-                                                <div id='tiles6' class="color-full"></div>
-                                                  <div class="countdown-label">Time Remaining</div>
-                                                </div>
-                                            </p> -->
-                            </div>
-                          </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-            </section>
-
-          </div>
-
-          <div class="tab-pane fade" id="tabs-2" role="tabpanel" aria-labelledby="nav-profile-tab">
-            <section class="history-section">
-              <div class="history-gap"></div>
-              <div class="historyheader">
-                <div class="container-fluid ">
-                  <div class="row">
-                    <div class=" col-lg-5 col-md-5">
-                      <div class="history-head">
-                        <h2>History</h2>
-                      </div>
-                    </div>
-                    <div class=" col-lg-7 col-md-7 text-right">
-                      <div class="selectyear">
-                        <select name="year" class="year">
-                          <option value="0">Select Year</option>
-                          <option value="127">2020</option>
-                          <option value="127">2019</option>
-                          <option value="127">2018</option>
-                          <option value="127">2017</option>
-                          <option value="127">2016</option>
-                          <option value="126">2015</option>
-                          <option value="82">2014</option>
-                          <option value="81">2013</option>
-                          <option value="80">2012</option>
-                          <option value="79">2011</option>
-                          <option value="73">2010</option>
-                          <option value="71">2009</option>
-                          <option value="72">2008</option>
-                          <option value="70">2007</option>
-
-                          ?&gt;
-                        </select>
-
-
-                        <select name="year" class="month">
-                          <option value="0">Select Month</option>
-                          <option value="127">January</option>
-                          <option value="126">February</option>
-                          <option value="82">March</option>
-                          <option value="81">April</option>
-                          <option value="80">May</option>
-                          <option value="79">June</option>
-                          <option value="73">July</option>
-                          <option value="71">August</option>
-                          <option value="72">September</option>
-                          <option value="70">October</option>
-                          <option value="70">November</option>
-                          <option value="70">December</option>
-
-                          ?&gt;
-                        </select>
-
-                        <input type="search" placeholder="Search">
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="order-history">
-                <!-- 1st table -->
-                <div class="history-table">
-                  <table class="table ">
-                    <thead>
-                      <tr>
-                        <th>Order ID</th>
-                        <th>Date</th>
-                        <th>Time</th>
-                        <th>Type</th>
-                        <th>Zipcode</th>
-                        <th>Status</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>10.10.2020</td>
-                        <td>19.20.20</td>
-                        <td>Delivery</td>
-                        <td>30159 Bult</td>
-                        <td class="success">Done</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-
-                <!-- 2nd table -->
-
-                <div class="history-table">
-                  <table class="table ">
-                    <thead>
-                      <tr>
-                        <th>Order ID</th>
-                        <th>Date</th>
-                        <th>Time</th>
-                        <th>Type</th>
-                        <th>Zipcode</th>
-                        <th>Status</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>10.10.2020</td>
-                        <td>19.20.20</td>
-                        <td>Delivery</td>
-                        <td>30159 Bult</td>
-                        <td class="failed">Failed</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <!-- 3rd table -->
-
-                <div class="history-table">
-                  <table class="table ">
-                    <thead>
-                      <tr>
-                        <th>Order ID</th>
-                        <th>Date</th>
-                        <th>Time</th>
-                        <th>Type</th>
-                        <th>Zipcode</th>
-                        <th>Status</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>10.10.2020</td>
-                        <td>19.20.20</td>
-                        <td>Delivery</td>
-                        <td>30159 Bult</td>
-                        <td class="success">Done</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-
-                <!-- 4th table -->
-
-                <div class="history-table">
-                  <table class="table ">
-                    <thead>
-                      <tr>
-                        <th>Order ID</th>
-                        <th>Date</th>
-                        <th>Time</th>
-                        <th>Type</th>
-                        <th>Zipcode</th>
-                        <th>Status</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>10.10.2020</td>
-                        <td>19.20.20</td>
-                        <td>Delivery</td>
-                        <td>30159 Bult</td>
-                        <td class="failed">Failed</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <!-- 5th table -->
-                <div class="history-table">
-                  <table class="table ">
-                    <thead>
-                      <tr>
-                        <th>Order ID</th>
-                        <th>Date</th>
-                        <th>Time</th>
-                        <th>Type</th>
-                        <th>Zipcode</th>
-                        <th>Status</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>10.10.2020</td>
-                        <td>19.20.20</td>
-                        <td>Delivery</td>
-                        <td>30159 Bult</td>
-                        <td class="failed">Failed</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <div class="history-table">
-                  <table class="table ">
-                    <thead>
-                      <tr>
-                        <th>Order ID</th>
-                        <th>Date</th>
-                        <th>Time</th>
-                        <th>Type</th>
-                        <th>Zipcode</th>
-                        <th>Status</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>10.10.2020</td>
-                        <td>19.20.20</td>
-                        <td>Delivery</td>
-                        <td>30159 Bult</td>
-                        <td class="failed">Failed</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </section>
-
-          </div>
-
-          <div class="tab-pane fade" id="tabs-3" role="tabpanel" aria-labelledby="nav-about-tab">
-
-            <div id="settings" style="display: flex; flex-direction: row;">
-
-              <ul>
-                <li><b>Options</b></li>
-                <li>
-                  <hr>
-                </li>
-                <li>Select ring tone</li>
-                <li>Printer Setting</li>
-                <li>Bon Setting</li>
-                <li>Timer Setting</li>
-                <li>Information</li>
-              </ul>
-
-              <ul style="text-align: center;">
-                <li><b>Generally</b></li>
-                <li>
-                  <hr>
-                </li>
-                <li>Select ring tone</li>
-                <li>Printer Setting</li>
-                <li>Bon Setting</li>
-                <li>Timer Setting</li>
-                <li>Information</li>
-              </ul>
-
-              <ul style="text-align: center;">
-                <li><b>Support</b></li>
-                <li>
-                  <hr>
-                </li>
-                <li>Select ring tone</li>
-                <li>Printer Setting</li>
-                <li>Bon Setting</li>
-                <li>Timer Setting</li>
-                <li>Information</li>
-              </ul>
-
-              <ul style="text-align: center;">
-                <li><b>Customer</b></li>
-                <li>
-                  <hr>
-                </li>
-                <li>Select ring tone</li>
-                <li>Printer Setting</li>
-                <li>Bon Setting</li>
-                <li>Timer Setting</li>
-                <li>Information</li>`
-              </ul>
-
-
             </div>
-
-
-          </div>
-
-
-
-          <div class="tab-pane fade" id="tabs-4" role="tabpanel" aria-labelledby="nav-about-tab">
-
-            <div id="settings" style="display: flex; flex-direction: row;">
-
-              <div id="stat">Total Order today</div>
-
-              <div id="stat">Total Order this month</div>
-
-
-            </div>
-
-
-          </div>
 
 
 
         </div>
-      </div>
-    </div>
-    <!-- modal -->
-    <div class="modal fade" id="neworder" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-      aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="order-head">
-                    <h5>Select Delivery Time</h5>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="order-head">
-                    <h5>Order-details</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="mdl-pp">
-                    <div class="row">
-                      <div class="col-md-4">
-
-                        <div class="boxed">
-                          <input type="radio" id="30" name="skills" value="90">
-                          <label for="30">
-                            <p class="para">30</p>
-                            <br>
-                            <p class="para1">Min</p>
-                          </label>
-
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-
-                        <div class="boxed">
-                          <input type="radio" id="45" name="skills" value="90">
-                          <label for="45">
-                            <p class="para">45</p>
-                            <br>
-                            <p class="para1">Min</p>
-                          </label>
-                        </div>
-
-                      </div>
-                      <div class="col-md-4">
-
-                        <div class="boxed">
-                          <input type="radio" id="60" name="skills" value="60">
-                          <label for="60">
-                            <p class="para">60</p>
-                            <br>
-                            <p class="para1">Min</p>
-                          </label>
-                        </div>
-
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div>
-                          <div class="boxed">
-                            <input type="radio" id="75" name="skills" value="75">
-                            <label for="75">
-                              <p class="para">75</p>
-                              <br>
-                              <p class="para1">Min</p>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div>
-                          <div class="boxed">
-                            <input type="radio" id="90" name="skills" value="90">
-                            <label for="90">
-                              <p class="para">90</p>
-                              <br>
-                              <p class="para1">Min</p>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div>
-                          <div class="boxed">
-                            <input type="radio" id="105" name="skills" value="105">
-                            <label for="105">
-                              <p class="para">105</p>
-                              <br>
-                              <p class="para1">Min</p>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div>
-                          <div class="boxed">
-                            <input type="radio" id="120" name="skills" value="120">
-                            <label for="120">
-                              <p class="para">120</p>
-                              <br>
-                              <p class="para1">Min</p>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div>
-                          <div class="boxed">
-                            <input type="radio" id="135" name="skills" value="135">
-                            <label for="135">
-                              <p class="para">135</p>
-                              <br>
-                              <p class="para1">Min</p>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div>
-                          <div class="boxed">
-                            <input type="radio" id="150" name="skills" value="150">
-                            <label for="150">
-                              <p class="para">150</p>
-                              <br>
-                              <p class="para1">Min</p>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="bd"></div>
-                    <h5>Cooking Time</h5>
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div>
-                          <div class="boxed">
-                            <input type="radio" id="15" name="skills" value="15">
-                            <label for="15">
-                              <p class="para">15</p>
-                              <br>
-                              <p class="para1">Min</p>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-8 parag">
-                        <p>
-                          <input type="hidden" id="set-time11" value="1" />
-                        <div id="countdown2">
-                          <div id='tiles11' class="color-full"></div>
-                          <div class="countdown-label">Time Remaining</div>
-                        </div>
-                        </p>
-                      </div>
-                    </div>
-
-
-                    <h5>Delivery Time</h5>
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div>
-                          <div class="boxed">
-                            <input type="radio" id="25" name="skills" value="25">
-                            <label for="25">
-                              <p class="para">25</p>
-                              <br>
-                              <p class="para1">Min</p>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-8 arag">
-                        <p>
-                          <input type="hidden" id="set-time10" value="1" />
-                        <div id="countdown1">
-                          <div id='tiles10' class="color-full"></div>
-                          <div class="countdown-label">Time Remaining</div>
-                        </div>
-                        </p>
-                      </div>
-                    </div>
-
-
-
-
-
-                  </div>
-                </div>
-
-
-
-
-                <!-- second column -->
-
-                <div style="height: 600px; overflow-y: scroll;" class="col-md-6 padd-01">
-                  <div id="showScroll" class="container">
-                    <div class="receipt">
-                      <h1 class="logo">CVS/pharmacy</h1>
-                      <div class="address">
-                        666 Lincoln St. Santa Monica, CA
-                      </div>
-                      <div class="transactionDetails">
-                        <div class="detail">Reg#17</div>
-                        <div class="detail">TRN#1313</div>
-                        <div class="detail">CSHR#00097655</div>
-                        <div class="detail">str#9852</div>
-                      </div>
-                      <div class="transactionDetails">
-                        Helped by: Garrett
-                      </div>
-                      <div class="centerItem bold">
-                        <div class="item">ExtraCare Card #: *********1875</div>
-                      </div>
-                      <div class="transactionDetails">
-                        <div class="detail">1</div>
-                        <div class="detail">OB Glide 3CT</div>
-                        <div class="detail">3.99</div>
-                      </div>
-                      <div class="survey bold">
-                        <p>Survey ID #</p>
-                        <p class="surveyID">6588 4755 3256 544 21</p>
-                      </div>
-                      <div class="paymentDetails bold">
-                        <div class="detail">TOTAL</div>
-                        <div class="detail">3.99</div>
-                      </div>
-                      <div class="paymentDetails">
-                        <div class="detail">CHARGE</div>
-                        <div class="detail">3.99</div>
-                      </div>
-                      <div class="paymentDetails">
-                        <div class="detail">************4023</div>
-                        <div class="detail">CH</div>
-                      </div>
-                      <div class="creditDetails">
-                        <p>VISA CREDIT &nbsp;&nbsp;&nbsp;&nbsp; ****************</p>
-                        <p>approved# 09773B</p>
-                        <p>ref# 013589</p>
-                        <p>tran type: SALE</p>
-                        <p>AID: 30000000090755</p>
-                        <p>TC: B7A2A4044AEE380A4</p>
-                        <p>terminal: 69010003</p>
-                        <p>no signature required</p>
-                        <p>CVM: 1e0300</p>
-                        <p>TMR(95): 0080081111</p>
-                        <p>TS(9B): E900</p>
-                      </div>
-
-                      <div class="paymentDetails">
-                        <div class="detail">CHANGE</div>
-                        <div class="detail">.00</div>
-                      </div>
-                      <div class="receiptBarcode">
-                        <div class="barcode">
-                          HelloCVSScript
-                        </div>
-                        2003 0998 9000 8730 21
-                      </div>
-                      <div class="returnPolicy bold">
-                        Returns with receipt, subject to CVS Return Policy, thru 12/04/2018
-                      </div>
-                      <div class="returnPolicy">
-                        <div class="detail">October 5, 2018</div>
-                        <div class="detail">10:16 AM</div>
-                      </div>
-                      <div class="tripSummary">
-                        <div class="bold">Trip Summary:</div>
-                        <div class="item">
-                          <div>Today You Saved:</div>
-                          <div>.00</div>
-                        </div>
-                        <div class="item">
-                          <div>Savings Value</div>
-                          <div>0%</div>
-                        </div>
-                      </div>
-                      <div class="feedback">
-                        <div class="break">
-                          *************************************
-                        </div>
-                        <p class="center">
-                          We would love to hear your feedback on your recent experience with us. This survey will only
-                          take 1 minute to complete.
-                        </p>
-                        <h3 class="clickBait">Share Your Feedback</h3>
-                        <h4 class="web">www.CVSHealthSurvey.com</h4>
-                        <p class="center">
-                          Hablamos español
-                        </p>
-                        <div class="break">
-                          *************************************
-                        </div>
-                      </div>
-                      <div id="coupons" class="coupons">
-                        <!--       start coupon -->
-                        <div class="couponContainer">
-                          <h1 class="logo">CVS/pharmacy</h1>
-                          <div class="discount">$2.00 off</div>
-                          <div class="discountDetails">$2.00 off COLEGATE Toothbrush, Toothpaste, or Mouthwash</div>
-                          <div class="expiration">
-                            <div class="item bold">
-                              Expires 12/12/2018
-                            </div>
-                            <div class="item">
-                              Up to $2 Value
-                            </div>
-                          </div>
-                          <div class="barcode">
-                            HelloCVSMate1
-                          </div>
-                          <div class="barcodeID center">
-                            9007 9876 9087 7665 62
-                          </div>
-                          <div class="legal center">
-                            ExtraCare card required. Excludes lottery, money orders, postage stamps, milk,
-                            prescriptions,
-                            pre-paid cards, gift cards, pseudoephedrine products, other fees, deposits, taxes, alcohol
-                            and
-                            local exclusions. No cash back. Tax charged on pre-coupon price
-                            where required. Limit of one purchase-based coupon, i.e., $4 off $20 purchase, per
-                            transaction. Not valid in specialty centers within CVS.
-                          </div>
-                          <div class="couponBottom">
-                            <p>ExtraCare Card #: *7140 00130030598777</p>
-                            <p>CPN#: 85887</p>
-                          </div>
-                        </div>
-                        <!-- end coupon -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-
-
-
-
-              </div>
-            </div>
-          </div>
-          <!--  <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div> -->
-        </div>
-      </div>
     </div>
 
+    <div id="flat_icon" style="display: none;"></div>
 
-
-    <!-- second modal -->
-
-
-
-    <div class="modal fade" id="kitchen" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-      aria-hidden="true">
-      <div class="modal-dialog  widthcntrl" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <div class="order-head">
-              <h5>Order View</h5>
-            </div>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="container-fluid padd-01">
-              <div class="row">
-                <div class="col-md-12">
-                  <div id="modalpopupright1">
-                    <div class="pizza">
-                      <h3><span>123.</span> Pizza Salami</h3>
-                      <div class="order-box">
-                        <div class="row">
-
-                          <div class="col-md-3">
-                            <p class="p1">M28cm</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p2">Onion</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p3">Tomato</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p3">Cheese</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="pizza">
-                      <h3><span>123.</span> Pizza Salami</h3>
-                      <div class="order-box">
-                        <div class="row">
-
-                          <div class="col-md-3">
-                            <p class="p1">M28cm</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p2">Onion</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p3">Tomato</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p3">Cheese</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="pizza">
-                      <h3><span>123.</span> Pizza Salami</h3>
-                      <div class="order-box">
-                        <div class="row">
-
-                          <div class="col-md-3">
-                            <p class="p1">M28cm</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p2">Onion</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p3">Tomato</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p3">Cheese</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="pizza">
-                      <h3><span>123.</span> Pizza Salami</h3>
-                      <div class="order-box">
-                        <div class="row">
-
-                          <div class="col-md-3">
-                            <p class="p1">M28cm</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p2">Onion</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p3">Tomato</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p3">Cheese</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="pizza">
-                      <h3><span>123.</span> Pizza Salami</h3>
-                      <div class="order-box">
-                        <div class="row">
-
-                          <div class="col-md-3">
-                            <p class="p1">M28cm</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p2">Onion</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p3">Tomato</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p3">Cheese</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="pizza">
-                      <h3><span>123.</span> Pizza Salami</h3>
-                      <div class="order-box">
-                        <div class="row">
-
-                          <div class="col-md-3">
-                            <p class="p1">M28cm</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p2">Onion</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p3">Tomato</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p3">Cheese</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="pizza">
-                      <h3><span>123.</span>Pizza Salami</h3>
-                      <div class="order-box">
-                        <div class="row">
-
-                          <div class="col-md-3">
-                            <p class="p1">M28cm</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p2">Onion</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p3">Tomato</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p3">Cheese</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="order-box">
-                        <div class="row">
-
-                          <div class="col-md-3">
-                            <p class="p1">M28cm</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p2">Onion</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p3">Tomato</p>
-                          </div>
-                          <div class="col-md-3">
-                            <p class="p3">Cheese</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-              <div class="print-btn">
-                <div class="print-img-btn">
-                  <a class="imag">
-                    <img src="img/print.png" width="50px;">
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--  <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div> -->
-        </div>
-      </div>
-    </div>
-
-
-    <!-- delivery modal -->
-
-
-    <div class="modal fade" id="delivery" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-      aria-hidden="true">
-      <div class="modal-dialog  widthcntrl" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <div class="order-head">
-              <h5>Time Option</h5>
-            </div>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="container-fluid padd-01">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="mdl-pp">
-                    <div class="row">
-                      <div class="col-md-4">
-
-                        <div class="boxed">
-                          <input type="radio" id="del30" name="skills" value="90">
-                          <label for="del30">
-                            <p class="para">30</p>
-                            <br>
-                            <p class="para1">Min</p>
-                          </label>
-
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-
-                        <div class="boxed">
-                          <input type="radio" id="del45" name="skills" value="90">
-                          <label for="del45">
-                            <p class="para">45</p>
-                            <br>
-                            <p class="para1">Min</p>
-                          </label>
-                        </div>
-
-                      </div>
-                      <div class="col-md-4">
-
-                        <div class="boxed">
-                          <input type="radio" id="del60" name="skills" value="60">
-                          <label for="del60">
-                            <p class="para">60</p>
-                            <br>
-                            <p class="para1">Min</p>
-                          </label>
-                        </div>
-
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div>
-                          <div class="boxed">
-                            <input type="radio" id="del75" name="skills" value="75">
-                            <label for="del75">
-                              <p class="para">75</p>
-                              <br>
-                              <p class="para1">Min</p>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div>
-                          <div class="boxed">
-                            <input type="radio" id="del90" name="skills" value="90">
-                            <label for="del90">
-                              <p class="para">90</p>
-                              <br>
-                              <p class="para1">Min</p>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div>
-                          <div class="boxed">
-                            <input type="radio" id="del105" name="skills" value="105">
-                            <label for="del105">
-                              <p class="para">105</p>
-                              <br>
-                              <p class="para1">Min</p>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div>
-                          <div class="boxed">
-                            <input type="radio" id="del120" name="skills" value="120">
-                            <label for="del120">
-                              <p class="para">120</p>
-                              <br>
-                              <p class="para1">Min</p>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div>
-                          <div class="boxed">
-                            <input type="radio" id="del135" name="skills" value="135">
-                            <label for="del135">
-                              <p class="para">135</p>
-                              <br>
-                              <p class="para1">Min</p>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div>
-                          <div class="boxed">
-                            <input type="radio" id="del150" name="skills" value="150">
-                            <label for="del150">
-                              <p class="para">150</p>
-                              <br>
-                              <p class="para1">Min</p>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="bd"></div>
-                    <h5>Cooking Time</h5>
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div>
-                          <div class="boxed">
-                            <input type="radio" id="del15" name="skills" value="15">
-                            <label for="del15">
-                              <p class="para">15</p>
-                              <br>
-                              <p class="para1">Min</p>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-8 parag">
-                        <p>
-                          <input type="hidden" id="set-time12" value="1" />
-                        <div id="countdown1">
-                          <div id='tiles12' class="color-full"></div>
-                          <div class="countdown-label">Time Remaining</div>
-                        </div>
-                        </p>
-                      </div>
-                    </div>
-
-
-                    <h5>Delivery Time</h5>
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div>
-                          <div class="boxed">
-                            <input type="radio" id="del25" name="skills" value="25">
-                            <label for="del25">
-                              <p class="para">25</p>
-                              <br>
-                              <p class="para1">Min</p>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-8 arag">
-                        <p>
-                          <input type="hidden" id="set-time13" value="1" />
-                        <div id="countdown1">
-                          <div id='tiles13' class="color-full"></div>
-                          <div class="countdown-label">Time Remaining</div>
-                        </div>
-                        </p>
-                      </div>
-                    </div>
-
-
-
-
-
-
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
-          <!--  <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div> -->
-        </div>
-      </div>
-    </div>
-
-
-    
     <!-- Importing scripts -->
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-
-    <!-- <script type="text/javascript" src="./js/custom.js"></script> -->
-
-    <script
-      src="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.js"></script>
-    <script type="text/javascript">
-
-      var minutes = $('#set-time').val();
-
-      var target_date = new Date().getTime() + ((minutes * 60) * 1000); // set the countdown date
-      var time_limit = ((minutes * 60) * 1000);
-      //set actual timer
-      setTimeout(
-        function () {
-
-        }, time_limit);
-
-      var days, hours, minutes, seconds; // variables for time units
-
-      var countdown = document.getElementById("tiles"); // get tag element
-
-      getCountdown();
-
-      setInterval(function () { getCountdown(); }, 1000);
-
-      // function getCountdown() {
-
-      //   // find the amount of "seconds" between now and target
-      //   var current_date = new Date().getTime();
-      //   var seconds_left = (target_date - current_date) / 1000;
-
-      //   if (seconds_left >= 0) {
-      //     console.log(time_limit);
-      //     if ((seconds_left * 1000) < (time_limit / 2)) {
-      //       $('#tiles').removeClass('color-full');
-      //       $('#tiles').addClass('color-half');
-
-      //     }
-      //     if ((seconds_left * 1000) < (time_limit / 4)) {
-      //       $('#tiles').removeClass('color-half');
-      //       $('#tiles').addClass('color-empty');
-      //     }
-
-      //     days = pad(parseInt(seconds_left / 86400));
-      //     seconds_left = seconds_left % 86400;
-
-      //     hours = pad(parseInt(seconds_left / 3600));
-      //     seconds_left = seconds_left % 3600;
-
-      //     minutes = pad(parseInt(seconds_left / 60));
-      //     seconds = pad(parseInt(seconds_left % 60));
-
-      //     // format countdown string + set tag value
-      //     countdown.innerHTML = "<span>" + hours + ":</span><span>" + minutes + ":</span><span>" + seconds + "</span>";
-
-
-
-      //   }
-
-
-
-      //}
-
-      function pad(n) {
-        return (n < 10 ? '0' : '') + n;
-      }
-
-
-
-    </script>
-
-    <script>
-      const rawProductData = [
-        [
-          {
-            productTitle: "CVS Health Non-Drowsy Allergy Relief Tablets, 70 CT",
-            price: "24.99"
-          },
-          {
-            productTitle: "CVS Health 100% Pure Omega-3 Krill Oil Softgels, 350mg",
-            price: "37.99"
-          },
-          {
-            productTitle: "CVS Health Multi-Symptom Nasal Allergy Spray 0.37 OZ",
-            price: "12.99"
-          },
-          {
-            productTitle:
-              "CVS Health Original Prescription Strength Allergy Relief, 70 CT",
-            price: "29.99"
-          },
-          {
-            productTitle: "M&M's Peanut Milk Chocolate Sharing Size, 10.7 OZ",
-            price: "4.19"
-          },
-          {
-            productTitle: "M&M's Milk Chocolate Sharing Size, 10.7 OZ",
-            price: "4.19"
-          },
-          {
-            productTitle: "M&M's Peanut Butter Milk Chocolate Sharing Size, 9.6 OZ",
-            price: "4.19"
-          },
-          {
-            productTitle:
-              "Playtex Sport Tampons Multi-Pack, Unscented, Regular and Super Absorbency",
-            price: "8.49"
-          },
-          {
-            productTitle:
-              "Depend FIT-FLEX Incontinence Underwear for Men, Maximum Absorbency, XL, Gray (Packaging may vary)",
-            price: "14.99"
-          },
-          {
-            productTitle:
-              "Depend FIT-FLEX Incontinence Underwear for Women, Maximum Absorbency, L",
-            price: "19.79"
-          },
-          {
-            productTitle:
-              "Depend FIT-FLEX Incontinence Underwear for Women, Maximum Absorbency, S, Tan (Packaging may vary)",
-            price: "14.99"
-          },
-          {
-            productTitle:
-              "Depend FIT-FLEX Incontinence Underwear for Women, Maximum Absorbency, XL, Tan (Packaging may vary)",
-            price: "19.79"
-          },
-          {
-            productTitle: "First Response Triple Check Pregnancy Test Kit, 3 CT",
-            price: "23.99"
-          },
-          {
-            productTitle: "Stayfree Maxi Pads with Wings, Super",
-            price: "7.59"
-          },
-          {
-            productTitle: "Playtex Sport Tampons, Unscented, Regular Absobency",
-            price: "5.29"
-          },
-          {
-            productTitle: "M&M'S Pretzel Chocolate Candy Sharing Size, 8 OZ",
-            price: "4.19"
-          },
-          {
-            productTitle:
-              "ChapStick Original Moisturizer SPF 15 Sunscreen and Skin Protectant, 0.45 OZ, 3 CT",
-            price: "4.49"
-          },
-          {
-            productTitle:
-              "O.B. Pro Comfort Multi-Pack Tampons, Regular and Super Absorbency",
-            price: "8.29"
-          },
-          { productTitle: "Febreze Unstopables Air Refresher", price: "5.99" },
-          {
-            productTitle: "Life Savers Neons Gummies Candy, 7 OZ",
-            price: "2.99"
-          }
-        ],
-        [
-          {
-            productTitle: "M&M'S Peanut Dark Chocolate Candy Sharing Size, 10.1 OZ",
-            price: "4.19"
-          },
-          {
-            productTitle: "O.B. Pro Comfort Tampons, Regular Absorbency",
-            price: "8.29"
-          },
-          {
-            productTitle: "M&M'S Coffee Nut Peanut Chocolate Candy Sharing Size, 9.6 OZ",
-            price: "4.19"
-          },
-          {
-            productTitle:
-              "Schwarzkopf Got 2Bb Phenomenal Thickening Styling Cream, 6 OZ",
-            price: "7.99"
-          },
-          {
-            productTitle:
-              "Depend Night Defense Incontinence Overnight Underwear for Women, M",
-            price: "13.49"
-          },
-          {
-            productTitle: "Lindt Lindor Fudge Swirl Milk Chocolate Truffles",
-            price: "5.79"
-          },
-          {
-            productTitle: "HERSHEY'S Cookie Layer Crunch Triple Chocolate",
-            price: "4.99"
-          },
-          {
-            productTitle:
-              "Playtex Sport Fresh Balance Lightly Scented Tampons, Super Absorbency",
-            price: "8.99"
-          },
-          {
-            productTitle: "M&M'S Crispy Chocolate Candy Sharing Size, 8 OZ",
-            price: "4.19"
-          },
-          {
-            productTitle:
-              "Everpro Gray Away For Women Temporary Root Concealer, Lightest Brown/Medium Blonde",
-            price: "10.29"
-          },
-          {
-            productTitle: "Epi Smooth - Removes Hair At The Root",
-            price: "9.99"
-          },
-          {
-            productTitle: "Godiva Masterpieces An Assortment Of Legendary Chocolate",
-            price: "5.79"
-          },
-          {
-            productTitle:
-              "Simply Saline Relieve + Protect Allergy Nasal Pump Mist, 0.67 OZ",
-            price: "10.29"
-          },
-          {
-            productTitle: "CVS Moderate Absorbency Protective Pads Long, 54 CT",
-            price: "11.99"
-          },
-          {
-            productTitle: "Color Doctor Blood Pressure Monitor",
-            price: "19.99"
-          },
-          { productTitle: "MagicBax Earring Lifters", price: "19.99" },
-          {
-            productTitle:
-              "Depend Night Defense Incontinence Overnight Underwear for Women, XL",
-            price: "13.49"
-          },
-          {
-            productTitle: "Schick Xtreme 4 Disposable Razor for Men, 3 CT",
-            price: "8.99"
-          },
-          { productTitle: "Jif Natural Creamy Peanut Butter", price: "3.79" },
-          {
-            productTitle: "Flex Tape Strong Rubberized Waterproof Tape 4\" x 5'",
-            price: "12.99"
-          }
-        ],
-        [
-          {
-            productTitle: "CVS Health Butenafine Hydrochloride Antifungal Cream 1%",
-            price: "10.49"
-          },
-          {
-            productTitle: "DOVE Cashews With Sea Salt and Milk Chocolate Candy, 5 OZ",
-            price: "4.89"
-          },
-          { productTitle: "Tresemme Fresh Dry Shampoo, 4.3 OZ", price: "6.29" },
-          { productTitle: "Wipe New Headlight Restore", price: "9.99" },
-          {
-            productTitle: "Beauty 360 Charcoal Cleansing Bath Pouf",
-            price: "3.99"
-          },
-          {
-            productTitle: "Style Essentials by Hanes Ladies' Trouser Socks, 3 Pairs",
-            price: "6.79"
-          },
-          {
-            productTitle: "Atomic Beam Tough Grade Military Light",
-            price: "19.99"
-          },
-          {
-            productTitle: "AXE Styling Urban Messy Look Matte Wax, 2.64 OZ",
-            price: "10.79"
-          },
-          {
-            productTitle: "Depend Incontinence Shields for Men, Light Absorbency",
-            price: "13.49"
-          },
-          {
-            productTitle: "DOVE Cashews With Cocoa and Dark Chocolate Candy, 5 OZ",
-            price: "4.89"
-          },
-          {
-            productTitle: "Aussie Total Miracle 7N1 Conditioner, 26.2 OZ",
-            price: "7.29"
-          },
-          {
-            productTitle: "Aussie Total Miracle 7N1 Shampoo, 26.2 OZ",
-            price: "7.29"
-          },
-          {
-            productTitle: "California Charcoal Activated Charcoal Peel-Off Mask, 2.8 OZ",
-            price: "19.99"
-          },
-          {
-            productTitle: "Bell + Howell Taclight Lantern With Magnetic Base",
-            price: "19.99"
-          },
-          {
-            productTitle: "Dove Almonds With Cinnamon and Dark Chocolate Candy, 5.5 OZ",
-            price: "4.89"
-          },
-          {
-            productTitle:
-              "Egglettes Egg Cooker - Hard Boiled Eggs Without the Shell, 4 CT",
-            price: "9.99"
-          },
-          {
-            productTitle: "CVS Health Variety Pack Bandage Assortment, 120 CT",
-            price: "12.99"
-          },
-          { productTitle: "Fuller Brush Roto Sweeper Broom", price: "19.99" },
-          {
-            productTitle: "Finishing Touch Flawless Facial Hair Remover, Purple",
-            price: "19.99"
-          },
-          {
-            productTitle: "Wrigley's Juicy Fruit Mixies Sugarfree Gum, 40 CT",
-            price: "4.89"
-          }
-        ],
-        [
-          {
-            productTitle: "M&M'S Milk Chocolate MINIS Candy Sharing Size, 10.1 OZ",
-            price: "4.19"
-          },
-          {
-            productTitle: "Trident White Sugar Free Gum, Peppermint 60 CT",
-            price: "4.99"
-          },
-          {
-            productTitle: "Air Hawk Pro Automatic Cordless Tire Inflator",
-            price: "39.99"
-          },
-          {
-            productTitle:
-              "Active Bright Natural Teeth Whitening Activated Coconut Charcoal Powder",
-            price: "9.99"
-          },
-          {
-            productTitle: "Dove Anti-Stress Micellar Water Body Wash, 22 OZ",
-            price: "8.99"
-          },
-          { productTitle: "CVS  Health Cone Face Masks, 10 CT", price: "8.29" },
-          {
-            productTitle: "Crest Pro-Health Advanced Toothpaste 3.5 OZ, Deep Clean Mint",
-            price: "2.99"
-          },
-          {
-            productTitle: "Gold Emblem Abound Sweet Sriracha Roasted Chickpeas, 5 OZ",
-            price: "3.49"
-          },
-          { productTitle: "Wonder Hanger Max 10 Pack", price: "14.99" },
-          {
-            productTitle: "NeilMed Porcelain Neti Pot Allergy Relief",
-            price: "15.49"
-          },
-          { productTitle: "Splat Midnight Hair Color, Ruby", price: "12.99" },
-          {
-            productTitle: "Chap Stick Total Hydration 3 In 1 Lip Care",
-            price: "3.99"
-          },
-          {
-            productTitle: "Marc Anthony Strengthening Grow Long Conditioner, 8.4 OZ",
-            price: "8.69"
-          },
-          {
-            productTitle: "Marc Anthony Grow Long Caffeine Shampoo, 8.4 OZ",
-            price: "8.69"
-          },
-          {
-            productTitle: "CVS Health Crew Comfort Socks for Diabetics, 2 Pairs",
-            price: "6.29"
-          },
-          { productTitle: "Splat Midnight Hair Color, Indigo", price: "12.99" },
-          {
-            productTitle: "Nexxus Keraphix Damage Healing Treatment Masque",
-            price: "3.29"
-          },
-          {
-            productTitle: "Ghirardelli Intense Dark Salted Caramel Crunch",
-            price: "5.79"
-          },
-          {
-            productTitle: "Dove Anti-Stress Micellar Beauty Bar, 6 CT",
-            price: "8.99"
-          },
-          {
-            productTitle: "Estroven Mood & Memory Caplets 30 CT",
-            price: "17.99"
-          }
-        ],
-        [
-          {
-            productTitle: "Pocket Mouse Wireless Mouse You Hold Like A Pen",
-            price: "19.99"
-          },
-          {
-            productTitle: "Dove Men +Care Clean Comfort Body+Face Wash, 23.5 OZ",
-            price: "10.99"
-          },
-          { productTitle: "Febreze One Car Air Freshener", price: "4.19" },
-          {
-            productTitle: "CVS Health Breathable Gentle Tape, 2 CT",
-            price: "7.19"
-          },
-          {
-            productTitle: "CVS Health Advanced Healing Hydrocolloid Adhesive Pads",
-            price: "15.49"
-          },
-          {
-            productTitle:
-              "ChapStick Total Hydration 3-in-1 Soothing Oasis Lip Care, 0.12 OZ",
-            price: "3.79"
-          },
-          {
-            productTitle: "Crest Pro-Health with a Touch of Scope Toothpaste, 4.6 OZ",
-            price: "2.99"
-          },
-          {
-            productTitle: "Schwarzkopf Got 2b Phenomenal Light Hold Styling Gel, 6 OZ",
-            price: "8.29"
-          },
-          { productTitle: "Pill Pro Weekly Pill Organizer", price: "9.99" },
-          {
-            productTitle:
-              "FUTURO Anti-Embolism Stockings, Thigh Length, Closed Toe, Medium, Regular, White",
-            price: "44.49"
-          },
-          {
-            productTitle:
-              "Salon on 5th Ave/NYC Root Cover-Up Temporary Concealer Spray, 2 OZ",
-            price: "9.29"
-          },
-          {
-            productTitle: "CVS Health Children's Allergy Liquid, 4 OZ",
-            price: "8.99"
-          },
-          {
-            productTitle: "CVS Health Maximum Strength Lidocaine Cream",
-            price: "7.79"
-          },
-          {
-            productTitle: "Splat Midnight Hair Color, Amethyst",
-            price: "12.99"
-          },
-          {
-            productTitle:
-              "The Mane Choice Crystal Orchid Biotin Infused Styling Gel, 16 OZ",
-            price: "11.99"
-          },
-          {
-            productTitle: "Flex Seal Liquid Rubber Sealant Coating, Black 16 OZ",
-            price: "14.99"
-          },
-          {
-            productTitle: "Nexxus Humectress Replenishing System Conditioner, 3 OZ",
-            price: "4.99"
-          },
-          { productTitle: "Copper Crisper 2-Piece Tray Set", price: "19.99" },
-          {
-            productTitle: "Bell + Howell Solar Powered LED Disk Lights, 4 CT",
-            price: "19.99"
-          },
-          {
-            productTitle:
-              "CVS Health Lansoprazole Delayed Release Tablets, Strawberry, 15 mg, 42 CT",
-            price: "17.99"
-          }
-        ],
-        [
-          {
-            productTitle: "John Frieda Radiant Red Red Boosting Conditioner, 8.3 OZ",
-            price: "12.49"
-          },
-          {
-            productTitle: "Bell + Howell Polarized Lens Tac Glasses",
-            price: "19.99"
-          },
-          {
-            productTitle: "Nexxus New York Salon Care Therappe Shampoo, 3 OZ",
-            price: "3.59"
-          },
-          {
-            productTitle: "CVS Health Isopropyl Rubbing Alcohol Push Pump",
-            price: "4.19"
-          },
-          { productTitle: "EZ Makeup Glasses", price: "14.99" },
-          {
-            productTitle: "CVS Health Sterile Saline Wound Wash",
-            price: "9.29"
-          },
-          { productTitle: "CVS Health Sinus Wash Neti Pot Kit", price: "12.49" },
-          {
-            productTitle: "CVS Health Witch Hazel Push Pump, 8 OZ",
-            price: "5.99"
-          },
-          {
-            productTitle: "CVS Health Temporary Lost Filling & Loose Cap Repair",
-            price: "5.59"
-          },
-          {
-            productTitle:
-              "CVS Health Reagent Strips for Urinanalysis Ketone Test Strips, 50CT",
-            price: "7.69"
-          },
-          {
-            productTitle: "CVS Health Shower Reliever Effervescent Vapor Tablets",
-            price: "4.59"
-          },
-          {
-            productTitle: "CVS Health Cool Mist Humidifier Super-fine Cool Mist",
-            price: "29.99"
-          },
-          {
-            productTitle: "CVS Health Fluticasone Nasal Spray 50mcg, 120 Sprays",
-            price: "18.49"
-          },
-          {
-            productTitle: "CVS Health Magnesium Citrate Oral Solution 10 OZ, Grape",
-            price: "2.89"
-          },
-          {
-            productTitle: "CVS Health Advanced Blood Glucose Meter",
-            price: "16.49"
-          },
-          {
-            productTitle:
-              "CVS Health Acid Reducer Lansoprazole Delayed-Release Capsules 15mg",
-            price: "12.49"
-          },
-          {
-            productTitle: "CVS Health Procedural Face Masks With Earloops",
-            price: "7.99"
-          },
-          {
-            productTitle: "CVS Health Automatic Blood Pressure Monitor",
-            price: "37.79"
-          },
-          {
-            productTitle: "CVS Health Anti-Diarrheal Caplets, 200CT",
-            price: "18.99"
-          },
-          { productTitle: "CVS Health Digital Body Scale", price: "7.69" }
-        ],
-        [
-          {
-            productTitle: "Nerve Pain Away Homeopathic  Pain Reliever Spray",
-            price: "14.99"
-          },
-          {
-            productTitle: "CVS Health Warm Steam Vaporizer 2100cvs",
-            price: "18.29"
-          },
-          {
-            productTitle: "CVS Health Reusable Cold Pain Relief Pack",
-            price: "7.19"
-          },
-          {
-            productTitle: "Homeopathic  CVS Health Nasal Aspirator, 1 EA",
-            price: "14.99"
-          },
-          { productTitle: "MiraLAX Laxative Powder", price: "17.79" },
-          {
-            productTitle: "Imodium Multi-Symptom Relief Caplets, 12CT",
-            price: "7.49"
-          },
-          { productTitle: "CVS Health Icthammol Ointment, 1 OZ", price: "9.29" },
-          {
-            productTitle: "Gotham Steel Crisper Tray 2-Piece Set",
-            price: "19.99"
-          },
-          {
-            productTitle: "Differin Adapalene Gel 0.1% Acne Treatment",
-            price: "29.99"
-          },
-          {
-            productTitle: "Homeopathic Oscillococcinum Quick Dissolve Pallets",
-            price: "35.49"
-          },
-          {
-            productTitle: "Nexxus Keraphix Damage Healing Conditioner, 3 OZ",
-            price: "5.49"
-          },
-          { productTitle: "L'Oreal Paris Excellence Hair Color", price: "9.49" },
-          {
-            productTitle:
-              "Prilosec OTC Frequent Heartburn Medicine and Acid Reducer Tablets",
-            price: "19.49"
-          },
-          { productTitle: "CVS Health Ear Wax Removal Syringe", price: "7.29" },
-          { productTitle: "Revlon ColorStay Brow Pencil", price: "9.49" },
-          { productTitle: "CVS Health Castor Oil", price: "4.99" },
-          {
-            productTitle: "Navage Nasal Care Saline Nasal Irrigation Kit",
-            price: "87.99"
-          },
-          {
-            productTitle: "NeilMed Sinu Inhaler Non-Medicated Aromatherapy Inhaler",
-            price: "5.49"
-          },
-          {
-            productTitle:
-              "Omron 3 Series One Touch Blood Pressure Monitor With D-Ring Cuff, BP 710N",
-            price: "28.79"
-          },
-          { productTitle: "CVS Health Saline Nasal Spray", price: "5.99" }
-        ],
-        [
-          {
-            productTitle:
-              "Apothecare Essentials The Replenisher Cleansing Conditioner, Vanilla Argan Oil Sweet Almond, 16 OZ",
-            price: "12.99"
-          },
-          { productTitle: "CVS Health Steam Inhaler", price: "39.99" },
-          {
-            productTitle: "Aquaphor Advanced Therapy Healing Ointment, 1.75 OZ",
-            price: "6.99"
-          },
-          {
-            productTitle:
-              "Batiste Instant Hair Refresh Dry Shampoo Plus, Deep & Dark Brown",
-            price: "9.79"
-          },
-          {
-            productTitle: "Cremo Beard Brush, 100% Natural Boar Bristle",
-            price: "12.79"
-          },
-          {
-            productTitle: "CVS Health Arm Sling Adult with Adjustable Fastener",
-            price: "11.29"
-          },
-          {
-            productTitle:
-              "Primatene Mist Epinephrine Inhalation Aerosol, 0.125mg per spray",
-            price: "29.99"
-          },
-          {
-            productTitle: "CVS Health Finger Splint Deluxe Aluminum/Foam",
-            price: "6.49"
-          },
-          {
-            productTitle: "CVS Health Adult Overnight Underwear, Large",
-            price: "7.69"
-          },
-          { productTitle: "Sambucol Original Syrup, 4 OZ", price: "15.79" },
-          {
-            productTitle: "CVS Health Rigid Tip Digital Thermometer",
-            price: "8.59"
-          },
-          {
-            productTitle:
-              "Nature's Bounty Optimal Solutions Hair, Skin and Nails Gummies, 80CT",
-            price: "9.99"
-          },
-          {
-            productTitle: "Vicks VapoRub Cough Suppressant Topical Analgesic Ointment",
-            price: "7.49"
-          },
-          {
-            productTitle: "Homeopathic  Similasan Pink Eye Relief Drops, .33 OZ",
-            price: "11.29"
-          },
-          { productTitle: "Zyrtec Allergy Tablets 10mg", price: "19.99" },
-          {
-            productTitle:
-              "CVS Health Automatic Wrist Blood Pressure Monitor, One Size Fits All",
-            price: "37.79"
-          },
-          {
-            productTitle: "Marc Anthony True Professional 100% Coconut Oil, 10 OZ",
-            price: "10.79"
-          },
-          { productTitle: "Bavarian Edge Knife Sharpener", price: "19.99" },
-          {
-            productTitle:
-              "Garnier SkinActive Micellar Cleansing Water All in 1 Cleanser & Waterproof Makeup Remover, 13.15 OZ",
-            price: "9.79"
-          },
-          {
-            productTitle:
-              "Flonase 24hr Allergy Relief Nasal Spray, Full Prescription Strength",
-            price: "21.99"
-          }
-        ],
-        [
-          {
-            productTitle: "CVS Health Gel Metatarsal Cushions, 1 EA",
-            price: "7.99"
-          },
-          {
-            productTitle: "CVS Health Caladrox Ointment Skin Protectant & Itch Relief",
-            price: "4.99"
-          },
-          {
-            productTitle: "CVS Health Comfort Nightime Dental Guards",
-            price: "29.49"
-          },
-          { productTitle: "CVS Health Gel Bunion Wrap, 1 EA", price: "7.49" },
-          {
-            productTitle: "Nexium 24HR Heartburn Relief Capsules, Acid Reducer",
-            price: "19.49"
-          },
-          {
-            productTitle: "CVS Health Omeprazole Tablets 20mg, 42CT",
-            price: "16.49"
-          },
-          {
-            productTitle: "CVS Health Advanced TENS Targeted Muscle Therapy",
-            price: "58.49"
-          },
-          { productTitle: "Revlon ColorStay Pressed Powder", price: "11.49" },
-          {
-            productTitle: "CVS Health 91% Isopropyl Alcohol, 32 OZ",
-            price: "2.59"
-          },
-          {
-            productTitle:
-              "Limited Edition Beauty Mark T-Shirt, 100% of proceeds support, Girls Inc.",
-            price: "30.00"
-          },
-          {
-            productTitle: "Nexium 24HR, 20 mg, Heartburn Relief Tablets, Acid Reducer",
-            price: "10.99"
-          },
-          {
-            productTitle: "CVS Health Stool Softener 100 mg Softgels",
-            price: "4.79"
-          },
-          {
-            productTitle:
-              "CVS Health Wound Closure Adhesive Surgical Tape Strips, All one Size",
-            price: "9.29"
-          },
-          { productTitle: "CVS Health Medicated Foot Powder", price: "8.99" },
-          {
-            productTitle: "Maybelline Fit Me! Matte + Poreless Foundation",
-            price: "7.99"
-          },
-          { productTitle: "CVS Health Concave Eye Patch", price: "5.29" },
-          { productTitle: "Stye Eye Ointment", price: "11.49" },
-          { productTitle: "Hibiclens Liquid", price: "13.49" },
-          {
-            productTitle: "Nexxus Keraphix Damage Healing Shampoo, 3 OZ",
-            price: "3.99"
-          },
-          {
-            productTitle:
-              "CVS Health Single-Use Povidone-Iodine Swabsticks First Aid Antiseptic",
-            price: "6.19"
-          }
-        ],
-        [
-          { productTitle: "CVS Health Bath Chair", price: "41.99" },
-          { productTitle: "Trojan Magnum 8=D Condoms 24pk ", price: "24.99" },
-          { productTitle: "PedEgg Easy Curve", price: "9.99" },
-          {
-            productTitle:
-              "CVS Health Great Tasting Melatonin Gummy Sleep Aid Strawberry",
-            price: "10.99"
-          },
-          {
-            productTitle: "Zantac 150 Maximum Strength Tablets",
-            price: "19.99"
-          },
-          {
-            productTitle: "CVS Health Fabric Heating Pad, Series 700",
-            price: "32.99"
-          },
-          {
-            productTitle: "CVS Health Probiotic Capsules Maximum Strength, 30CT",
-            price: "12.99"
-          },
-          { productTitle: "IBgard Capsules", price: "11.79" },
-          {
-            productTitle:
-              "Crest 3D White Whitestrips Glamorous White Teeth Whitening Kit, 28/Pack",
-            price: "44.99"
-          },
-          { productTitle: "CVS Health Liquid Bandage", price: "4.39" },
-          {
-            productTitle: "CVS Health Clotrimazole 3 Vaginal Cream (2%)",
-            price: "14.99"
-          },
-          { productTitle: "FUTURO Deluxe Thumb Stabilizer", price: "17.99" },
-          {
-            productTitle: "CVS Health GlutenAid Capsules, 30 CT",
-            price: "13.49"
-          },
-          { productTitle: "CVS Health Tussin Cough Liquid Gels", price: "5.49" },
-          {
-            productTitle: "Lip Clear Lysine+ Cold Sore Treatment",
-            price: "10.99"
-          },
-          { productTitle: "Colgate Total Pro-Shield Mouthwash", price: "5.49" },
-          {
-            productTitle: "Pepto-Bismol Maximum Strength Liquid, 8 OZ",
-            price: "5.99"
-          },
-          {
-            productTitle: "CVS Health Nicotine Transdermal System Patches, Step 1, 21mg",
-            price: "39.99"
-          },
-          {
-            productTitle: "ZzzQuil Nighttime Sleep Aid LiquiCaps",
-            price: "10.99"
-          },
-          {
-            productTitle: "Twin Draft Ultimate Double-Sided Insulator",
-            price: "12.99"
-          },
-          { productTitle: "Peach Slices Acne Patches, 0.88 OZ", price: "4.49" }
-        ],
-        [
-          { productTitle: "Peach Slices Acne Patches, 0.88 OZ", price: "4.49" },
-          { productTitle: "Debrox Earwax Removal Kit", price: "10.49" },
-          {
-            productTitle: "Dulcolax Laxative Tablets for Overnight Relief",
-            price: "10.29"
-          },
-          { productTitle: "Sunbeam XpressHeat Heating Pad XL", price: "43.29" },
-          {
-            productTitle: "Olay Regenerist Micro-Sculpting Cream",
-            price: "10.49"
-          },
-          { productTitle: "Neilmed Sinus Rinse Kit", price: "16.99" },
-          {
-            productTitle:
-              "Lactaid Fast Act Lactose Intolerance Caplets, Travel Packs of 1 CT.",
-            price: "12.99"
-          },
-          {
-            productTitle:
-              "Maybelline Instant Age Rewind Eraser Dark Circles Treatment Concealer",
-            price: "9.99"
-          },
-          {
-            productTitle: "Campho-Phenique Cold Sore Gel Original",
-            price: "7.79"
-          },
-          {
-            productTitle: "CVS Health Immediate Mouth Sore Relief Maximum Strength",
-            price: "6.99"
-          },
-          { productTitle: "L'Oreal Paris Root Cover Up", price: "11.99" },
-          {
-            productTitle: "CVS Health Reusable Cast & Wound Protector",
-            price: "11.49"
-          },
-          {
-            productTitle: "CVS Health Advanced Glucose Meter Test Strips, 100CT",
-            price: "30.99"
-          },
-          {
-            productTitle: "CVS Health Melatonin Capsules 10 mg",
-            price: "18.29"
-          },
-          {
-            productTitle: "Colgate Total Whitening Toothpaste Gel",
-            price: "3.79"
-          },
-          {
-            productTitle: "CVS Health Pediatric Electrolyte, Freezer Pops, Assorted",
-            price: "5.29"
-          },
-          {
-            productTitle: "CVS Health Epsom Salt Magnesium Sulfate USP, 96 OZ",
-            price: "6.49"
-          },
-          {
-            productTitle: "Pampers Baby Dry Super Pack Diapers",
-            price: "29.99"
-          },
-          {
-            productTitle: "CVS Health Maximum Strength Antacid Liquid Original",
-            price: "4.99"
-          },
-          {
-            productTitle: "CVS Health Pill Splitter with Safety Shield",
-            price: "4.89"
-          }
-        ],
-        [
-          {
-            productTitle: "CVS Health Ibuprofen 200 mg Coated Tablets",
-            price: "4.69"
-          },
-          {
-            productTitle: "CVS Health Mint Flavored Orthodontic Wax",
-            price: "3.09"
-          },
-          {
-            productTitle: "CVS Health Sore Throat Relief Pops Assorted Flavors",
-            price: "5.99"
-          },
-          { productTitle: "CVS Health Sitz Bath", price: "11.99" },
-          {
-            productTitle: "CVS Health Advanced Glucose Meter Test Strips, 50ct",
-            price: "8.49"
-          },
-          {
-            productTitle: "Garnier Whole Blends Honey Treasures Repairing Shampoo",
-            price: "4.99"
-          },
-          { productTitle: "Gold Bond Ultimate Healing", price: "8.29" },
-          {
-            productTitle: "CVS Health Clotrimazole Cream Usp 1%, 1 OZ",
-            price: "10.99"
-          },
-          {
-            productTitle:
-              "Ultra Moisture Olay Ultra Moisture Shea Butter Body Wash, 22 OZ",
-            price: "6.00"
-          },
-          {
-            productTitle: "CVS Health All-Natural 100% Tea Tree Oil",
-            price: "10.49"
-          },
-          { productTitle: "Scotch Lint Roller 56 Sheets", price: "5.29" },
-          {
-            productTitle: "CVS Health Hydrogen Peroxide Solution",
-            price: "1.39"
-          },
-          {
-            productTitle: "CVS Health Vitamin D Softgels 2000IU",
-            price: "19.29"
-          },
-          {
-            productTitle: "CVS Health Children's Fever Reducing Suppositories",
-            price: "10.79"
-          },
-          {
-            productTitle: "CVS Health Vitamin B12 Tablets 1000mcg",
-            price: "11.49"
-          },
-          {
-            productTitle:
-              "CVS Health Miconazole Yeast Infection Relief 1-Day Treatment; Day or Night",
-            price: "16.49"
-          },
-          {
-            productTitle: "CVS Health Chest Congestion Relief Tablets",
-            price: "10.99"
-          },
-          {
-            productTitle: "Pampers Baby Dry Jumbo Pack Diapers",
-            price: "12.49"
-          },
-          { productTitle: "Wrigley's Orbit Gum, 40 CT", price: "4.89" },
-          { productTitle: "CVS Health Bacitracin Ointment, 1 OZ", price: "4.99" }
-        ],
-        [
-          {
-            productTitle: "CVS Health Maximum Strength Urinary Pain Relief Tablets",
-            price: "6.79"
-          },
-          {
-            productTitle:
-              "CVS Health 4-Hour Allergy Relief Chlorpheniramine Maleate Tablets, 100 CT",
-            price: "12.99"
-          },
-          {
-            productTitle: "CVS Health Cough Drops Menthol Cough Suppressant",
-            price: "2.19"
-          },
-          {
-            productTitle: "CVS Health Allergy Relief Non-Drowsy Fexofenadine Tablets",
-            price: "11.99"
-          },
-          {
-            productTitle: "CVS Health Adult Electrolyte with Zinc",
-            price: "5.29"
-          },
-          {
-            productTitle: "CVS Health Magnesium Citrate Oral Solution 10 OZ, Lemon",
-            price: "2.89"
-          },
-          {
-            productTitle: "Pampers Sensitive Baby Wipes 3 Pack, 168CT",
-            price: "9.79"
-          },
-          { productTitle: "CVS Health Eye Wash Soothing", price: "5.79" },
-          {
-            productTitle:
-              "CVS Health Original Prescription Strength Purelax Powder Laxative",
-            price: "5.49"
-          },
-          {
-            productTitle: "CVS Health Natural Daily Fiber Capsules",
-            price: "12.49"
-          },
-          { productTitle: "CVS Health At Home A1C Test Kit", price: "27.99" },
-          {
-            productTitle:
-              "CVS Health Sinus Nasal Spray Oxymetazoline HCl- Nasal Decongestant, 1 OZ",
-            price: "7.59"
-          },
-          {
-            productTitle: "Pampers Baby Dry Jumbo Pack Diapers",
-            price: "12.49"
-          },
-          {
-            productTitle: "CVS Health Turmeric Capsules 500mg, 60CT",
-            price: "10.49"
-          },
-          {
-            productTitle: 'Caliber Printer Paper,  8 1/2" x 11", 20 Lb., 92 Bright',
-            price: "6.99"
-          },
-          {
-            productTitle: "CVS Health Fast Relief Sore Throat Spray",
-            price: "5.99"
-          },
-          { productTitle: "Pampers Sensitive Baby Wipes, 56CT", price: "2.99" },
-          {
-            productTitle: "CVS Original Strength Antibiotic Ointment",
-            price: "12.79"
-          },
-          {
-            productTitle: "CVS Health Antiseptic Skin Cleanser",
-            price: "11.29"
-          },
-          {
-            productTitle:
-              "CVS Health Extra Strength Pain Relief Adult Liquid Rapid Burst, Cherry, 8 OZ",
-            price: "6.79"
-          }
-        ],
-        [
-          {
-            productTitle: "CVS Health Turmeric Capsules 500mg, 60CT",
-            price: "10.49"
-          },
-          {
-            productTitle: "CVS Health Glucosamine Chondroitin Triple Strength Caplets",
-            price: "39.49"
-          },
-          {
-            productTitle: "CVS Health Antiseptic Skin Cleanser",
-            price: "11.29"
-          },
-          {
-            productTitle:
-              "CVS Health Extra Strength Pain Relief Adult Liquid Rapid Burst, Cherry, 8 OZ",
-            price: "6.79"
-          },
-          {
-            productTitle: 'Caliber Printer Paper,  8 1/2" x 11", 20 Lb., 92 Bright',
-            price: "6.99"
-          },
-          {
-            productTitle: "CVS Health Fast Relief Sore Throat Spray",
-            price: "5.99"
-          },
-          {
-            productTitle: "Garnier Whole Blends Honey Treasures Repairing Conditioner",
-            price: "4.99"
-          },
-          {
-            productTitle: "CVS Original Strength Antibiotic Ointment",
-            price: "12.79"
-          },
-          {
-            productTitle: "CVS Health Ultra Soft Cleansing Wipes Solo SoftPak",
-            price: "7.29"
-          },
-          {
-            productTitle:
-              "CVS Health Maximum Strength Nightime Sleep Aid Softgels 50 mg",
-            price: "8.49"
-          },
-          {
-            productTitle: "Cepacol Maximum Strength Throat Drop Lozenges",
-            price: "5.79"
-          },
-          {
-            productTitle: "One A Day VitaCraves Women's Multivitamin Gummies",
-            price: "9.99"
-          },
-          {
-            productTitle: "CVS Health Acid Reducer Tablets Maximum Strength",
-            price: "20.99"
-          },
-          {
-            productTitle:
-              "Airborne Vitamin C 1000mg Immune Support Supplement, Effervescent Formula",
-            price: "20.99"
-          },
-          {
-            productTitle:
-              "CVS Health Omeprazole Magnesium Acid Reducer 20 mg Delayed Release Capsules",
-            price: "12.49"
-          },
-          {
-            productTitle: "Pampers Sensitive Baby Wipes 3 Pack Refill, 192 CT",
-            price: "8.99"
-          },
-          {
-            productTitle: "CVS Health Peas Hot or Cold Therapy Pack",
-            price: "26.99"
-          },
-          {
-            productTitle: "CVS Health Fluticasone 50mcg Nasal Spray 120 CT, 2 PK",
-            price: "29.49"
-          },
-          {
-            productTitle: "CVS Health Non-Drowsy Nasal Decongestant PE, 10mg, 18 CT",
-            price: "4.89"
-          },
-          {
-            productTitle: "CVS Health Super B Complex with Vitamin C Caplets",
-            price: "10.79"
-          }
-        ],
-        [
-          {
-            productTitle: "Cepacol Maximum Strength Throat Drop Lozenges",
-            price: "5.79"
-          },
-          { productTitle: "CVS Health Weekly AM/PM Pill Case", price: "7.29" },
-          {
-            productTitle: "CVS Health Digital Flexible Tip Thermometer",
-            price: "15.49"
-          },
-          {
-            productTitle:
-              "CVS Health Indoor/Outdoor Allergy Relief Cetirizine Hydrochloride Tablets 10 mg",
-            price: "29.99"
-          },
-          {
-            productTitle:
-              "CVS Health Extra Strength Pain Relief Acetaminophen Gelcaps 500 mg, 150 CT",
-            price: "11.79"
-          },
-          {
-            productTitle:
-              "CVS Health Extra Strength Pain Relief Acetaminophen Caplets 500 mg, 24 CT",
-            price: "4.59"
-          },
-          {
-            productTitle:
-              "CVS Health Day & Night Maximum Absorbency Underpads Super Large, 30CT",
-            price: "20.99"
-          },
-          {
-            productTitle:
-              "Airborne Vitamin C 1000mg Immune Support Supplement, Effervescent Formula",
-            price: "20.99"
-          },
-          {
-            productTitle: "CVS Health Low Dose Aspirin Enteric Coated Tablets 81 mg",
-            price: "12.49"
-          },
-          {
-            productTitle: "One A Day VitaCraves Women's Multivitamin Gummies",
-            price: "9.99"
-          },
-          { productTitle: "CVS Health Calamine Plus, 6 OZ", price: "7.99" },
-          {
-            productTitle: "CVS Health Durable Nitrile Exam Gloves, 50CT",
-            price: "9.99"
-          },
-          {
-            productTitle: "CVS Health Half the Size Fish Oil Softgels 1000mg, 200CT",
-            price: "23.99"
-          },
-          {
-            productTitle: "Coricidin HBP Cold and Flu Cold Relief Tablets, 20CT",
-            price: "9.29"
-          },
-          {
-            productTitle:
-              "Clorox Disinfecting Wipes Value Pack, Bleach Free Cleaning Wipes",
-            price: "6.59"
-          },
-          {
-            productTitle: "CVS Health Tussin Non-Drowsy Cough Formula",
-            price: "7.49"
-          },
-          {
-            productTitle: "CVS Health Fast Acting Sore Throat Lozenges",
-            price: "4.59"
-          },
-          {
-            productTitle:
-              "CVS Health Triple Antibiotic & Pain Relief Maximum Strength Ointment",
-            price: "5.29"
-          },
-          {
-            productTitle: "CVS Health 70% Isopropyl Rubbing Alcohol, Unscented",
-            price: "2.39"
-          },
-          {
-            productTitle: "Homeopathic  CVS Health EarAche Ear Drops, 0.33 OZ",
-            price: "9.99"
-          }
-        ],
-        [
-          {
-            productTitle: "CVS Health Ibuprofen Liquid Filled Softegels 200 mg",
-            price: "5.79"
-          },
-          {
-            productTitle: "Clairol Nice n Easy Root Touch-Up Permanent Hair Color",
-            price: "8.49"
-          },
-          {
-            productTitle: "CVS Health Fluticasone Nasal Spray 60 Metered Sprays, 50 mcg",
-            price: "12.99"
-          },
-          { productTitle: "CVS Health Epsom Salt, 128 OZ", price: "7.99" },
-          {
-            productTitle: "CVS Health Ibuprofen Tablets Value Size 200mg, 500 CT",
-            price: "16.49"
-          },
-          { productTitle: "CVS Health Epsom Salt, 64 OZ", price: "3.39" },
-          {
-            productTitle: "Dove Dry Spray Antiperspirant Deodorant, 3.8 OZ",
-            price: "8.49"
-          },
-          { productTitle: "Nizoral A-D Anti-Dandruff Shampoo", price: "14.49" },
-          {
-            productTitle: "Poise Ultimate Absorbency Incontinence Pads",
-            price: "19.99"
-          },
-          {
-            productTitle: "CVS Health Hydrogen Peroxide Solution",
-            price: "2.27"
-          },
-          {
-            productTitle: "CVS Health Purelax Unflavored Powder, 8.3 OZ",
-            price: "8.59"
-          },
-          { productTitle: "L.A. Girl Eyeshadow Palette", price: "9.99" },
-          {
-            productTitle: "CVS Health Saline Nasal Spray Value Pack",
-            price: "5.99"
-          },
-          {
-            productTitle:
-              "CVS Health Nasal Decongestant Non-Drowsy Phenylephrine Hydrochloride Tablets, 72 CT",
-            price: "11.99"
-          },
-          {
-            productTitle:
-              "CVS Health Pediatric Electrolyte Oral Maintenance Solution Unflavored, 35.2 OZ",
-            price: "5.29"
-          },
-          {
-            productTitle: "Gold Emblem Deluxe Mixed Nuts No Peanuts",
-            price: "11.99"
-          },
-          {
-            productTitle: "CVS Health Vitamin D Softgels 5000IU, 100CT",
-            price: "14.99"
-          },
-          {
-            productTitle: "Gold Emblem Deluxe Mixed Nuts Lightly Salted, 18 OZ",
-            price: "11.99"
-          },
-          {
-            productTitle:
-              "CVS Health Maximum Strength Cortisone Anti-Itch Cream Plus Aloe",
-            price: "7.49"
-          },
-          {
-            productTitle:
-              "CVS Health Low Dose Aspirin 81mg Enteric Coated Tablets, 120 CT",
-            price: "6.79"
-          }
-        ],
-        [
-          {
-            productTitle:
-              "CVS Health Junior Strength Ibuprofen Tablets Grape 100 mg, 24 CT",
-            price: "5.79"
-          },
-          { productTitle: "CVS Health Senna Laxative Tablets", price: "8.69" },
-          {
-            productTitle: "CVS Health Extra Strength Pain Relief 500 mg Caplets, 100 CT",
-            price: "7.99"
-          },
-          { productTitle: "CVS Alkaline Batteries AA 8-Pack", price: "6.79" },
-          {
-            productTitle:
-              "CVS Health Nasal Decongestant Non-Drowsy Phenylephrine Hydrochloride Tablets, 72 CT",
-            price: "11.99"
-          },
-          {
-            productTitle: "CVS Health Senna Plus Laxative/Stool Softener Tablets",
-            price: "14.79"
-          },
-          {
-            productTitle:
-              "CVS Health Ultra-Sensitive Ultra Gentle Wipes With Lotion, 56CT",
-            price: "3.39"
-          },
-          {
-            productTitle: "CVS Health Maximum Strength Sinus & Allergy Tablets",
-            price: "5.69"
-          },
-          { productTitle: "CVS Alkaline Batteries AAA 4-Pack", price: "4.49" },
-          {
-            productTitle:
-              "CVS Health Women's Underwear Maximum Absorbency Large, Lavender, 32 CT",
-            price: "17.99"
-          },
-          {
-            productTitle: "Essence Of Beauty Mesh Bath Sponge, Black",
-            price: "2.99"
-          },
-          {
-            productTitle: "CVS Health Children's Ibuprofen Oral Suspension",
-            price: "6.99"
-          },
-          {
-            productTitle: "Maybelline Great Lash Washable Mascara",
-            price: "5.99"
-          },
-          {
-            productTitle:
-              "CVS Health Prenatal Gummy Vitamins with DHA & Folic Acid Gummies",
-            price: "12.49"
-          },
-          {
-            productTitle: "CVS Health Rubber Finger Protectors, 30CT",
-            price: "6.29"
-          },
-          {
-            productTitle:
-              "CVS Health Small Size Allergy Diphenydramine Hydrochloride Tablets",
-            price: "4.89"
-          },
-          {
-            productTitle: "Beauty 360 Premium 100% Cotton Squares, 200CT",
-            price: "3.99"
-          },
-          { productTitle: "Gold Emblem Pistachio Delights", price: "6.99" },
-          {
-            productTitle: "CVS Health Allergy Relief Diphenhydramine Tablets",
-            price: "20.49"
-          },
-          {
-            productTitle: "Gold Emblem Abound Unsalted Pistachio & Almond Blend",
-            price: "6.99"
-          }
-        ],
-        [
-          { productTitle: "CVS Alkaline Batteries AA 8-Pack", price: "6.79" },
-          {
-            productTitle: "CVS Health Advanced Probiotic Gummies, 60CT",
-            price: "11.29"
-          },
-          {
-            productTitle: "CVS Health Children's Ibuprofen Oral Suspension",
-            price: "6.99"
-          },
-          { productTitle: "CVS Alkaline Batteries AAA 4-Pack", price: "4.49" },
-          {
-            productTitle: "Essence Of Beauty Mesh Bath Sponge, Black",
-            price: "2.99"
-          },
-          {
-            productTitle: "CVS Health Saline Solution for Sensitive Eyes",
-            price: "6.29"
-          },
-          {
-            productTitle: "CVS Health Allergy Relief Diphenhydramine Tablets",
-            price: "20.49"
-          },
-          {
-            productTitle: "CVS Health Vitamin C Easy To Swallow Caplets 500mg, 100CT",
-            price: "5.99"
-          },
-          {
-            productTitle: "Beauty 360 Premium 100% Cotton Squares, 200CT",
-            price: "3.99"
-          },
-          {
-            productTitle:
-              "CVS Health No Drip Oxymetazoline Hydrochloride Nasal Mist, 1 OZ",
-            price: "8.29"
-          },
-          {
-            productTitle: "CVS Health Anti-Diarrheal Softgels, 24CT",
-            price: "5.49"
-          },
-          {
-            productTitle:
-              "CVS Health Small Size Allergy Diphenydramine Hydrochloride Tablets",
-            price: "4.89"
-          },
-          { productTitle: "Gold Emblem Pistachio Delights", price: "6.99" },
-          {
-            productTitle: "CVS Health Allergy Relief 24 Hour Indoor/Outdoor",
-            price: "21.99"
-          },
-          {
-            productTitle: "Gold Emblem Abound Unsalted Pistachio & Almond Blend",
-            price: "6.99"
-          },
-          {
-            productTitle: "CVS Health Fast Acting Nasal Spray, 1 OZ",
-            price: "7.59"
-          },
-          {
-            productTitle: "Beauty 360 Premium Cotton Rounds, 100CT",
-            price: "3.99"
-          },
-          {
-            productTitle: "CVS Health Omeprazole Acid Reducer 20mg",
-            price: "12.49"
-          },
-          {
-            productTitle:
-              "CVS Health Allergy Relief Loratadine Tablets 24 Hour Non-Drowsy, 10 mg, 10 CT",
-            price: "7.79"
-          },
-          {
-            productTitle:
-              "CVS Health Omeprazole Acid Reducer Delayed Release Wildberry Mint Tablets 20mg, 42CT",
-            price: "16.49"
-          }
-        ],
-        [
-          {
-            productTitle:
-              "CVS Health Ultra-Soft Silicone Earplugs Antimicrobial Protection",
-            price: "5.49"
-          },
-          { productTitle: "CVS Health Anti-Fungal Powder", price: "8.99" },
-          {
-            productTitle: "CVS Health Omeprazole Acid Reducer 20mg",
-            price: "12.49"
-          },
-          {
-            productTitle: "Beauty 360 Premium Cotton Rounds, 100CT",
-            price: "3.99"
-          },
-          {
-            productTitle: "CVS Health Men's Multivitamin & Multimineral Tablets, 120CT",
-            price: "9.99"
-          },
-          {
-            productTitle: "Tagamet HB 200 Acid Reducer Tablets, 30CT",
-            price: "9.49"
-          },
-          {
-            productTitle:
-              "CVS Health Omeprazole Acid Reducer Delayed Release Wildberry Mint Tablets 20mg, 42CT",
-            price: "16.49"
-          },
-          {
-            productTitle:
-              "CVS Health Allergy Relief Loratadine Tablets 24 Hour Non-Drowsy, 10 mg, 10 CT",
-            price: "7.79"
-          },
-          {
-            productTitle: "CVS Health Sterile Premium Latex-Free Rolled Gauze 5CT",
-            price: "9.99"
-          },
-          {
-            productTitle:
-              "CVS Health Pain Relief Caplets Extra Strength Acetaminophen Caplets 500 mg, 50 CT",
-            price: "5.99"
-          },
-          {
-            productTitle: "Gold Emblem Abound Unsalted Pistachio Kernels",
-            price: "5.79"
-          },
-          {
-            productTitle:
-              "Total Home Party Cups Strong & Sturdy, 16-Ounce Assorted Colors",
-            price: "2.99"
-          },
-          {
-            productTitle:
-              "Garnier SkinActive Micellar Cleansing Water All in 1 Cleanser & Makeup Remover, 13.5 OZ",
-            price: "9.79"
-          },
-          { productTitle: "CVS Health Eye Itch Relief", price: "11.99" },
-          {
-            productTitle:
-              "CVS Health Assorted Citrus Vitamin C Supplement Drops Value Size",
-            price: "5.79"
-          },
-          {
-            productTitle: "Total Home Facial Tissue Soft & Strong 2-Ply, 8 Pack",
-            price: "2.79"
-          },
-          {
-            productTitle: "CVS Health Fish Oil Softgels 1000mg, 120CT",
-            price: "9.99"
-          },
-          { productTitle: "CVS Health Ibuprofen Tablets, 24 CT", price: "3.69" },
-          {
-            productTitle: "Beauty 360 Premium Cotton Rounds, 80CT",
-            price: "3.79"
-          },
-          {
-            productTitle: "Gold Emblem Deluxe Mixed Nuts Lightly Salted",
-            price: "4.99"
-          }
-        ],
-        [
-          {
-            productTitle: "CVS Health Men's Underwear Maximum Absorbency L/XL, 32CT",
-            price: "17.99"
-          },
-          { productTitle: "CVS Alkaline Batteries AAA, 8CT", price: "6.79" },
-          {
-            productTitle:
-              "CVS Health Maximum Strength Cortisone Intense Healing Anti-Itch Cream, 1 OZ",
-            price: "5.59"
-          },
-          {
-            productTitle: "CVS Health Guards For Men Maximum Absorbency One Size, 52CT",
-            price: "12.49"
-          },
-          {
-            productTitle:
-              "CVS Health Original Prescription Strength Purelax Laxative Powder, 30 Dose",
-            price: "13.99"
-          },
-          { productTitle: "Gold Emblem Classic Blend Trail Mix", price: "3.69" },
-          {
-            productTitle: "Gold Emblem Abound Heavenly Light Popcorn, 5oz",
-            price: "2.79"
-          },
-          { productTitle: "Emergen-C Vitamin C, 10CT", price: "5.99" },
-          {
-            productTitle: "Gold Emblem Fancy Whole Cashews Lightly Salted",
-            price: "8.79"
-          },
-          {
-            productTitle:
-              "CVS Health Women's Underwear Maximum Absorbency XL, Lavender, 24 CT",
-            price: "17.99"
-          },
-          {
-            productTitle: "CVS Health Ibuprofen 200 mg Coated Caplets",
-            price: "4.69"
-          },
-          {
-            productTitle: "CVS Health Durable Nitrile Exam Gloves Medium, 50CT",
-            price: "9.99"
-          },
-          {
-            productTitle: "Gold Emblem Deluxe Mixed Nuts No Peanuts",
-            price: "4.99"
-          },
-          {
-            productTitle: "CVS Health Acid Reducer Tablets 75mg",
-            price: "5.99"
-          },
-          {
-            productTitle:
-              "CVS Health Durable Nitrile Exam Disposable Gloves, One Size Fits Most, 120 CT",
-            price: "20.99"
-          },
-          {
-            productTitle: "Gold Emblem Dried Philippine Mango Slices, 5 OZ",
-            price: "5.29"
-          },
-          {
-            productTitle: "CVS Health Medicated Cold Sore Treatment Maximum Strength",
-            price: "5.99"
-          },
-          {
-            productTitle: "Gold Emblem Natural Shelled Pistachios, Sea Salt",
-            price: "5.79"
-          },
-          {
-            productTitle: "CVS Health Vitamin C Caplets 1000mg",
-            price: "15.49"
-          },
-          {
-            productTitle: "CVS Health Biotin Softgels 10000mcg, 60CT",
-            price: "13.79"
-          }
-        ],
-        [
-          {
-            productTitle: "Caliber Security Envelopes 4 1/2 X 9 1/2 Inch",
-            price: "3.79"
-          },
-          {
-            productTitle: "CVS Health Dye Free Ibuprofen 200 mg Tablets",
-            price: "7.49"
-          },
-          {
-            productTitle: "Gold Emblem Peanut Butter Filled Pretzel Nuggets",
-            price: "6.99"
-          },
-          {
-            productTitle: "CVS Health AM/PM Travel Pill Planner",
-            price: "5.99"
-          },
-          {
-            productTitle:
-              "CVS Health Omeprazole Acid Reducer Delayed Release Tablets 20mg, 42CT",
-            price: "16.49"
-          },
-          {
-            productTitle: "Total Home Decorated Paper Plates 10-1/4 Inch",
-            price: "5.79"
-          },
-          {
-            productTitle: "CVS Health Magnesium Citrate Oral Solution 10 OZ, Cherry",
-            price: "2.89"
-          },
-          {
-            productTitle:
-              "CVS Health Allergy Relief Diphenydramine Hydrochloride Tablets, 48 CT",
-            price: "6.49"
-          },
-          {
-            productTitle:
-              "CVS Health Omeprazole Magnesium Acid Reducer 20.6 mg Delayed Release Capsules, 14CT",
-            price: "7.29"
-          },
-          {
-            productTitle: "CVS Health 70% Isopropyl Rubbing Alcohol",
-            price: "3.49"
-          },
-          {
-            productTitle: "CVS Health Non-Medicated Nasal Inhaler, Lavender Scent 1 EA",
-            price: "4.99"
-          },
-          {
-            productTitle: "Beauty 360 Makeup Remover Cleansing Cloth Towelettes",
-            price: "5.99"
-          },
-          {
-            productTitle: "Gold Emblem Abound Raw Natural Almonds, 20 OZ",
-            price: "7.99"
-          },
-          {
-            productTitle: "CVS Health Melatonin Quick Dissolve Tablets 10mg, 60CT",
-            price: "14.49"
-          },
-          {
-            productTitle:
-              "CVS Health Sensitive Toothpaste With Fluoride Extra Whitening, 4 OZ",
-            price: "4.29"
-          },
-          {
-            productTitle: "Gold Emblem Mixed Nuts Lightly Salted",
-            price: "4.99"
-          },
-          { productTitle: "Gold Emblem Pure Honey", price: "5.79" },
-          {
-            productTitle: "CVS Health Miconazole 7 Day Vaginal Treatment Cream, 1.59 OZ",
-            price: "13.49"
-          },
-          {
-            productTitle: "CVS Health Medicated Chest Rub, 1.76 OZ",
-            price: "4.59"
-          },
-          {
-            productTitle: "CVS Health Coenzyme Q10 Softgels 200mg",
-            price: "52.99"
-          }
-        ],
-        [
-          {
-            productTitle: "CVS Health Medicated Chest Rub, 1.76 OZ",
-            price: "4.59"
-          },
-          {
-            productTitle: "CVS Health Coenzyme Q10 Softgels 200mg",
-            price: "52.99"
-          },
-          {
-            productTitle: "CVS Health Warm or Cold Water Bottle",
-            price: "17.49"
-          },
-          { productTitle: "CVS Health Medicated Wipes, 48CT", price: "6.49" },
-          {
-            productTitle: "CVS Health Pediatric Electrolyte Liquid Strawberry",
-            price: "5.29"
-          },
-          {
-            productTitle: "CVS Health Clotrimazole Cream Usp 1%, 0.5 OZ",
-            price: "7.99"
-          },
-          {
-            productTitle: "CVS Health Dairy Relief Caplets Extra Strength",
-            price: "5.59"
-          },
-          {
-            productTitle: "CVS Health Flexible Tip Digital Thermometer",
-            price: "17.49"
-          },
-          {
-            productTitle: "CVS Health Medicated Chest Rub, 3.53 OZ",
-            price: "7.69"
-          },
-          { productTitle: "CVS AA Alkaline Batteries", price: "13.79" },
-          {
-            productTitle: "CVS Health Vitamin C Orange Gummies 250 mg, 150CT",
-            price: "14.49"
-          },
-          { productTitle: "Gold Emblem Honey Roasted Cashews", price: "8.79" },
-          { productTitle: "CVS Health Nasal Spray Original", price: "5.49" },
-          { productTitle: "CVS Health Multi-Use Ice Bag", price: "15.49" },
-          {
-            productTitle: "CVS Health Artificial Tears Lubricant Eye Drops",
-            price: "9.29"
-          },
-          {
-            productTitle:
-              "CVS Health Allergy Relief Non-Drowsy Loratadine Tablets, 5 CT",
-            price: "4.99"
-          },
-          {
-            productTitle:
-              "CVS Health Maximum Strength Mucus Extended Release Tablets, 14 CT",
-            price: "15.29"
-          },
-          { productTitle: "CVS Health Dental Pick & Scaler", price: "7.99" },
-          {
-            productTitle: "CVS Health Vapor Steam Liquid Medication",
-            price: "6.29"
-          },
-          {
-            productTitle:
-              "CVS Health Maximum Strength Cortisone Intense Healing Anti-Itch Cream, 2 OZ",
-            price: "8.49"
-          }
-        ],
-        [
-          { productTitle: "Gold Emblem Fancy Whole Cashews", price: "8.79" },
-          {
-            productTitle:
-              "CVS Health Miconazole Yeast Infection Relief 1-Day Treatment; 3-Step System",
-            price: "16.49"
-          },
-          {
-            productTitle:
-              "CVS Health Maximum Strength Cortisone Intense Healing Anti-Itch Cream, 2 OZ",
-            price: "8.49"
-          },
-          {
-            productTitle: "CVS Health Nasal Decongestant Vapor Inhaler, 1 Pack",
-            price: "6.29"
-          },
-          {
-            productTitle: "CVS Health Chewable Vitamin C Tablets 1000mg, 100CT",
-            price: "14.99"
-          },
-          { productTitle: "CVS Health Iron Tablets 65mg, 90CT", price: "7.99" },
-          {
-            productTitle: "CVS Health Non-Medicated Nasal Inhaler, Lavender Scent 1 EA",
-            price: "4.99"
-          },
-          {
-            productTitle: "CVS Health Interdental Brushes, 16 CT",
-            price: "5.39"
-          },
-          { productTitle: "CVS Health Melatonin Tablets 5mg", price: "11.29" },
-          {
-            productTitle: "CVS Health Iron 65 mg Tablets, 200 CT",
-            price: "11.49"
-          },
-          {
-            productTitle: "CVS Health Gentle Laxative Bisacodyl USP Tablets 5mg",
-            price: "7.69"
-          },
-          {
-            productTitle: "Total Home Zipper Seal Sandwich Bags",
-            price: "3.79"
-          },
-          {
-            productTitle: "CVS Health Hair, Skin & Nails 2,500mcg Biotin Gummies",
-            price: "7.99"
-          },
-          {
-            productTitle: "Poise Ultimate Absorbency Incontinence Pads",
-            price: "19.99"
-          },
-          { productTitle: "Beauty 360 100% Cotton Balls", price: "2.19" },
-          {
-            productTitle: "CVS Health Epsom Salt Lavender Scented",
-            price: "3.49"
-          },
-          {
-            productTitle: "CVS Health Immune Support Vitamin C Fizzy Drink 1000mg, 36CT",
-            price: "10.99"
-          },
-          {
-            productTitle:
-              "CVS Health Glucosamine Chondroitin with MSM Triple Strength Caplets",
-            price: "33.99"
-          },
-          {
-            productTitle: "CVS Health Nicotine Lozenge 4mg, 20CT",
-            price: "11.99"
-          },
-          { productTitle: "CVS Health Heat Therapy Patches", price: "7.79" }
-        ],
-        [
-          {
-            productTitle: "CVS Health Interdental Brushes, 16 CT",
-            price: "5.39"
-          },
-          {
-            productTitle:
-              "CVS Health Over-The-Calf Light Compression Socks Unisex, 1 Pair",
-            price: "9.99"
-          },
-          {
-            productTitle: "Secret Outlast Xtend Clear Gel Antiperspirant/Deodorant",
-            price: "11.99"
-          },
-          { productTitle: "CVS Health Heat Therapy Patches", price: "7.79" },
-          {
-            productTitle: "CVS Health Antifungal Ringworm Cream",
-            price: "9.79"
-          },
-          {
-            productTitle: "Total Home Zipper Seal Sandwich Bags",
-            price: "3.79"
-          },
-          { productTitle: "Beauty 360 100% Cotton Balls", price: "2.19" },
-          {
-            productTitle: "CVS Health Immune Support Vitamin C Fizzy Drink 1000mg, 36CT",
-            price: "10.99"
-          },
-          {
-            productTitle: "CVS Health Triple Magnesium Complex 400mg Capsules",
-            price: "9.79"
-          },
-          {
-            productTitle: "CVS Health Epsom Salt Lavender Scented",
-            price: "3.49"
-          },
-          {
-            productTitle: "Tagamet HB 200 Acid Reducer Tablets, 30CT",
-            price: "9.49"
-          },
-          { productTitle: "CVS Health Dry Eye Relief Eye Drops", price: "6.99" },
-          {
-            productTitle: "CVS Health Extra Strength Gas Relief Simethicone 125mg",
-            price: "3.89"
-          },
-          {
-            productTitle: "CVS Health Nicotine Lozenge 4mg, 20CT",
-            price: "11.99"
-          },
-          {
-            productTitle: "CVS Hearing Aid Batteries Size 312 24-Pack",
-            price: "14.59"
-          },
-          {
-            productTitle: "CVS Health Airshield Adult Immunity Support Gummies, 42CT",
-            price: "10.99"
-          },
-          { productTitle: "CVS Alkaline Batteries AA 16-Pack", price: "10.79" },
-          {
-            productTitle: "Gold Emblem Abound Walnut Halves & Pieces",
-            price: "4.99"
-          },
-          {
-            productTitle: "CVS Health Elastic Bandage 1CT, 4in x 1.8yd",
-            price: "6.59"
-          },
-          {
-            productTitle:
-              "CVS Health Original Prescription Strength Allergy Relief Tablets, 365 CT",
-            price: "55.99"
-          }
-        ]
-      ];
-
-      let couponID = 0;
-
-      // function randomMinMax(min, max) {
-      // 	return Math.floor(Math.random() * max) + min;
-      // }
-
-      // function getRandomInt(max) {
-      // 	return Math.floor(Math.random() * Math.floor(max));
-      // }
-
-      // function populate() {
-      // 	while (true) {
-      // 		let coupons = document.getElementById("coupons");
-      // 		let windowRelativeBottom = document.documentElement.getBoundingClientRect()
-      // 			.bottom;
-      // 		if (windowRelativeBottom > document.documentElement.clientHeight + 100) break;
-      // 		getCoupon();
-      // 	}
-      // }
-
-      // THINGS NEEDED FOR COUPON
-      // Current Date to set EXPIRATION DATE
-      // Product Name
-      // Product Price -- used to determine coupon value
-      // 20 Digit Barcode
-      // 5 Digit Coupon #
-      // Price Off / Discount
-      // Discount Description
-
-      function newCoupon(discount, description, value) {
-        //couponID & barcode will be done here automatically
-        this.discount = discount;
-        this.description = description;
-        this.value = value;
-        this.barcode = randomBarcode();
-        this.couponCode = randomMinMax(10000, 90000);
-      }
-
-      function formatCoupon(coupon) {
-        let coupons = document.getElementById("coupons");
-        coupons.insertAdjacentHTML(
-          "beforeend",
-          `
-        <div class="couponContainer">
-          <h1 class="logo">CVS/pharmacy</h1>
-          <div class="discount">${coupon.discount}</div>
-          <div class="discountDetails">${coupon.discount} ${coupon.description
-          }</div>
-          <div class="expiration">
-            <div class="item bold">
-              Expires 12/12/2018
-            </div>
-            <div class="item">
-             ${coupon.value}
-            </div>
-          </div>
-          <div class="barcode">
-            HelloCVSMate1
-          </div>
-          <div class="barcodeID center">
-            ${coupon.barcode}
-          </div>
-          <div class="legal center">
-            ExtraCare card required. Excludes lottery, money orders, postage stamps, milk, prescriptions, pre-paid cards, gift cards, pseudoephedrine products, other fees, deposits, taxes, alcohol and local exclusions. No cash back. Tax charged on pre-coupon price
-            where required. Limit of one purchase-based coupon, i.e., $4 off $20 purchase, per transaction. Not valid in specialty centers within CVS.
-          </div>
-          <div class="couponBottom">
-            <p>ExtraCare Card #: *7140 00130030598777</p>
-            <p>CPN#: ${coupon.couponCode}</p>
-          </div>
-        </div>
-      `
-        );
-      }
-
-      // THINGS NEEDED FOR COUPON
-      // Current Date to set EXPIRATION DATE
-      // Dollar Rewards $1-10
-      // 18 Digit Barcode
-      // 5 Digit Coupon #
-
-      randomBarcode = () => {
-        //make 18 digit barcode
-        // 4 4 4 4 2
-        return `${randomMinMax(1000, 9000)}
-  ${randomMinMax(1000, 9000)}
-  ${randomMinMax(1000, 9000)}
-  ${randomMinMax(1000, 9000)}
-  ${randomMinMax(10, 90)}`;
-      };
-
-      getProduct = () => {
-        let products = rawProductData.flat(2); // not recursive -- fixed flatten based on the data below 🤷
-        let productId = getRandomInt(products.length);
-        return products[productId];
-      };
-
-      percentCoupon = () => {
-        const percentOptions = [5, 10, 15, 20, 25, 50]; //popular discount options
-        let randomPercent = percentOptions[getRandomInt(percentOptions.length)];
-        randomPercent = `${randomPercent}% off`;
-        let product = getProduct();
-        let newCoup = new newCoupon(
-          randomPercent,
-          product.productTitle,
-          "Up to $99 value"
-        );
-        return formatCoupon(newCoup);
-      };
-
-      fixedCoupon = () => {
-        //max discount is 50% off
-        // productPrice x .5 = discountTakenOff
-        // i.e. $10 product get random number between 0.01  and 5 ...
-        // so a user will get $5 off an item which would be 50% off
-
-        let product = getProduct();
-        let couponValue = Math.round(parseFloat(product.price) * 0.5);
-        let discountPrice = `$${couponValue}.00 off`;
-        couponValue = `Up to $${couponValue} value`;
-        let newCoup = new newCoupon(discountPrice, product.productTitle, couponValue);
-        return formatCoupon(newCoup);
-      };
-
-      buckCoupon = () => {
-        console.log("BUCK", couponID);
-      };
-
-      getCoupon = () => {
-        couponID++;
-        if (couponID % 13 == 0) {
-          // every 13th coupon load a BUCKs
-          buckCoupon();
-        } else {
-          const coupons = ["percent", "fixed"];
-          let randomCoupon = getRandomInt(coupons.length);
-          switch (randomCoupon) {
-            case 0:
-              fixedCoupon();
-              break;
-            default:
-              percentCoupon();
-          }
-        }
-      };
-
-      window.addEventListener("scroll", populate);
-
-      populate(); // init document
-
-    </script>
+    <script type="text/javascript" src="./js/wizard.js"></script>
+    <script type="text/javascript" src="./js/flat-icons.js"></script>
+    <script type="text/javascript" src="./js/site.js"></script>
+    <script type="text/javascript" src="./js/scrollbar.js"></script>
 
 </body>
+<script>
+    // player
+    var music1 = document.querySelector('#item1')
+    var music2 = document.querySelector('#item2')
+    var music3 = document.querySelector('#item3')
+    var music4 = document.querySelector('#item4')
+    var music5 = document.querySelector('#item5')
+    var music6 = document.querySelector('#item6')
+    var music7 = document.querySelector('#item7')
+    var music8 = document.querySelector('#item8')
+
+    var play1 = document.querySelector('#play1')
+    var play2 = document.querySelector('#play2')
+    var play3 = document.querySelector('#play3')
+    var play4 = document.querySelector('#play4')
+    var play5 = document.querySelector('#play5')
+    var play6 = document.querySelector('#play6')
+    var play7 = document.querySelector('#play7')
+    var play8 = document.querySelector('#play8')
+
+
+
+    var seekbar = document.querySelector('.seekbar')
+    var currentTime = document.querySelector('.current-time')
+    var duration = document.querySelector('.duration')
+
+    function handlePlay(thing,p) {
+        if (thing.paused) {
+            thing.play();
+            p.className = 'pause'
+            p.innerHTML = '<i class="material-icons">pause</i>'
+        } else {
+            thing.pause();
+            p.className = 'play'
+            p = '<i class="material-icons">play_arrow</i>'
+        }
+        thing.addEventListener('ended', function () {
+            p.className = 'play'
+            p.innerHTML = '<i class="material-icons">play_arrow</i>'
+            thing.currentTime = 0
+        });
+    }
+
+    thing.onloadeddata = function () {
+        seekbar.max = thing.duration
+        var ds = parseInt(thing.duration % 60)
+        var dm = parseInt((thing.duration / 60) % 60)
+        duration.innerHTML = dm + ':' + ds
+    }
+    thing.ontimeupdate = function () { seekbar.value = thing.currentTime }
+    handleSeekBar = function () { thing.currentTime = seekbar.value }
+    thing.addEventListener('timeupdate', function () {
+        var cs = parseInt(thing.currentTime % 60)
+        var cm = parseInt((thing.currentTime / 60) % 60)
+        currentTime.innerHTML = cm + ':' + cs
+    }, false)
+
+
+    // like
+    var favIcon = document.querySelector('.favorite')
+    function handleFavorite() {
+        favIcon.classList.toggle('active');
+    }
+
+
+    // repeat
+    var repIcon = document.querySelector('.repeat')
+    function handleRepeat() {
+        if (music.loop == true) {
+            music.loop = false
+            repIcon.classList.toggle('active')
+        }
+        else {
+            music.loop = true
+            repIcon.classList.toggle('active')
+        }
+    }
+
+    // volume
+    var volIcon = document.querySelector('.volume')
+    var volBox = document.querySelector('.volume-box')
+    var volumeRange = document.querySelector('.volume-range')
+    var volumeDown = document.querySelector('.volume-down')
+    var volumeUp = document.querySelector('.volume-up')
+
+    function handleVolume() {
+        volIcon.classList.toggle('active')
+        volBox.classList.toggle('active')
+    }
+
+    volumeDown.addEventListener('click', handleVolumeDown);
+    volumeUp.addEventListener('click', handleVolumeUp);
+
+    function handleVolumeDown() {
+        volumeRange.value = Number(volumeRange.value) - 20
+        music.volume = volumeRange.value / 100
+    }
+    function handleVolumeUp() {
+        volumeRange.value = Number(volumeRange.value) + 20
+        music.volume = volumeRange.value / 100
+    }
+</script>
 
 </html>
