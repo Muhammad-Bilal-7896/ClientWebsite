@@ -53,16 +53,22 @@
 <body>
 
 
+ <!-- <div id="top-nav"> -->
+    <!-- <a style="background-color: rgb(255, 255, 255);" href="index.html"><img id="logo-nav" src="https://muhammad-bilal-7896.github.io/ClientWebsite/images/logo.png" width="45px"
+      height="45px" alt=""></a>
+  </div> --> 
   <div id="top-nav">
-    <img id="logo-nav" src="https://muhammad-bilal-7896.github.io/ClientWebsite/images/logo.png" width="75px"
-      height="75px" alt="">
+  <div style="height: 80px;border: 1px solid rgb(197, 190, 190); background-color: white; width: 71px;">
+    <img src="https://muhammad-bilal-7896.github.io/ClientWebsite/images/logo.png" width="45px" style="margin-left: 12px; margin-top: 14px;"
+    height="45px" alt="">
+  </div>
   </div>
 
 
   <div style="position: relative; z-index: 1;" id="sidemenu-bg" class="sidemenu-bg hide"></div>
   <div id="wrap">
     <div id="content"></div>
-    <ul id="sidemenu" class="sidemenu">
+    <ul style="height:100vh;" id="sidemenu" class="sidemenu">
 
       <li style="height: 30px;" id="nav-item1"><a data-toggle="tab" href="#tabs-1" role="tab">
           <img style="margin-top: 30%;" src="https://www.flaticon.com/svg/static/icons/svg/3050/3050137.svg"
@@ -521,10 +527,10 @@
               <div class="order-history">
 
 
-                <table class="styled-table">
+                <table class="table styled-table">
                   <thead>
                     <tr>
-                      <th>#</th>
+                      <th class="active-row">#</th>
                       <th>Date Time</th>
                       <th>Order ID</th>
                       <th>Type</th>
@@ -545,7 +551,7 @@
                       <td>Done</td>
                       <td>View</td>
                     </tr>
-                    <tr class="active-row">
+                    <tr >
                       <td>01</td>
                       <td>10-10-2020</td>
                       <td>ID132343</td>

@@ -236,7 +236,10 @@
     padding-left: 50px;
     padding-right: 50px;
     /* border: 1px solid black; */
-    margin-top: 0px;
+    margin-top:-60px;
+}
+#logo-nav
+{
 }
 /* This is the login pop  */
 

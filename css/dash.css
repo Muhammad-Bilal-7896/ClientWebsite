@@ -85,7 +85,7 @@ h4 {
   position: fixed;
   top: 0;
   display: table;
-  background-color: #3f4257;
+  background-color:#263238;
   z-index: 100;
 }
 .sidemenu > li {
@@ -269,7 +269,7 @@ h4 {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 .styled-table thead tr {
-  background-color: #009879;
+  background-color: #bdbdbd;
   color: #ffffff;
   text-align: left;
 }
