@@ -235,10 +235,10 @@ h4 {
 }
 #logo-nav{
   position: absolute;
-  left: 45%;
+  left: 0%;
 
-  top: -45%;
-  transform: translate(50%,50%);
+  top: 0%;
+  margin-bottom: 5px solid yellow;
 }
 
 
@@ -518,10 +518,10 @@ h4 {
 
 
 /* togle hide show button effects for class three subjects*/
-[id^=Table] + *{
+[id^=Daba] + *{
   display:none;
 }
-[id^=Table]:target + *{
+[id^=Daba]:target + *{
   display:block;
 }
 /* togle hide show button effects */
@@ -547,13 +547,13 @@ h4 {
 #selectPrinter
 {
   border: 1px solid grey; width: 200px;
-  height: fit-content;
   width: 300px;
   margin-left: 30px;
 }
 select{
   font-size: 30px;
-  width: 100%;
+  width: 90%;
+  margin-left: 5%;
   border: 1px solid grey;
   border-radius: 5px 5px 5px 5px;
   text-align: center;
@@ -563,18 +563,24 @@ select{
 #daba1
 {
   width: 33%;
+  height: 70px;
   border: 1px solid black;
+  margin-top: 70px;
+  margin-left: 20px;
 }
-#daba2{
-  width: 33%;
-  border: 1px solid black;
-}
-#daba3{
-  width: 33%;
-  border: 1px solid black;
-}
-#daba4
+#daba2
 {
   width: 33%;
   border: 1px solid black;
+  height: 90px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+#daba3
+{
+  width: 33%;
+  height: 120px;
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-left: 20px;
 }
