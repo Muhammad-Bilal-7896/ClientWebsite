@@ -129,7 +129,7 @@ h4 {
 }
 .sidemenu > li > a:hover {
   color: #727272;
-  background-color: burlywood;
+  background-color: rgb(47, 47, 47);
 }
 .sidemenu > li > a > .fa {
   font-size: 28px;
