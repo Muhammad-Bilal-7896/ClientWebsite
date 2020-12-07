@@ -696,3 +696,6 @@ select{
   color: #5c5c5c;
   background:linear-gradient(rgb(255, 255, 255),rgb(219, 220, 233))
 }
+#tiles,#tiles9,#tiles1,#tiles2,#tiles3,#tiles4{
+  margin-top: 20px;
+}
