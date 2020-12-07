@@ -584,3 +584,115 @@ select{
   margin-top: 20px;
   margin-left: 20px;
 }
+#bon{
+  margin-top: 0px;
+  display: flex;
+}
+#BonSetting1{
+  border: 1px solid grey;
+  box-shadow: 2px 2px 2px 2px grey;
+  height: fit-content;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: 28px;
+  min-width: 250px;
+  margin-left: 10px;
+
+}
+.bon-btn{
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px 5px 5px 5px;
+  width: 90%;
+  font-size: 18px;
+  height: 35px;
+  margin-top: 5px;
+  margin-left:5%;
+}
+.bon-btn:hover{
+  background-color: rgb(87, 87, 87);
+  border-radius: 5px 5px 5px 5px;
+  transition: 0.3s linear;
+  width: 90%;
+  font-size: 18px;
+  color:white;
+  height: 35px;
+  margin-top: 5px;
+  margin-left:5%;
+}
+#bonPrinter
+{
+  width: 100%;
+  margin-top: 3.5%;
+  border: 1px solid rgb(134, 131, 131);
+  margin-left: 4%;
+  border-radius:3px 3px 3px 3px;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+.bon-printer-btn{
+  width: 200px;
+  height: 50px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 2px 2px 2px 2px;
+  border: 1px solid white;
+  border-bottom: 3px solid green;
+  line-height: 50px;
+  text-align: center;
+  margin-left: 2px;
+  font-size: 20px;
+}
+#bon-print-page{
+  width: 600px;
+  border:1px solid rgb(206, 206, 206);
+  height: 480px;
+}
+.tabletime{
+  margin-left: 5%;
+  margin-top: 2%;
+  width: 100%;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 10px 10px 10px 10px;
+  font-size: 20px;
+}
+.tabletime tr{
+  border: 1px solid rgb(187, 181, 181);
+}
+
+.tabletime tr td{
+  border: 1px solid rgb(216, 202, 202);
+  text-align: center;
+
+  width: 190px;
+}
+#TimeSettings{
+  margin-top: 10px;
+}
+#information{
+  margin-left: 5%;
+  margin-top: -1%;
+  display: flex;
+}
+.info-ul{
+  margin-left:0.2% ;
+}
+.info-ul ul li{
+  text-align: center;
+  font-size: 18px;
+  line-height: 25px;
+}
+#settings
+{
+  
+}
+.stat{
+  width: 30%;
+  border: 1px solid rgb(163, 163, 163);
+  margin-left:5%;
+  height: 100px;
+  font-size: 20px;
+  line-height: 100px;
+  margin-top: 2%;
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px grey;
+  border-radius: 5px 5px 5px 5px;
+  color: #5c5c5c;
+  background:linear-gradient(rgb(255, 255, 255),rgb(219, 220, 233))
+}
