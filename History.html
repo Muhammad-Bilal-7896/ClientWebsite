@@ -112,19 +112,42 @@
         <div>
 
           <div>
-            <section class="history-section">
-              <div class="history-gap"></div>
-              <div class="historyheader">
-                <div class="container-fluid ">
-                  <div class="row">
-                    <div class=" col-lg-5 col-md-5">
-                      <div class="history-head">
-                        <h2>History</h2>
-                      </div>
+           
+                
+                  <div id="HistoryNav">
+                    <div class="history-tab" style="width: 24%;border: 1px solid rgb(197, 187, 187);">
+                      <h4 style="line-height: 40px;color: grey;">&nbsp;Filter</h4>
                     </div>
-                    <div class=" col-lg-7 col-md-7 text-right">
-                      <div class="selectyear">
-                        <select name="year" class="year">
+
+                    <div class="history-tab">
+                        <input id="search-bar-history" class="form-control" type="text" placeholder="Search" aria-label="Search">
+                    </div>
+
+
+                    <div class="history-tab">
+                        <select class="mdb-select md-form">
+                          <option value="0">Select Month</option>
+                          <option value="127">January</option>
+                          <option value="126">February</option>
+                          <option value="82">March</option>
+                          <option value="81">April</option>
+                          <option value="80">May</option>
+                          <option value="79">June</option>
+                          <option value="73">July</option>
+                          <option value="71">August</option>
+                          <option value="72">September</option>
+                          <option value="70">October</option>
+                          <option value="70">November</option>
+                          <option value="70">December</option>
+
+                          ?&gt;
+                        </select>
+                    </div>
+
+
+                    <div class="history-tab">
+                    
+                        <select class="mdb-select md-form">
                           <option value="0">Select Year</option>
                           <option value="127">2020</option>
                           <option value="127">2019</option>
@@ -143,33 +166,13 @@
 
                           ?&gt;
                         </select>
-
-
-                        <select name="year" class="month">
-                          <option value="0">Select Month</option>
-                          <option value="127">January</option>
-                          <option value="126">February</option>
-                          <option value="82">March</option>
-                          <option value="81">April</option>
-                          <option value="80">May</option>
-                          <option value="79">June</option>
-                          <option value="73">July</option>
-                          <option value="71">August</option>
-                          <option value="72">September</option>
-                          <option value="70">October</option>
-                          <option value="70">November</option>
-                          <option value="70">December</option>
-
-                          ?&gt;
-                        </select>
-
-                        <input type="search" placeholder="Search">
-
-                      </div>
                     </div>
+
+                   
+
                   </div>
                 </div>
-              </div>
+              
 
               <div class="order-history">
 
@@ -177,14 +180,14 @@
                 <table class="styled-table">
                   <thead>
                     <tr>
-                      <th class="active-row">#</th>
-                      <th>Date Time</th>
-                      <th>Order ID</th>
-                      <th>Type</th>
-                      <th>Username</th>
-                      <th>Amount</th>
-                      <th>Status</th>
-                      <th>Options</th>
+                      <td>#</th>
+                      <td>Date Time</td>
+                      <td>Order ID</td>
+                      <td>Type</td>
+                      <td>Username</td>
+                      <td>Amount</td>
+                      <td>Status</td>
+                      <td>Options</td>
                     </tr>
                   </thead>
                   <tbody>
@@ -263,7 +266,7 @@
                 </table>
 
               </div>
-            </section>
+       
 
           </div>
 
